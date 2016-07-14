@@ -5,7 +5,7 @@ language: c
 sudo: required
 services:
 - docker
-script: bash scripts/travis-setup.sh; scripts deploy/travis-run.sh
+script: bash scripts/travis-setup.sh; bash scripts/travis-run.sh
 env:
   global:
   - ENCRYPTION_LABEL: "33e9f3ccc52a"

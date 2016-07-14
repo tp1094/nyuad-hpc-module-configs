@@ -8,6 +8,8 @@ set -e # Exit with nonzero exit code if anything fails
 	#exit 0
 #fi
 
+export PATH=/anaconda/bin:$PATH
+
 cd /nyuad-conda-configs
 
 REPO=`git config remote.origin.url`
