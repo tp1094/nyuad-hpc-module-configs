@@ -32,13 +32,16 @@ git add -A
 git commit -m "Deploy MD5 sum checks: ${SHA}"
 
 # Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
-ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
-ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
-ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
-ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
+export ENCRYPTION_LABEL="33e9f3ccc52a"
+export COMMIT_AUTHOR_EMAIL="jillian.e.rowe@gmail.com"
+export ENCRYPTED_KEY_VAR="encrypted_${ENCRYPTION_LABEL}_key"
+export ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
+export ENCRYPTED_KEY="${!ENCRYPTED_KEY_VAR}"
+export ENCRYPTED_IV="${!ENCRYPTED_IV_VAR}"
 
-openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in nyuad-hpc-module-configs-deploy.enc -out nyuad-hpc-module-configs-deploy -d
-
+#openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in nyuad-hpc-module-configs-deploy.enc -out nyuad-hpc-module-configs-deploy -d
+#openssl aes-256-cbc -K $encrypted_33e9f3ccc52a_key -iv $encrypted_33e9f3ccc52a_iv -in nyuad-hpc-module-configs-deploy.enc -out nyuad-hpc-module-configs-deploy -d
+openssl aes-256-cbc -K "33e9f3ccc52a" -in nyuad-hpc-module-configs-deploy.enc -out nyuad-hpc-module-configs-deploy -d
 
 chmod 600 nyuad-hpc-module-configs-deploy
 eval `ssh-agent -s`

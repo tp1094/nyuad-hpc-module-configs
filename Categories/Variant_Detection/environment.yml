@@ -24,3 +24,4 @@ dependencies:
   - picard=2.5.0
   - prinseq=0.20.4
   - snpeff=4.3
+  - vcflib=1.0.0_rc1
