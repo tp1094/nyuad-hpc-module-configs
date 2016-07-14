@@ -5,6 +5,8 @@ language: c
 sudo: required
 services:
 - docker
+before_install:
+	- openssl aes-256-cbc -K $encrypted_33e9f3ccc52a_key -iv $encrypted_33e9f3ccc52a_iv -in nyuad-hpc-module-configs-deploy.enc -out nyuad-hpc-module-configs-deploy -d
 script: bash scripts/travis-setup.sh; bash scripts/travis-run.sh
 env:
   global:
