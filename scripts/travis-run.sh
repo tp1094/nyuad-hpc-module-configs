@@ -4,7 +4,7 @@ set -euo pipefail
 
 if [[ $TRAVIS_OS_NAME = "linux" ]]
 then
-    docker run -e TRAVIS_BRANCH -e ENCRYPTION_LABEL -i -t -v `pwd`:/nyuad-conda-configs jerowe/nyuad-anaconda pwd
+    docker run -e TRAVIS_BRANCH -e ENCRYPTION_LABEL -i -t -v `pwd`:/nyuad-conda-configs jerowe/nyuad-anaconda /nyuad-conda-configs/scripts/deploy.sh
 else
 
     exit 0
