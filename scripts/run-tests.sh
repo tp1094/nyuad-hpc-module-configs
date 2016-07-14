@@ -10,5 +10,6 @@ cd /nyuad-conda-configs
 ### Begin Run Tests
 
 echo "This is a TEST!" >> test.md
+python3 scripts/md5-check.py
 
 ### End Run Tests

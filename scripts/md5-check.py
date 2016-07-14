@@ -28,21 +28,19 @@ def find_files():
 
         if not os.path.exists(tfile + ".md5"):
 
-            logging.debug("There is no md5 file")
             create_env = try_conda_create_env(tfile)
 
         elif os.path.exists(tfile + ".mdf5"):
 
-            logging.debug("There is an .md5 file")
             orig_md5 = open(tfile + ".md5", "rb").read()
             new_md5 = md5(tfile)
 
             if not orig_md5 == new_md5:
-                logging.debug("Old and new md5 differ")
                 create_env = try_conda_create_env(tfile)
+            else:
+                create_env = True
 
         if create_env:
-            logging.debug("Writing out the md5 file")
             md5sum = md5(tfile)
             fh = open(tfile+".md5", "w")
             fh.write(md5sum)
@@ -50,7 +48,6 @@ def find_files():
             os.system("touch {}.build.pass".format(tfile) )
         else:
             os.system("rm -rf {}.build.pass".format(tfile) )
-            logging.debug("Var create_env is false, not writing out .md5")
 
 def try_conda_create_env(fname):
 
