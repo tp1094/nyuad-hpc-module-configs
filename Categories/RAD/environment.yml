@@ -16,3 +16,4 @@ dependencies:
   - seqtk=1.2
   - cdhit=4.6.4
   - stacks=1.40
+  - bowtie2=2.2.8
