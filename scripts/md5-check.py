@@ -20,7 +20,7 @@ def md5(fname):
 def find_files():
 
     create_env = False
-    files = glob.glob("**/environment.yml", recursive=True)
+    files = glob.glob("**/environment*.yml", recursive=True)
 
     for tfile in files:
 
@@ -47,7 +47,9 @@ def find_files():
             fh = open(tfile+".md5", "w")
             fh.write(md5sum)
             fh.close()
+            os.system("touch {}.build.pass".format(tfile) )
         else:
+            os.system("rm -rf {}.build.pass".format(tfile) )
             logging.debug("Var create_env is false, not writing out .md5")
 
 def try_conda_create_env(fname):

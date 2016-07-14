@@ -15,3 +15,11 @@ dependencies:
   - bedtools=2.25.0
   - vcflib-1.0.0_rc1
   - bamtools=2.4.0
+  - seqtk=1.2
+  - bowtie2=2.2.8
+  - tophat2=2.1.0
+  - cufflinks=2.2.1
+  - bioconductor-deseq=1.22.1
+  - bioconductor-deseq2=1.10.1
+  - bioconductor-edger=3.14.0
+  - htseq=0.6.1.post1

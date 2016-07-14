@@ -2,6 +2,7 @@
 
 set -e # Exit with nonzero exit code if anything fails
 
+yum install -y git
 export PATH=/anaconda/bin:$PATH
 python --version
 
