@@ -16,12 +16,12 @@ SHA=`git rev-parse --verify HEAD`
 git config user.name "Jillian Rowe"
 git config user.email "jillian.e.rowe@gmail.com"
 
-#git add -A
-#git commit -m "Deploy MD5 sum checks: ${SHA}"
+git add -A
+git commit -m "Deploy MD5 sum checks: ${SHA}"
 
-#ls -lah
-#chmod 600 nyuad-hpc-module-configs-deploy
-#eval `ssh-agent -s`
-#ssh-add nyuad-hpc-module-configs-deploy
+ls -lah
+chmod 600 nyuad-hpc-module-configs-deploy
+eval `ssh-agent -s`
+ssh-add nyuad-hpc-module-configs-deploy
 
-#git push $SSH_REPO $TRAVIS_BRANCH
+git push $SSH_REPO $TRAVIS_BRANCH
