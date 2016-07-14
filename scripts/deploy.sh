@@ -37,7 +37,8 @@ ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
 ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
 ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
 
-openssl aes-256-cbc -K $encrypted_33e9f3ccc52a_key -iv $encrypted_33e9f3ccc52a_iv -in nyuad-hpc-module-configs-deploy.enc -out nyuad-hpc-module-configs-deploy -d
+openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in nyuad-hpc-module-configs-deploy.enc -out nyuad-hpc-module-configs-deploy -d
+
 
 chmod 600 nyuad-hpc-module-configs-deploy
 eval `ssh-agent -s`
