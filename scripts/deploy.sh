@@ -8,6 +8,7 @@ set -e # Exit with nonzero exit code if anything fails
 	#exit 0
 #fi
 
+yum install -y git
 export PATH=/anaconda/bin:$PATH
 
 cd /nyuad-conda-configs
