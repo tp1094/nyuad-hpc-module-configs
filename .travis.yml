@@ -1,0 +1,12 @@
+os:
+- linux
+- osx
+language: c
+sudo: required
+services:
+- docker
+script: bash scripts/travis-setup.sh; scripts deploy/travis-run.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: "33e9f3ccc52a"
+  - COMMIT_AUTHOR_EMAIL: "jillian.e.rowe@gmail.com"
