@@ -13,6 +13,8 @@ set -e # Exit with nonzero exit code if anything fails
 
 #cd /nyuad-conda-configs
 
+echo "We are in deploy.sh"
+
 REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 SHA=`git rev-parse --verify HEAD`
@@ -41,8 +43,9 @@ git commit -m "Deploy MD5 sum checks: ${SHA}"
 
 #openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in nyuad-hpc-module-configs-deploy.enc -out nyuad-hpc-module-configs-deploy -d
 #openssl aes-256-cbc -K $encrypted_33e9f3ccc52a_key -iv $encrypted_33e9f3ccc52a_iv -in nyuad-hpc-module-configs-deploy.enc -out nyuad-hpc-module-configs-deploy -d
-openssl aes-256-cbc -K "33e9f3ccc52a" -in nyuad-hpc-module-configs-deploy.enc -out nyuad-hpc-module-configs-deploy -d
+#openssl aes-256-cbc -K "33e9f3ccc52a" -in nyuad-hpc-module-configs-deploy.enc -out nyuad-hpc-module-configs-deploy -d
 
+ls -lah
 chmod 600 nyuad-hpc-module-configs-deploy
 eval `ssh-agent -s`
 ssh-add nyuad-hpc-module-configs-deploy
