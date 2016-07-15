@@ -24,8 +24,6 @@ def find_files():
 
     for tfile in files:
 
-        logging.debug("Trying file {}".format(tfile))
-
         if not os.path.exists(tfile + ".md5"):
 
             create_env = try_conda_create_env(tfile)
@@ -62,9 +60,8 @@ def try_conda_create_env(fname):
 
 def write_build(create_env, fname):
 
-    logging.debug("In Write build...")
-
     if create_env:
+        logging.debug("Build passed!")
         md5sum = md5(fname)
         fh = open(fname+".md5", "w")
         fh.write(md5sum)
@@ -72,10 +69,14 @@ def write_build(create_env, fname):
         os.system("touch {}.build.pass".format(fname) )
         os.system("rm -rf {}.build.fail".format(fname) )
     else:
+        logging.debug("Build failed!")
+        os.system("touch {}.build.fail".format(fname) )
         os.system("rm -rf {}.md5".format(fname) )
         os.system("rm -rf {}.build.pass".format(fname) )
 
 def run_conda_env_create(fname):
+
+    logging.debug("Testing file {}".format(fname))
 
     readSize = 1024 * 8
     cmd = "conda env create -f {}".format(fname)
