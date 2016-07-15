@@ -34,13 +34,14 @@ def run_command(cmd):
             logging.debug(output)
 
         ec = p.poll()
-        logging.debug("Exit Code {}".format(ec))
 
     # read remaining data (all of it)
     output = p.stdout.read(readSize).decode("utf-8")
 
     if output:
         logging.debug(output)
+
+    logging.debug("Exit Code {}".format(ec))
 
     if ec == 0:
         return True
@@ -52,11 +53,8 @@ def try_remote_env_exists(fname):
     package = env.from_file(fname)
     logging.debug("Testing for package name {}".format(package.name))
 
-    #Add --force just in case prefix already exists exists
     cmd = "anaconda show " + os.environ.get("ANACONDA_USER") + "/" + package.name
     return run_command(cmd)
-
-#Move this to only upload on master
 
 def upload_remote_env(fname):
 
@@ -137,7 +135,7 @@ def loop_files(files):
 
 def find_files():
 
-    files = glob.glob("**/test/environment*.yml", recursive=True)
+    files = glob.glob("**/environment*.yml", recursive=True)
 
     return files
 
@@ -161,8 +159,5 @@ if __name__ == "__main__":
         files = args.environments
     else:
         files = find_files()
-
-    # if os.environ.get("TRAVIS_BRANCH") is 'master':
-        # args.master = True
 
     loop_files(files)

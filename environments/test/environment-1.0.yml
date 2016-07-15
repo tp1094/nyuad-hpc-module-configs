@@ -1,5 +1,0 @@
-name: gencore_test
-channels:
-  - bioconda
-dependencies:
-  - seqtk=1.2
