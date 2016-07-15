@@ -6,7 +6,9 @@ export PATH=/anaconda/bin:$PATH
 python --version
 
 cd /nyuad-conda-configs
-conda config --add channels https://conda.anaconda.org/t/$ANACONDA_TOKEN/$ANACONDA_USER
+#conda config --add channels https://conda.anaconda.org/t/$ANACONDA_TOKEN/$ANACONDA_USER
+
+anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
 
 ### Begin Run Tests
 

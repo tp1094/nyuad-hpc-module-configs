@@ -5,6 +5,7 @@ import os
 import sys
 import logging
 from conda_env import env
+import glob
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -22,6 +23,7 @@ def try_remote_env_exists(fname):
     except sp.CalledProcessError as e:
         print(e.stdout.decode(), file=sys.stderr)
         if b"does not exist" in e.stdout:
+            logging.debug("Package {} does not exist".format(package))
             package_exists = False
 
     return package_exists
@@ -34,9 +36,9 @@ def upload_remote_env(fname):
     try:
         sp.run(cmd, stdout=sp.PIPE, stderr=sp.STDOUT, check=True)
     except sp.CalledProcessError as e:
-        print(e.stdout.decode(), file=sys.stderr)
-        if b"does not exist" in e.stdout:
-            env_upload = False
+        # print(e.stdout.decode(), file=sys.stderr)
+        logging.debug(e.stdout.decode())
+        env_upload = False
 
     return env_upload
 
@@ -50,6 +52,7 @@ def find_files():
         package_exists = try_remote_env_exists(tfile)
 
         if not package_exists:
+            logging.debug("Package does not exist lets install")
             create_env = try_conda_create_env(tfile)
 
             write_build(create_env, tfile)
