@@ -1,4 +1,4 @@
-name: variant_test
+name: gencore_variant_detection
 channels:
   - bioconda
 dependencies:
@@ -14,7 +14,14 @@ dependencies:
   - bamtools=2.4.0
   - seqtk=1.2
   - pear=0.9.6
-  - bowtie=1.1.2
+  - bowtie2=2.2.8
   - tophat=2.1.0
   - cufflinks=2.2.1
   - circos=0.69.2
+  - star=2.5.2a
+  - blat=35
+  - gatk=3.6
+  - picard=2.5.0
+  - prinseq=0.20.4
+  - snpeff=4.3
+  - vcflib=1.0.0_rc1
