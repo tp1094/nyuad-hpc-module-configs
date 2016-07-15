@@ -5,6 +5,7 @@ set -euo pipefail
 if [[ $TRAVIS_OS_NAME = "linux" ]]
 then
     git checkout $TRAVIS_BRANCH
+    git pull origin $TRAVIS_BRANCH
 
     #Use docker container to run tests
     docker run -e TRAVIS_BRANCH -e ENCRYPTION_LABEL -i -t -v `pwd`:/nyuad-conda-configs jerowe/nyuad-anaconda /nyuad-conda-configs/scripts/run-tests.sh

@@ -40,14 +40,7 @@ def find_files():
             else:
                 create_env = True
 
-        if create_env:
-            md5sum = md5(tfile)
-            fh = open(tfile+".md5", "w")
-            fh.write(md5sum)
-            fh.close()
-            os.system("touch {}.build.pass".format(tfile) )
-        else:
-            os.system("rm -rf {}.build.pass".format(tfile) )
+        write_build(create_env, tfile)
 
 def try_conda_create_env(fname):
 
@@ -67,6 +60,17 @@ def try_conda_create_env(fname):
 
     return create_env
 
+def write_build(create_env, fname):
+
+    if create_env:
+        md5sum = md5(fname)
+        fh = open(fname+".md5", "w")
+        fh.write(md5sum)
+        fh.close()
+        os.system("touch {}.build.pass".format(fname) )
+        os.system("rm -rf {}.build.fail".format(fname) )
+    else:
+        os.system("rm -rf {}.build.pass".format(fname) )
 
 def run_conda_env_create(fname):
 
@@ -86,12 +90,19 @@ def run_conda_env_create(fname):
     while ec is None:
         # need to read from time to time.
         # - otherwise the stdout/stderr buffer gets filled and it all stops working
-        logging.debug(p.stdout.read(readSize).decode("utf-8"))
+        output = p.stdout.read(readSize).decode("utf-8")
+
+        if output:
+            logging.debug(output)
+
         ec = p.poll()
         logging.debug("Exit Code {}".format(ec))
 
     # read remaining data (all of it)
-    logging.debug(p.stdout.read().decode("utf-8"))
+    output = p.stdout.read(readSize).decode("utf-8")
+
+    if output:
+        logging.debug(output)
 
     return ec
 
