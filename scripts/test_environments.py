@@ -64,7 +64,7 @@ def upload_remote_env(fname):
 
 def try_conda_env_create(fname):
 
-    retries_max = 1
+    retries_max = 2
     retries_count = 0
     create_env = False
 
@@ -86,37 +86,7 @@ def run_conda_env_create(fname):
     cmd = "conda env create --force --file {}".format(fname)
     return run_command(cmd)
 
-def loop_files(files):
-
-    build_passes = True
-    upload_env_passes = True
-
-    create_env = False
-
-    for tfile in files:
-
-        logging.debug("Trying file {}".format(tfile))
-
-        if try_remote_env_exists(tfile):
-            logging.debug("Remote env exists. Next!")
-            create_env = True
-            continue
-        else:
-            logging.debug("Remote env does not exist! Don't skip!")
-            create_env = try_conda_env_create(tfile)
-
-        if not create_env:
-            logging.debug("Build of {} environment failed".format(tfile))
-            build_passes = False
-        else:
-            logging.debug("Build of env {} passed".format(tfile))
-
-            if args.master:
-                if upload_remote_env(tfile):
-                    logging.debug("Upload of environment {} passed".format(tfile))
-                else:
-                    logging.warn("Upload of environment {} failed".format(tfile))
-                    upload_env_passes = False
+def status_checks(build_passes, upload_env_passes):
 
     if not build_passes:
         logging.warn("One or more builds did not pass!")
@@ -133,13 +103,49 @@ def loop_files(files):
             logging.info("All uploads passed!")
             sys.exit(0)
 
+def loop_files(files):
+
+    build_passes = True
+    upload_env_passes = True
+    create_env_passes = None
+
+    for tfile in files:
+
+        logging.debug("Trying file {}".format(tfile))
+
+        if try_remote_env_exists(tfile):
+            logging.debug("Remote env exists. Next!")
+            continue
+        else:
+            logging.debug("Remote env does not exist! Don't skip!")
+            create_env_passes = try_conda_env_create(tfile)
+
+        if create_env_passes:
+            logging.debug("Build of env {} passed".format(tfile))
+        else:
+            logging.debug("Build of {} environment failed".format(tfile))
+            #If any builds fail the whole thing should fail
+            build_passes = False
+
+        if args.master and create_env_passes:
+            if upload_remote_env(tfile):
+                logging.debug("Upload of environment {} passed".format(tfile))
+            else:
+                logging.warn("Upload of environment {} failed".format(tfile))
+                #If any uploads fail the whole thing should fail
+                upload_env_passes = False
+
+    status_checks(build_passes, upload_env_passes)
+
 def find_files():
 
-    files = glob.glob("**/environment*.yml", recursive=True)
-
-    return files
+    if args.environments:
+        return  args.environments
+    else:
+        return  glob.glob("**/environment*.yml", recursive=True)
 
 ##MAIN
+#TODO add in separate workflow for updating
 
 if __name__ == "__main__":
 
@@ -155,9 +161,5 @@ if __name__ == "__main__":
     global args
     args = p.parse_args()
 
-    if args.environments:
-        files = args.environments
-    else:
-        files = find_files()
-
+    files = find_files()
     loop_files(files)
