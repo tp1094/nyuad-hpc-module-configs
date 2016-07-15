@@ -12,55 +12,63 @@ logging.basicConfig(level=logging.DEBUG)
 
 def try_remote_env_exists(fname):
 
-    package_exists = True
-
     data = env.from_file(fname)
     package = data.name
     cmd = ["conda", "env", "create", "jerowe/" + package]
 
     try:
         sp.run(cmd, stdout=sp.PIPE, stderr=sp.STDOUT, check=True)
+        return True
     except sp.CalledProcessError as e:
         print(e.stdout.decode(), file=sys.stderr)
         if b"does not exist" in e.stdout:
             logging.debug("Package {} does not exist".format(package))
-            package_exists = False
-
-    return package_exists
-
+            return False
 
 def upload_remote_env(fname):
+
+    logging.debug("Uploading remote env of {}".format(fname))
+
     cmd = ["conda", "env", "upload", "-f", fname]
 
-    env_upload = True
     try:
         sp.run(cmd, stdout=sp.PIPE, stderr=sp.STDOUT, check=True)
+        return True
     except sp.CalledProcessError as e:
-        # print(e.stdout.decode(), file=sys.stderr)
         logging.debug(e.stdout.decode())
-        env_upload = False
-
-    return env_upload
+        return False
 
 def find_files():
 
+    build_passes = True
     create_env = False
-    files = glob.glob("**/environment*.yml", recursive=True)
+    files = glob.glob("**/test/environment*.yml", recursive=True)
 
     #Add something in here to split files into SUBDAGS
 
     for tfile in files:
 
-        package_exists = try_remote_env_exists(tfile)
+        logging.debug("Trying file {}".format(tfile))
 
-        if not package_exists:
+        if not try_remote_env_exists(tfile):
             logging.debug("Package does not exist lets install")
             create_env = try_conda_create_env(tfile)
-
-            write_build(create_env, tfile)
-            upload_remote_env(tfile)
         else:
             logging.debug("Package does exist moving on")
+
+        if not create_env:
+            logging.debug("Build of {} environment failed".format(tfile))
+            build_passes = False
+        else:
+            logging.debug("Build of env {} passed lets upload it".format(tfile))
+            write_build(create_env, tfile)
+            upload_remote_env(tfile)
+
+    if not build_passes:
+        sys.exit(1)
+    else:
+        sys.exit(0)
+
 
 def try_conda_create_env(fname):
 
@@ -89,7 +97,7 @@ def write_build(create_env, fname):
 
 def run_conda_env_create(fname):
 
-    logging.debug("Testing file {}".format(fname))
+    logging.debug("Testing environment build file {}".format(fname))
 
     readSize = 1024 * 8
     cmd = "conda env create -f {}".format(fname)
