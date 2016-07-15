@@ -62,6 +62,8 @@ def try_conda_create_env(fname):
 
 def write_build(create_env, fname):
 
+    logger.debug("In Write build...")
+
     if create_env:
         md5sum = md5(fname)
         fh = open(fname+".md5", "w")
@@ -70,6 +72,7 @@ def write_build(create_env, fname):
         os.system("touch {}.build.pass".format(fname) )
         os.system("rm -rf {}.build.fail".format(fname) )
     else:
+        os.system("rm -rf {}.md5".format(fname) )
         os.system("rm -rf {}.build.pass".format(fname) )
 
 def run_conda_env_create(fname):
