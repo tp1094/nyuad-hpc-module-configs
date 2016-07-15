@@ -6,13 +6,16 @@ export PATH=/anaconda/bin:$PATH
 python --version
 
 cd /nyuad-conda-configs
-#conda config --add channels https://conda.anaconda.org/t/$ANACONDA_TOKEN/$ANACONDA_USER
 
 anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
 
 ### Begin Run Tests
 
-#python3 scripts/md5-check.py
-python3 scripts/test_environments.py
+if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
+then
+    python3 scripts/test_environments.py --master
+else:
+    python3 scripts/test_environments.py
+fi
 
 ### End Run Tests
