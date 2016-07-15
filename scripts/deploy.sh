@@ -4,10 +4,10 @@ set -e # Exit with nonzero exit code if anything fails
 
 echo "We are in deploy.sh"
 
-if [ -z `git diff --exit-code` ]; then
-    echo "No changes to the spec on this push; exiting."
-    exit 0
-fi
+#if [ -z `git diff --exit-code` ]; then
+#    echo "No changes to the spec on this push; exiting."
+#    exit 0
+#fi
 
 REPO=`git config remote.origin.url`
 SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
