@@ -62,7 +62,7 @@ def try_conda_create_env(fname):
 
 def write_build(create_env, fname):
 
-    logger.debug("In Write build...")
+    logging.debug("In Write build...")
 
     if create_env:
         md5sum = md5(fname)
