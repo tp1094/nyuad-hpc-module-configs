@@ -47,6 +47,8 @@ def find_files():
     create_env = False
     files = glob.glob("**/environment*.yml", recursive=True)
 
+    #Add something in here to split files into SUBDAGS
+
     for tfile in files:
 
         package_exists = try_remote_env_exists(tfile)
@@ -56,7 +58,9 @@ def find_files():
             create_env = try_conda_create_env(tfile)
 
             write_build(create_env, tfile)
-
+            upload_remote_env(tfile)
+        else:
+            logging.debug("Package does exist moving on")
 
 def try_conda_create_env(fname):
 
@@ -91,8 +95,8 @@ def run_conda_env_create(fname):
     cmd = "conda env create -f {}".format(fname)
 
     try:
-        p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
-                             stdin=subprocess.PIPE, close_fds=True, executable="/bin/bash")
+        p = sp.Popen(cmd, shell=True, stdout=sp.PIPE, stderr=sp.STDOUT,
+                             stdin=sp.PIPE, close_fds=True, executable="/bin/bash")
     except OSError as err:
         print("OS Error: {0}".format(err))
 
