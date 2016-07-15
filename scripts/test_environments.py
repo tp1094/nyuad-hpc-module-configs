@@ -162,4 +162,7 @@ if __name__ == "__main__":
     else:
         files = find_files()
 
+    # if os.environ.get("TRAVIS_BRANCH") is 'master':
+        # args.master = True
+
     loop_files(files)
