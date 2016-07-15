@@ -14,7 +14,7 @@ dependencies:
   - bamtools=2.4.0
   - seqtk=1.2
   - pear=0.9.6
-  - bowtie=2.2.8
+  - bowtie2=2.2.8
   - tophat=2.1.0
   - cufflinks=2.2.1
   - circos=0.69.2

@@ -9,7 +9,6 @@ dependencies:
   - gatk=3.6
   - picard=2.5.0
   - prinseq=0.20.4
-  - kallisto=0.6.0
   - star=2.5.2a
   - vcftools=0.1.14
   - bedtools=2.25.0
@@ -17,7 +16,7 @@ dependencies:
   - bamtools=2.4.0
   - seqtk=1.2
   - bowtie2=2.2.8
-  - tophat2=2.1.0
+  - tophat=2.1.0
   - cufflinks=2.2.1
   - bioconductor-deseq=1.22.1
   - bioconductor-deseq2=1.10.1
