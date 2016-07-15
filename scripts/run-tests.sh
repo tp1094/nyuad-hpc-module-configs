@@ -11,6 +11,7 @@ anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
 
 ### Begin Run Tests
 
+python3 scripts/test_environments.py
 if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
 then
     echo "On master branch..."
