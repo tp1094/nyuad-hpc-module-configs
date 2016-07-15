@@ -20,4 +20,4 @@ chmod 600 nyuad-hpc-module-configs-deploy
 eval `ssh-agent -s`
 ssh-add nyuad-hpc-module-configs-deploy
 
-git push $SSH_REPO $TRAVIS_BRANCH
+git push $SSH_REPO $TRAVIS_BRANCH || echo "There is nothing to push. Exiting"
