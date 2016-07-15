@@ -12,7 +12,7 @@ dependencies:
   - star=2.5.2a
   - vcftools=0.1.14
   - bedtools=2.25.0
-  - vcflib-1.0.0_rc1
+  - vcflib=1.0.0_rc1
   - bamtools=2.4.0
   - seqtk=1.2
   - bowtie2=2.2.8
