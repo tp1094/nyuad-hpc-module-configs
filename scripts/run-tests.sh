@@ -16,7 +16,8 @@ anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
 if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
 then
     echo "On master branch..."
-    python3 scripts/test_environments.py --master
+    echo "Doing nothing first time darnit"
+    #python3 scripts/test_environments.py --master
 else
     echo "Not on master branch..."
     python3 scripts/test_environments.py
