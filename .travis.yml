@@ -6,9 +6,12 @@ sudo: required
 services:
 - docker
 before_install:
-  - openssl aes-256-cbc -K $encrypted_33e9f3ccc52a_key -iv $encrypted_33e9f3ccc52a_iv -in nyuad-hpc-module-configs-deploy.enc -out nyuad-hpc-module-configs-deploy -d
+- openssl aes-256-cbc -K $encrypted_33e9f3ccc52a_key -iv $encrypted_33e9f3ccc52a_iv
+  -in nyuad-hpc-module-configs-deploy.enc -out nyuad-hpc-module-configs-deploy -d
 script: bash scripts/travis-setup.sh; bash scripts/travis-run.sh
 env:
   global:
-  - ENCRYPTION_LABEL: "33e9f3ccc52a"
-  - COMMIT_AUTHOR_EMAIL: "jillian.e.rowe@gmail.com"
+  - ANACONDA_USER: jerowe
+  - ENCRYPTION_LABEL: 33e9f3ccc52a
+  - COMMIT_AUTHOR_EMAIL: jillian.e.rowe@gmail.com
+  - secure: esKdOUoV2jZFphK6CRUIDVis7qjX64OIhGtyyHJJ8H9DdrVtnUizlWc1I/sOWFXgKwRwnmaDQ+/3ISq6M/NzpVW9Hic0hjrfjedIDk9Q/M3FUir5Fp2dBzUEYazfnPSdrUA9C32km7tVXUnbuGvULtX/r7CzIRCiavs6ev0JPl/GerJYS1t/7Q19N9CCPECJyiJaLviJtPesu79NxmILxjUqhIY7agl7bWQqwdK2hzaIBuMUzehwIJJsPLHP5pZUgOwDvOdAG0mBw27DcJhCYqE0TpioX6/LffM7Y++zGzTCc59b7hF/X38DgL2yFQSx+SrhY8yv21qTFZx7lZg3PDy80zBa1+EP/DbsxvdCuEhjhOEPsZ1xZM0s+L5IkPeK16xovjh77YBOnVTlmg16MPZFzzTAQq6U/UzSSHpnijtoIxewsk+CaiBlpYLH0jiiAokQJgkE8Ur3iPN+AQouOrxSgafa+FyztYPQBCzrrSIunvU7PjzyeqkVg0reGW6EwMwhjhe1tHOC6Asgd6iVMeuHitaArhaHEalGoIT3pL0TIEDBInt7nM2R9Bkua+CZLGpGLd2NonHwJ8ecMSogfdPe59/isD9IsVXh0xEc+eXXj77XQtobawyKAk2KaJGdNQAiROr1I0w22qMDb3ORd9XtIjB/YtTv0/KH6uQ+kyU=
