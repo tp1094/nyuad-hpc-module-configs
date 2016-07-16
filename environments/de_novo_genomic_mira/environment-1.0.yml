@@ -1,0 +1,5 @@
+name: gencore_de_novo_genomic_1.0
+channels:
+  - bioconda
+dependencies:
+  - mira=4.0.2
