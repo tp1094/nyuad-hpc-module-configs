@@ -22,12 +22,10 @@ dependencies:
   - genblastg=1.38
   - genblasta=1.0.4
   - sickle=0.5
-  - soapdenovo2=2.40
   - spades=3.8.1
   - abyss=1.9.0
   - velvet=1.2.10
   - quast=4.1
-  - soapdenovo2-prepare=2.0
   - bwa=0.7.15
   - bamtools=2.4.0
   - vcflib=1.0.0_rc1
@@ -36,3 +34,4 @@ dependencies:
   - pear=0.9.6
   - bowtie2=2.2.8
   - circos=0.69.2
+  - mira=4.0.2
