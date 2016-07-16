@@ -1,0 +1,5 @@
+name: gencore_rad_ddocent_1.0
+channels:
+  - bioconda
+dependencies:
+  - ddocent=2.1
