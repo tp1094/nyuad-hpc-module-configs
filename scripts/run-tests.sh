@@ -9,18 +9,11 @@ cd /nyuad-conda-configs
 
 anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
 
-### Begin Run Tests
-
-#python3 scripts/test_environments.py
-
-if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = true ]]
+if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
 then
-    echo "On master branch..."
-    echo "Doing nothing first time darnit"
-    #python3 scripts/test_environments.py --master
+    #Upload packages
+    python3 scripts/test_environments.py --master
 else
-    echo "Not on master branch..."
+    #Just test packages
     python3 scripts/test_environments.py
 fi
-
-### End Run Tests
