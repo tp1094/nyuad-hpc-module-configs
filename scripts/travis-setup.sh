@@ -1,4 +1,10 @@
 #!/bin/bash
 set -e
 
-docker pull jerowe/nyuad-anaconda
+if [[ $TRAVIS_OS_NAME = "linux" ]]
+then
+    docker pull jerowe/nyuad-anaconda
+else
+
+    exit 0
+fi
