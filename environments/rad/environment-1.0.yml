@@ -1,4 +1,4 @@
-name: gencore_rad
+name: gencore_rad_1.0
 channels:
   - bioconda
 dependencies:
