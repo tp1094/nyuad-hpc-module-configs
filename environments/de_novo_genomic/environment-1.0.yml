@@ -1,0 +1,11 @@
+name: gencore_de_novo_genomic_1.0
+channels:
+  - bioconda
+dependencies:
+  - mira=4.0.2
+  - idba=1.1.1
+  - blat=35
+  - gatk=3.6
+  - picard=2.5.0
+  - prinseq=0.20.4
+  - augustus=3.2.2
