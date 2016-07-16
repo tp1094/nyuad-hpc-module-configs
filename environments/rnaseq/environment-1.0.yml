@@ -1,4 +1,4 @@
-name: gencore_rnaseq
+name: gencore_rnaseq_1.0
 channels:
   - bioconda
 dependencies:

@@ -12,14 +12,7 @@ then
 
     #Use docker container to run tests
 
-    if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = true ]]
-    then
-        echo "On master branch..."
-        docker run -e TRAVIS_PULL_REQUEST -e TRAVIS_BRANCH -e ANACONDA_TOKEN -e ANACONDA_PASSWORD -e ANACONDA_USER  -i -t -v `pwd`:/nyuad-conda-configs jerowe/nyuad-anaconda /nyuad-conda-configs/scripts/run-tests.sh
-    else
-        echo "Not on master branch..."
-        docker run -e TRAVIS_PULL_REQUEST -e TRAVIS_BRANCH -e ANACONDA_TOKEN -e ANACONDA_PASSWORD -e ANACONDA_USER  -i -t -v `pwd`:/nyuad-conda-configs jerowe/nyuad-anaconda /nyuad-conda-configs/scripts/run-tests.sh
-    fi
+    docker run -e TRAVIS_PULL_REQUEST -e TRAVIS_BRANCH -e ANACONDA_TOKEN -e ANACONDA_PASSWORD -e ANACONDA_USER  -i -t -v `pwd`:/nyuad-conda-configs jerowe/nyuad-anaconda /nyuad-conda-configs/scripts/run-tests.sh
 
 else
     exit 0

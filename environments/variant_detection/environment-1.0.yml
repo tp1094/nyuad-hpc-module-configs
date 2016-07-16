@@ -1,4 +1,4 @@
-name: gencore_variant_detection
+name: gencore_variant_detection_1.0
 channels:
   - bioconda
 dependencies:

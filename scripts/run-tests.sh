@@ -3,7 +3,6 @@
 set -e # Exit with nonzero exit code if anything fails
 
 export PATH=/anaconda/bin:$PATH
-python --version
 
 cd /nyuad-conda-configs
 
