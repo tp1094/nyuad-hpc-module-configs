@@ -1,0 +1,24 @@
+name: gencore_de_novo_metagenomic_1.0
+channels:
+  - bioconda
+dependencies:
+  - blat=35
+  - picard=2.5.0
+  - prinseq=0.20.4
+  - augustus=3.2.2
+  - blast=2.2.31
+  - samtools=1.3.1
+  - bcftools=1.3.1
+  - bedtools=2.25.0
+  - vcftools=0.1.14
+  - hmmer=3.1b2
+  - bwa=0.7.15
+  - vcflib=1.0.0_rc1
+  - bamtools=2.4.0
+  - trimmomatic=0.36
+  - mawk=1.3.4
+  - seqtk=1.2
+  - pear=0.9.6
+  - bowtie2=2.2.8
+  - circos=0.69.2
+  - metavelvet=1.2.02
