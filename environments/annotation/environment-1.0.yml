@@ -13,13 +13,13 @@ dependencies:
   - vcftools=0.1.14
   - vcflib=1.0.0_rc1
   - bamtools=2.4.0
-  - repeatmasker=4.0.5
+  - repeatmasker=4.0.6
   - rmblast=2.2.28
   - trinotate=3.2.2
   - transdecoder=2.1.0
   - snpeff=4.3
   - genblasta=1.0.4
-  - genblastb=1.38
+  - genblastg=1.38
   - jellyfish=2.2.3
   - kat=2.0.8
   - kmergenie=1.7016
