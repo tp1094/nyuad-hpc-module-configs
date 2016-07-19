@@ -30,7 +30,7 @@ def run_command(cmd):
         # - otherwise the stdout/stderr buffer gets filled and it all stops working
         output = p.stdout.read(readSize).decode("utf-8")
 
-        if output:
+        if output and args.verbose:
             logging.debug(output)
 
         ec = p.poll()
@@ -38,7 +38,7 @@ def run_command(cmd):
     # read remaining data (all of it)
     output = p.stdout.read(readSize).decode("utf-8")
 
-    if output:
+    if output and args.verbose:
         logging.debug(output)
 
     logging.debug("Exit Code {}".format(ec))
@@ -155,6 +155,10 @@ if __name__ == "__main__":
                    help="List of environmental files to build")
     p.add_argument("--master",
                    help="Build master branch",
+                   default=False,
+                   action="store_true")
+    p.add_argument("--verbose",
+                   help="print stdout of commands",
                    default=False,
                    action="store_true")
 
