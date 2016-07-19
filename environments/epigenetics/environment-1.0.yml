@@ -10,4 +10,5 @@ dependencies:
   - bamtools=2.4.0
   - vcflib=1.0.0_rc1
   - bowtie2=2.2.8
-  - mac2=2.1.1.20160309
+  - pip
+   - mac2=2.1.1.20160309
