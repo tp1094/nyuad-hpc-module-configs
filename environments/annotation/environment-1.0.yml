@@ -1,4 +1,4 @@
-name: gencore_metagenomics_1.0
+name: gencore_annotation_1.0
 channels:
   - bioconda
 dependencies:
