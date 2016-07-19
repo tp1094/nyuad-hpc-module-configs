@@ -11,5 +11,6 @@ dependencies:
   - vcflib=1.0.0_rc1
   - bowtie2=2.2.8
   - numpy=1.11.1
+  - python=2.7
   - pip:
     - macs2
