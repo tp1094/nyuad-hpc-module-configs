@@ -15,5 +15,5 @@ then
     python3 scripts/test_environments.py --master
 else
     #Just test packages
-    python3 scripts/test_environments.py
+    python3 scripts/test_environments.py --verbose
 fi

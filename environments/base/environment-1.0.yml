@@ -1,0 +1,10 @@
+name: gencore_1.0
+channels:
+  - bioconda
+  - r
+dependencies:
+  - r-base
+  - r-essentials
+  - r-ggplot2
+  - bioconductor-biocgenerics
+  - perl-app-cpanminus
