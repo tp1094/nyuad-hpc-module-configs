@@ -1,4 +1,4 @@
-name: gencore_rnaseq_malarial_1.0
+name: gencore_rnaseq_malaria_1.0
 channels:
   - bioconda
 dependencies:
