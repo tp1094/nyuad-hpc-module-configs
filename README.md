@@ -26,4 +26,3 @@ jerowe/gencore_annotation_1.0
 jerowe/gencore_1.0
 
 For a full list please see the environments directory of this repo
-
