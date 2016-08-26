@@ -1,0 +1,10 @@
+name: gencore_r_1.0
+
+channels:
+  - bioconda
+  - r
+dependencies:
+  - r
+  - r-base
+  - r-essentials
+  - bioconductor-biobase

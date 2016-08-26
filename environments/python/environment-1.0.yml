@@ -1,0 +1,10 @@
+name: gencore_python_1.0
+
+channels:
+  - bioconda
+  - r
+dependencies:
+  - python
+  - ipython
+  - numpy
+  - scipy
