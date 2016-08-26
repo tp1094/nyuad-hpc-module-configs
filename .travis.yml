@@ -6,7 +6,7 @@ sudo: required
 services:
 - docker
 before_install:
-script: bash scripts/travis-setup.sh; bash scripts/travis-run.sh
+script: bash tests/travis-setup.sh; bash tests/travis-run.sh
 env:
   global:
   - ANACONDA_USER: jerowe

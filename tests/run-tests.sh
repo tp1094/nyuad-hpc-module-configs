@@ -12,8 +12,8 @@ if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
 then
     #Upload packages
     echo "Uploading packages to anaconda!"
-    python3 scripts/test_environments.py --master
+    python3 tests/test_environments.py --master
 else
     #Just test packages
-    python3 scripts/test_environments.py
+    python3 tests/test_environments.py
 fi
