@@ -1,0 +1,9 @@
+name: gencore_perl_1.0
+
+channels:
+  - bioconda
+  - r
+dependencies:
+  - perl-app-cpanminus
+  - perl-termreadkey
+  - perl-dbi
