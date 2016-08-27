@@ -11,6 +11,7 @@ anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
 if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
 then
     #Upload packages
+    #TODO One script for testing and one for uploading
     echo "Uploading packages to anaconda!"
     python3 tests/test_environments.py --master
     python3 scripts/build_docs.py --master
