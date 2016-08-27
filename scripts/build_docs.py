@@ -4,12 +4,12 @@
 # import os
 # import sys
 from conda_env import env
-import logging
 import glob
 import argparse
 from binstar_client.utils import get_server_api
 
-logging.basicConfig(level=logging.DEBUG)
+# import logging
+# logging.basicConfig(level=logging.INFO)
 
 class TrackSoftware():
 
@@ -84,6 +84,21 @@ class MeMyDocs():
 
             return dep_obj
 
+    def flatten_deps(self, deps):
+        flat_deps = []
+
+        for dep in deps:
+            if isinstance(dep, str):
+                flat_deps.append(dep)
+            elif isinstance(dep, dict):
+                vals = dep.values()
+                tvals = list(vals)
+                ttvals = tvals[0]
+                for i in ttvals:
+                    flat_deps.append(i)
+
+        return flat_deps
+
     def write_env_markdown(self, fname):
 
         package = env.from_file(fname)
@@ -94,7 +109,11 @@ class MeMyDocs():
 
         p_dict = package.to_dict()
         deps = p_dict['dependencies']
+
+        flat_deps = self.flatten_deps(deps)
+        deps = flat_deps
         deps.sort()
+
         channels = p_dict['channels']
 
         # f = open('/nyuad-conda-configs/_docs/environment/{}.md'.format(name), 'w')
@@ -172,6 +191,7 @@ class MeMyDocs():
             self.files = glob.glob("**/environment*.yml", recursive=True)
 
         for fname in self.files:
+            print("Processing {}\n".format(fname))
             self.write_env_markdown(fname)
 
         self.write_software_markdown()
