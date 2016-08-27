@@ -13,6 +13,8 @@ then
     #Upload packages
     echo "Uploading packages to anaconda!"
     python3 scripts/test_environments.py --master
+    python3 scripts/build_docs.py --master
+    scripts/build_docs.sh
 else
     #Just test packages
     python3 scripts/test_environments.py

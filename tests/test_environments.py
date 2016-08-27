@@ -50,6 +50,7 @@ def run_command(cmd):
 
 def try_remote_env_exists(fname):
 
+    #TODO Update this to use binstar utils
     package = env.from_file(fname)
     logging.debug("Testing for package name {}".format(package.name))
 
@@ -58,6 +59,7 @@ def try_remote_env_exists(fname):
 
 def upload_remote_env(fname):
 
+    #TODO Update this to use conda env upload utils
     logging.debug("Uploading remote env of {}".format(fname))
     cmd = "conda env upload -f {}".format(fname)
     return run_command(cmd)
