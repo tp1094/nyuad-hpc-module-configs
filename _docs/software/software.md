@@ -11,6 +11,7 @@ AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -25,6 +26,7 @@ C++ API & command-line toolkit for working with BAM data
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -39,6 +41,7 @@ Tools for dealing with BCF and VCF files
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -53,6 +56,7 @@ A powerful toolset for genome arithmetic
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -67,6 +71,7 @@ BLAST+ is a new suite of BLAST tools that utilizes the NCBI C++ Toolkit.
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -81,6 +86,7 @@ BLAT is a bioinformatics software tool which performs rapid mRNA/DNA and cross-s
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -95,6 +101,7 @@ Fast and sensitive read alignment
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -109,6 +116,7 @@ The BWA read mapper.
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -123,6 +131,7 @@ Circos is a software package for visualizing data and information. It visualizes
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -137,6 +146,7 @@ Bayesian haplotype-based polymorphism discovery and genotyping
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -151,6 +161,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -165,6 +176,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -179,6 +191,7 @@ Biosequence analysis using profile hidden Markov models
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -193,6 +206,7 @@ Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA. A k-me
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -207,6 +221,7 @@ KAT is a suite of tools that analyse jellyfish hashes or sequence files (fasta o
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -221,6 +236,7 @@ KmerGenie estimates the best k-mer length for genome de novo assembly
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -235,6 +251,7 @@ RepeatMasker is a program that screens DNA sequences for interspersed repeats an
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -249,6 +266,7 @@ RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite.
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -263,6 +281,7 @@ Tools for dealing with SAM, BAM and CRAM files
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -277,6 +296,7 @@ Genetic variant annotation and effect prediction toolbox
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -291,6 +311,7 @@ A spliced read mapper for RNA-Seq
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -305,6 +326,7 @@ TransDecoder identifies candidate coding regions within transcript sequences, su
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -319,6 +341,7 @@ Trinotate is a comprehensive annotation suite designed for automatic functional 
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -333,6 +356,7 @@ Command-line tools for manipulating VCF files
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 
@@ -347,6 +371,7 @@ A set of tools written in Perl and C++ for working with VCF files.
 **Conda Channel:** bioconda
 
 #### HPC Modules
+
 * gencore_annotation_1.0
 
 

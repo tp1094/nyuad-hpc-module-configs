@@ -140,7 +140,7 @@ class MeMyDocs():
             f.write("{}\n\n".format(dep_obj.summary))
             f.write("**Version:** {}\n\n".format(dep_obj.version))
             f.write("**Conda Channel:** {}\n\n".format(dep_obj.channel))
-            f.write("#### HPC Modules\n")
+            f.write("#### HPC Modules\n\n")
 
             #TODO Format these as urls
             for tenv in dep_obj.envs:
