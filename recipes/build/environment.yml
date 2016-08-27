@@ -1,0 +1,7 @@
+name: gencore_build_1.0
+
+channels:
+  - bioconda
+  - r
+dependencies:
+  - python
