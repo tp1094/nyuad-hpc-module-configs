@@ -2,10 +2,10 @@
 
 set -ev
 
-if [[ ! -z "${GITHUB_TOKEN}" ]] ; then
-    echo "GitHub API key needs to be set to update docs."
-    exit 0
-fi
+#if [[ ! -z "${GITHUB_TOKEN}" ]] ; then
+#    echo "GitHub API key needs to be set to update docs."
+#    exit 0
+#fi
 
 #cd "${TRAVIS_BUILD_DIR}/_docs"
 
