@@ -104,7 +104,7 @@ class MeMyDocs():
 
         f.write("## Summary\n\n")
 
-        f.write("Coming soon!")
+        f.write("Coming soon!\n\n")
 
         f.write("## Software Packages\n\n")
 
@@ -115,9 +115,9 @@ class MeMyDocs():
 
             f.write("### {}\n".format(package_name))
 
-            f.write("Version: {}\n\n".format(package_version))
-            f.write("Conda Channel: {}\n\n".format(package_obj.channel))
-            f.write("Summary: {}\n".format(package_obj.summary))
+            f.write("**Version:** {}\n\n".format(package_version))
+            f.write("**Conda Channel:** {}\n\n".format(package_obj.channel))
+            f.write("#### Summary:\n{}\n\n".format(package_obj.summary))
             f.write("\n")
             f.write("\n")
 
@@ -138,13 +138,13 @@ class MeMyDocs():
             f.write("### {}\n\n".format(dep_obj.name.capitalize()))
             f.write("#### Summary\n\n")
             f.write("{}\n\n".format(dep_obj.summary))
-            f.write("**Version** {}\n\n".format(dep_obj.version))
-            f.write("**Conda Channel** {}\n\n".format(dep_obj.channel))
+            f.write("**Version:** {}\n\n".format(dep_obj.version))
+            f.write("**Conda Channel:** {}\n\n".format(dep_obj.channel))
             f.write("#### HPC Modules\n")
 
             #TODO Format these as urls
             for tenv in dep_obj.envs:
-                f.write("\t* {}\n".format(tenv))
+                f.write("* {}\n".format(tenv))
 
             f.write("\n")
             f.write("\n")
