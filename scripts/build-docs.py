@@ -156,7 +156,6 @@ class MeMyDocs():
         f = open('_docs/SUMMARY.md', 'w')
         f.write("# Summary\n\n")
 
-        f.write("* [Overview](overview.md)\n")
         f.write("* [Software](software/software.md)\n")
         f.write("* [HPC Modules](environment/environments.md)\n")
 
