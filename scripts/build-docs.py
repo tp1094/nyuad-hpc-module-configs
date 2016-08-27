@@ -115,8 +115,8 @@ class MeMyDocs():
 
             f.write("### {}\n".format(package_name))
 
-            f.write("Version: {}\n".format(package_version))
-            f.write("Conda Channel: {}\n".format(package_obj.channel))
+            f.write("Version: {}\n\n".format(package_version))
+            f.write("Conda Channel: {}\n\n".format(package_obj.channel))
             f.write("Summary: {}\n".format(package_obj.summary))
             f.write("\n")
             f.write("\n")
@@ -138,8 +138,8 @@ class MeMyDocs():
             f.write("### {}\n\n".format(dep_obj.name.capitalize()))
             f.write("#### Summary\n\n")
             f.write("{}\n\n".format(dep_obj.summary))
-            f.write("**Version** {}\n".format(dep_obj.version))
-            f.write("**Conda Channel** {}\n".format(dep_obj.channel))
+            f.write("**Version** {}\n\n".format(dep_obj.version))
+            f.write("**Conda Channel** {}\n\n".format(dep_obj.channel))
             f.write("#### HPC Modules\n")
 
             #TODO Format these as urls
