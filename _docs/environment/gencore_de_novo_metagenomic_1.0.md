@@ -1,19 +1,9 @@
-# gencore_de_novo_genomic_1.0
+# gencore_de_novo_metagenomic_1.0
 ## Summary
 
 Coming soon!
 
 ## Software Packages
-
-### abyss
-**Version:** 1.9.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Assembly By Short Sequences - a de novo, parallel, paired-end sequence assembler
-
-
 
 ### augustus
 **Version:** 3.2.2
@@ -105,66 +95,6 @@ Circos is a software package for visualizing data and information. It visualizes
 
 
 
-### discovar
-**Version:** 52488
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Suitable for variant calling with reference and de novo assembly of small genomes.
-
-
-
-### discovardenovo
-**Version:** 52488
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Suitable for de novo assembly of large and small genomes.
-
-
-
-### freebayes
-**Version:** 1.0.2.29
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Bayesian haplotype-based polymorphism discovery and genotyping
-
-
-
-### gatk
-**Version:** 3.6
-
-**Conda Channel:** bioconda
-
-#### Summary:
-The full Genome Analysis Toolkit (GATK) framework, license restricted.
-
-
-
-### genblasta
-**Version:** 1.0.4
-
-**Conda Channel:** bioconda
-
-#### Summary:
-genBlast is a program suite, consisting of two programs: genBlastA and genBlastG. genBlastA parses local alignments, or high-scoring segment pairs (HSPs) produced by local sequence alignment programs such as BLAST and WU-BLAST and identify groups of HSPs.
-
-
-
-### genblastg
-**Version:** 1.38
-
-**Conda Channel:** bioconda
-
-#### Summary:
-genBlast is a program suite, consisting of two programs: genBlastA and genBlastG. genBlastA parses local alignments, or high-scoring segment pairs (HSPs) produced by local sequence alignment programs such as BLAST and WU-BLAST and identify groups of HSPs.
-
-
-
 ### hmmer
 **Version:** 3.1b2
 
@@ -175,43 +105,23 @@ Biosequence analysis using profile hidden Markov models
 
 
 
-### idba
-**Version:** 1.1.1
+### mawk
+**Version:** 1.3.4
 
 **Conda Channel:** bioconda
 
 #### Summary:
-IDBA-UD is a iterative De Bruijn Graph De Novo Assembler for Short Reads Sequencing data with Highly Uneven Sequencing Depth.
+mawk is an interpreter for the AWK Programming Language.
 
 
 
-### jellyfish
-**Version:** 2.2.3
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA. A k-mer is a substring of length k, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence
-
-
-
-### kmergenie
-**Version:** 1.7016
+### metavelvet
+**Version:** 1.2.02
 
 **Conda Channel:** bioconda
 
 #### Summary:
-KmerGenie estimates the best k-mer length for genome de novo assembly
-
-
-
-### mira
-**Version:** 4.0.2
-
-**Conda Channel:** bioconda
-
-#### Summary:
-MIRA is a whole genome shotgun and EST sequence assembler for Sanger, 454, Solexa (Illumina), IonTorrent data and PacBio (the later at the moment only CCS and error-corrected CLR reads)
+MetaVelvet : An extension of Velvet assembler to de novo metagenome assembly from short sequence reads
 
 
 
@@ -245,16 +155,6 @@ PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic se
 
 
 
-### quast
-**Version:** 4.1
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Quality Assessment Tool for Genome Assemblies
-
-
-
 ### samtools
 **Version:** 1.3.1
 
@@ -272,26 +172,6 @@ Tools for dealing with SAM, BAM and CRAM files
 
 #### Summary:
 Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format
-
-
-
-### sickle
-**Version:** 0.5
-
-**Conda Channel:** bioconda
-
-#### Summary:
-A lightweight OAI client library for Python
-
-
-
-### spades
-**Version:** 3.8.1
-
-**Conda Channel:** bioconda
-
-#### Summary:
-SPAdes – St. Petersburg genome assembler – is intended for both standard isolates and single-cell MDA bacteria assemblies.
 
 
 
@@ -322,16 +202,6 @@ Command-line tools for manipulating VCF files
 
 #### Summary:
 A set of tools written in Perl and C++ for working with VCF files.
-
-
-
-### velvet
-**Version:** 1.2.10
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Sequence Assembler for short reads
 
 
 
