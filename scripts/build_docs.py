@@ -147,8 +147,8 @@ class MeMyDocs():
         f = open('_docs/software/software.md', 'w')
         f.write("# Software\n\n")
 
-        keys = self.track_software.deps.keys()
-        dep_keys = list(keys)
+        packages = self.track_software.deps.keys()
+        dep_keys = list(packages)
         dep_keys.sort()
 
         for dep_name in dep_keys:
@@ -181,6 +181,27 @@ class MeMyDocs():
         for tenv in self.all_envs:
             f.write("\t* [{}](environment/{}.md)\n".format(tenv.capitalize(), tenv))
 
+    def write_table_markdown(self):
+
+        f = open('_docs/software/table.md', 'w')
+        f.write("# Software\n\n")
+
+        packages = self.track_software.deps.keys()
+        f.write("|| ||")
+        f.write(' || '.join(self.all_envs))
+        f.write(' ||\n\n')
+
+        for package in packages:
+            f.write('| {} '.format(package))
+            dep_obj = self.track_software.deps[package]
+            envs = dep_obj.envs
+            for t_all_env in self.all_envs:
+                if t_all_env in envs:
+                    f.write('| 1')
+                else:
+                    f.write('| ')
+            f.write("|\n")
+
     def find_files(self):
 
         if args.environments:
@@ -196,6 +217,7 @@ class MeMyDocs():
 
         self.write_software_markdown()
         self.write_summary_markdown()
+        self.write_table_markdown()
 
 if __name__ == "__main__":
 
