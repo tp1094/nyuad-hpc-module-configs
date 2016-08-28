@@ -1,13 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-set -ev
+set -ex
 
-#if [[ ! -z "${GITHUB_TOKEN}" ]] ; then
-#    echo "GitHub API key needs to be set to update docs."
-#    exit 0
-#fi
-
-#cd "${TRAVIS_BUILD_DIR}/_docs"
+if [[ -z "${GITHUB_TOKEN}" ]] ; then
+    echo "GitHub API key needs to be set to update docs."
+    exit 0
+fi
 
 # Build the documentation
 GITHUB_USERNAME=${TRAVIS_REPO_SLUG%/*}
