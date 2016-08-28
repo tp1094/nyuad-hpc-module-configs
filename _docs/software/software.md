@@ -137,7 +137,6 @@ S4 generic functions needed by many Bioconductor packages.
 #### HPC Modules
 
 * gencore_1.0
-* gencore_build_1.0
 
 
 ### Bioconductor-cummerbund
@@ -739,7 +738,6 @@ get, unpack, build and install modules from CPAN
 #### HPC Modules
 
 * gencore_1.0
-* gencore_build_1.0
 * gencore_perl_1.0
 
 
@@ -904,7 +902,6 @@ Quality Assessment Tool for Genome Assemblies
 #### HPC Modules
 
 * gencore_1.0
-* gencore_build_1.0
 * gencore_r_1.0
 
 
@@ -921,7 +918,6 @@ Some essential packages for working with R
 #### HPC Modules
 
 * gencore_1.0
-* gencore_build_1.0
 * gencore_r_1.0
 
 
@@ -938,7 +934,6 @@ An implementation of the grammar of graphics in R. It combines the advantages of
 #### HPC Modules
 
 * gencore_1.0
-* gencore_build_1.0
 
 
 ### R
@@ -1044,7 +1039,6 @@ Tools for dealing with SAM, BAM and CRAM files
 #### HPC Modules
 
 * gencore_annotation_1.0
-* gencore_build_1.0
 * gencore_de_novo_genomic_1.0
 * gencore_de_novo_metagenomic_1.0
 * gencore_de_novo_transcriptome_1.0

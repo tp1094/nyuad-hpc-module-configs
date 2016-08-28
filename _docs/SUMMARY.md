@@ -5,7 +5,6 @@
 	* [Gencore_1.0](environment/gencore_1.0.md)
 	* [Gencore_annotation_1.0](environment/gencore_annotation_1.0.md)
 	* [Gencore_build_1.0](environment/gencore_build_1.0.md)
-	* [Gencore_build_1.0](environment/gencore_build_1.0.md)
 	* [Gencore_de_novo_genomic_1.0](environment/gencore_de_novo_genomic_1.0.md)
 	* [Gencore_de_novo_genomic_soapdenovo2_1.0](environment/gencore_de_novo_genomic_soapdenovo2_1.0.md)
 	* [Gencore_de_novo_metagenomic_1.0](environment/gencore_de_novo_metagenomic_1.0.md)
