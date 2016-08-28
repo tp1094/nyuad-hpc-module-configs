@@ -176,6 +176,7 @@ class MeMyDocs():
         f.write("# Summary\n\n")
 
         f.write("* [Software](software/software.md)\n")
+        f.write("* [Table](software/table.md)\n")
         f.write("* [HPC Modules](environment/environments.md)\n")
 
         for tenv in self.all_envs:
