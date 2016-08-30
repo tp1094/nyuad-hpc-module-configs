@@ -98,10 +98,10 @@ function conda_clean_all() {
 	[ "$status" = 0 ]
 }
 
-@test "conda env create" {
-	run sh -c "module load anaconda/2-4.1.1 && conda env create jerowe/gencore_python_1.0 -p /scratch/$USER/software/conda_env_create"
-	[ "$status" = 0 ]
-}
+#@test "conda env create" {
+#	run sh -c "module load anaconda/2-4.1.1 && conda env create jerowe/gencore_python_1.0 -p /scratch/$USER/software/conda_env_create"
+#	[ "$status" = 0 ]
+#}
 
 #Create perl env
 
