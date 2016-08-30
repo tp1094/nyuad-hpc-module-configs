@@ -188,9 +188,15 @@ class MeMyDocs():
         f.write("# Software\n\n")
 
         packages = self.track_software.deps.keys()
-        f.write("|| ||")
-        f.write(' || '.join(self.all_envs))
-        f.write(' ||\n\n')
+        packages.sort()
+
+        f.write("| | ")
+        f.write(' | '.join(self.all_envs))
+        f.write(" |\n")
+
+        f.write("| --- ")
+        f.write('| --- ' * len(self.all_envs))
+        f.write(" |\n")
 
         for package in packages:
             f.write('| {} '.format(package))
@@ -198,10 +204,11 @@ class MeMyDocs():
             envs = dep_obj.envs
             for t_all_env in self.all_envs:
                 if t_all_env in envs:
-                    f.write('| 1')
+                    f.write('| **Y** ')
                 else:
                     f.write('| ')
             f.write("|\n")
+        f.write("\n")
 
     def find_files(self):
 
