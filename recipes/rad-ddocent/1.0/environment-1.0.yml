@@ -1,0 +1,8 @@
+name: gencore_rad_ddocent_1.0
+channels:
+  - bioconda
+dependencies:
+  - perl-hpc-runner-slurm=2.58
+  - perl-biox-workflow=1.10
+  - perl-biox-workflow-plugin-fileexists=0.13
+  - ddocent=2.1

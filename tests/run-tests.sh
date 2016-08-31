@@ -13,11 +13,11 @@ then
     #Upload packages
     #TODO One script for testing and one for uploading
     echo "Uploading packages to anaconda!"
-    python3 tests/test_environments.py --master
+    python3 tests/test_environments.py --master --force_rebuild
     #We will add this back soon
     #python3 scripts/build_docs.py --master
     #scripts/build_docs.sh
 else
     #Just test packages
-    python3 tests/test_environments.py
+    python3 tests/test_environments.py --force_rebuild
 fi

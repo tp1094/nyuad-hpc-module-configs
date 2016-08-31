@@ -1,21 +1,21 @@
-name: gencore_metagenomics_1.0
+name: gencore_rad_1.0
 channels:
   - bioconda
 dependencies:
-  - qiime
+  - perl-hpc-runner-slurm=2.58
+  - perl-biox-workflow=1.10
+  - perl-biox-workflow-plugin-fileexists=0.13
   - blat=35
-  - cd-hit=4.6.4
-  - augustus=3.2.2
   - blast=2.2.31
-  - hmmer=3.1b2
-  - bwa=0.7.15
   - samtools=1.3.1
   - bcftools=1.3.1
   - bedtools=2.25.0
   - vcftools=0.1.14
+  - freebayes=1.0.2.29
   - vcflib=1.0.0_rc1
   - bamtools=2.4.0
-  - mawk=1.3.4
+  - rainbow=2.0.4
   - seqtk=1.2
-  - pear=0.9.6
+  - cd-hit=4.6.4
+  - stacks=1.40
   - bowtie2=2.2.8
