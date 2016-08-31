@@ -116,11 +116,14 @@ def loop_files(files):
         logging.debug("Trying file {}".format(tfile))
 
         if try_remote_env_exists(tfile):
-            logging.debug("Remote env exists. Next!")
-            continue
-        else:
-            logging.debug("Remote env does not exist! Don't skip!")
-            create_env_passes = try_conda_env_create(tfile)
+
+            if not args.force_rebuild:
+                logging.debug("Remote env exists. Next!")
+                #TODO When conda_env has versioning we will have to change this
+                continue
+
+        logging.debug("Remote env does not exist! Don't skip!")
+        create_env_passes = try_conda_env_create(tfile)
 
         if create_env_passes:
             logging.debug("Build of env {} passed".format(tfile))
@@ -157,6 +160,10 @@ if __name__ == "__main__":
                    help="List of environmental files to build")
     p.add_argument("--master",
                    help="Build master branch",
+                   default=False,
+                   action="store_true")
+    p.add_argument("--force_rebuild",
+                   help="Force reupload",
                    default=False,
                    action="store_true")
     p.add_argument("--verbose",
