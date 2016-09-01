@@ -5,6 +5,7 @@ dependencies:
   - perl-hpc-runner-slurm=2.58
   - perl-biox-workflow=1.10
   - perl-biox-workflow-plugin-fileexists=0.13
+  - perl-biox-workflow-plugin-filedetails=0.11
   - blat=35
   - augustus=3.2.2
   - blast=2.2.31
