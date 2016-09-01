@@ -56,7 +56,7 @@ The BWA read mapper.
 
 
 ### macs2
-**Version:** latest
+**Version:** 2.1.1.20160309
 
 **Conda Channel:** bioconda
 
@@ -72,6 +72,46 @@ MACS -- Model-based Analysis of ChIP-Seq
 
 #### Summary:
 
+
+
+
+### perl-biox-workflow-plugin-filedetails
+**Version:** 0.11
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Get metadata for files in directories processed by BioX::Workflow
+
+
+
+### perl-biox-workflow-plugin-fileexists
+**Version:** 0.13
+
+**Conda Channel:** bioconda
+
+#### Summary:
+a plugin to BioX::Workflow
+
+
+
+### perl-biox-workflow
+**Version:** 1.10
+
+**Conda Channel:** bioconda
+
+#### Summary:
+A very opinionated template based workflow writer.
+
+
+
+### perl-hpc-runner-slurm
+**Version:** 2.58
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Job Submission to Slurm
 
 
 
