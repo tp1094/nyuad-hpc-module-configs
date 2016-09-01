@@ -15,7 +15,7 @@ then
 
     echo "Uploading packages to anaconda!"
     #python3 tests/test_environments.py --master --force_rebuild
-    python3 tests/test_environments.py --verbose --force_rebuild --environments recipes/de_novo_genomic/1.0/environment-1.0.yml
+    python3 tests/test_environments.py --master --force_rebuild --verbose --environments recipes/qc/1.0/environment-1.0.yml
 
     #echo "Uploading packages to anaconda!"
     ##python3 tests/test_environments.py --master --force_rebuild
@@ -27,5 +27,5 @@ then
 else
     #Just test packages
     #python3 tests/test_environments.py --force_rebuild
-    python3 tests/test_environments.py --verbose --force_rebuild --environments recipes/de_novo_genomic/1.0/environment-1.0.yml
+    python3 tests/test_environments.py --force_rebuild --verbose --environments recipes/qc/1.0/environment-1.0.yml
 fi
