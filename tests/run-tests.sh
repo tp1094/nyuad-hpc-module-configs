@@ -19,5 +19,6 @@ then
     #scripts/build_docs.sh
 else
     #Just test packages
-    python3 tests/test_environments.py --force_rebuild
+    #python3 tests/test_environments.py --force_rebuild
+    python3 tests/test_environments.py --force_rebuild --verbose --environments recipes/qc/1.0/environment-1.0.yml
 fi

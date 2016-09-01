@@ -8,3 +8,7 @@ dependencies:
   - perl-biox-workflow-plugin-filedetails=0.11
   - trimmomatic=0.36
   - fastqc=0.11.5
+  - fastx_toolkit=0.0.14
+  - pyfasta=0.5.2
+  - pyfaidx=0.4.7.1
+  - pyfastaq=3.11.0
