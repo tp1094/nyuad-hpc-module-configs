@@ -121,8 +121,11 @@ def loop_files(files):
                 logging.debug("Remote env exists. Next!")
                 #TODO When conda_env has versioning we will have to change this
                 continue
+            else:
+                logging.debug("Force_build=True")
+        else:
+            logging.debug("Remote env does not exist! Don't skip!")
 
-        logging.debug("Remote env does not exist! Don't skip!")
         create_env_passes = try_conda_env_create(tfile)
 
         if create_env_passes:
