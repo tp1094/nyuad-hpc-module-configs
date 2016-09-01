@@ -14,11 +14,9 @@ then
     #TODO One script for testing and one for uploading
 
     echo "Uploading packages to anaconda!"
-    #python3 tests/test_environments.py --master --force_rebuild
-    python3 tests/test_environments.py --master --force_rebuild --verbose --environments recipes/qc/1.0/environment-1.0.yml
+    python3 tests/test_environments.py --master
 
     #echo "Uploading packages to anaconda!"
-    ##python3 tests/test_environments.py --master --force_rebuild
     #python3 tests/test_environments.py --master --environment recipes/variant_detection/1.0/environment-1.0.yml --force_rebuild
 
     #We will add this back soon
@@ -26,6 +24,8 @@ then
     #scripts/build_docs.sh
 else
     #Just test packages
-    #python3 tests/test_environments.py --force_rebuild
-    python3 tests/test_environments.py --force_rebuild --verbose --environments recipes/qc/1.0/environment-1.0.yml
+    python3 tests/test_environments.py
+
+    #Protocol for forcing a package and verbose
+    #python3 tests/test_environments.py --force_rebuild --verbose --environments recipes/qc/1.0/environment-1.0.yml
 fi
