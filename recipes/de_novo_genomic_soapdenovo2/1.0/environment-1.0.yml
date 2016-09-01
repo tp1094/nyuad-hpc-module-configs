@@ -1,0 +1,10 @@
+name: gencore_de_novo_genomic_soapdenovo2_1.0
+channels:
+  - bioconda
+dependencies:
+  - perl-hpc-runner-slurm=2.58
+  - perl-biox-workflow=1.10
+  - perl-biox-workflow-plugin-fileexists=0.13
+  - perl-biox-workflow-plugin-filedetails=0.11
+  - soapdenovo2-prepare=2.0
+  - soapdenovo2=2.40
