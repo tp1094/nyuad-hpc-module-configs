@@ -1,4 +1,4 @@
-name: gencore_perl_1.0
+name: gencore_perl_5.22.0
 
 channels:
   - bioconda

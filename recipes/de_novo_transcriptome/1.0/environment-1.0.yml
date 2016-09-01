@@ -1,7 +1,12 @@
 name: gencore_de_novo_transcriptome_1.0
 channels:
   - bioconda
+  - r
 dependencies:
+  - perl-hpc-runner-slurm=2.58
+  - perl-biox-workflow=1.10
+  - perl-biox-workflow-plugin-fileexists=0.13
+  - perl-biox-workflow-plugin-filedetails=0.11
   - blat=35
   - picard=2.5.0
   - prinseq=0.20.4

@@ -1,7 +1,12 @@
 name: gencore_variant_detection_1.0
 channels:
   - bioconda
+  - r
 dependencies:
+  - perl-hpc-runner-slurm=2.58
+  - perl-biox-workflow=1.10
+  - perl-biox-workflow-plugin-fileexists=0.13
+  - perl-biox-workflow-plugin-filedetails=0.11
   - discovar=52488
   - discovardenovo=52488
   - blast=2.2.31
@@ -20,7 +25,7 @@ dependencies:
   - circos=0.69.2
   - star=2.5.2a
   - blat=35
-  - gatk=3.6
+  - gatk=3.5
   - picard=2.5.0
   - prinseq=0.20.4
   - snpeff=4.3
