@@ -12,3 +12,4 @@ dependencies:
   - pyfasta=0.5.2
   - pyfaidx=0.4.7.1
   - pyfastaq=3.11.0
+  - python=3.5
