@@ -35,6 +35,16 @@ A powerful toolset for genome arithmetic
 
 
 
+### bioconductor-cummerbund
+**Version:** 2.12.1
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Allows for persistent storage, access, exploration, and manipulation of Cufflinks high-throughput sequencing data.  In addition, provides numerous plotting functions for commonly used visualizations.
+
+
+
 ### bioconductor-deseq2
 **Version:** 1.10.1
 
@@ -95,6 +105,16 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 
 
+### fastqc
+**Version:** 0.11.5
+
+**Conda Channel:** bioconda
+
+#### Summary:
+A quality control tool for high throughput sequence data.
+
+
+
 ### gatk
 **Version:** 3.6
 
@@ -122,6 +142,46 @@ A framework to process and analyze data from high-throughput sequencing (HTS) as
 
 #### Summary:
 Quantifying abundances of transcripts from RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads.
+
+
+
+### perl-biox-workflow-plugin-filedetails
+**Version:** 0.11
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Get metadata for files in directories processed by BioX::Workflow
+
+
+
+### perl-biox-workflow-plugin-fileexists
+**Version:** 0.13
+
+**Conda Channel:** bioconda
+
+#### Summary:
+a plugin to BioX::Workflow
+
+
+
+### perl-biox-workflow
+**Version:** 1.10
+
+**Conda Channel:** bioconda
+
+#### Summary:
+A very opinionated template based workflow writer.
+
+
+
+### perl-hpc-runner-slurm
+**Version:** 2.58
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Job Submission to Slurm
 
 
 
@@ -182,6 +242,16 @@ Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FA
 
 #### Summary:
 A spliced read mapper for RNA-Seq
+
+
+
+### trimmomatic
+**Version:** 0.36
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Genetic variant annotation and effect prediction toolbox
 
 
 

@@ -6,13 +6,13 @@ export PATH=/anaconda/bin:$PATH
 
 cd /nyuad-conda-configs
 
-anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
 
 if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
 then
     #Upload packages
     #TODO One script for testing and one for uploading
 
+    anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
     echo "Uploading packages to anaconda!"
     python3 tests/test_environments.py --master
 
