@@ -188,6 +188,8 @@ class MeMyDocs():
         f.write("# Software\n\n")
 
         packages = self.track_software.deps.keys()
+        t = list(packages)
+        packages = t
         packages.sort()
 
         f.write("| | ")
