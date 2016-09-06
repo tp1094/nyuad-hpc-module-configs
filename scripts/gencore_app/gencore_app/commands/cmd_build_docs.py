@@ -1,15 +1,14 @@
 import click
-from click_test.cli import global_test_options
+from gencore_app.cli import global_test_options
 from conda_env import env
 from binstar_client.utils import get_server_api
-from click_test.utils.main import find_files
+from gencore_app.utils.main import find_files
 import logging
 
 logging.basicConfig(level=logging.DEBUG)
 
 @click.command('build_docs', short_help='Build docs')
 @global_test_options
-
 def cli(verbose, environments, force_rebuild):
     """Build docs."""
 

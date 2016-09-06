@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='gencore_app',
+    name='gencore-build-app',
     version='1.0',
     packages=['gencore_app', 'gencore_app.commands', 'gencore_app.utils'],
     include_package_data=True,

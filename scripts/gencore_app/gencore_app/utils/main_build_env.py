@@ -1,8 +1,8 @@
-# click_test.utils.main_build_env
+# gencore_app.utils.main_build_env
 
 import logging
 import sys
-from click_test.utils.main import run_command
+from gencore_app.utils.main import run_command
 
 logging.basicConfig(level=logging.DEBUG)
 

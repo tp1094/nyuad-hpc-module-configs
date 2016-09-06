@@ -1,7 +1,7 @@
 import click
-from click_test.cli import global_test_options
-from click_test.utils.main import find_files, remote_env_exists
-from click_test.utils.main_upload import upload_remote_env, status_check_upload
+from gencore_app.cli import global_test_options
+from gencore_app.utils.main import find_files, remote_env_exists
+from gencore_app.utils.main_upload import upload_remote_env, status_check_upload
 
 @click.command('upload_envs', short_help='Upload environments to anaconda cloud')
 @global_test_options

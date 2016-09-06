@@ -23,8 +23,8 @@ class MyCLI(click.MultiCommand):
         try:
             if sys.version_info[0] == 2:
                 name = name.encode('ascii', 'replace')
-                mod = __import__('click_test.commands.cmd_' + name,
-                                 None, None, ['cli'])
+            mod = __import__('gencore_app.commands.cmd_' + name,
+                                None, None, ['cli'])
         except ImportError:
             click.echo("we got an import error on {}".format(name))
             return

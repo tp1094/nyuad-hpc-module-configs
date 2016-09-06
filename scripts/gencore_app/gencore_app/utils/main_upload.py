@@ -2,7 +2,7 @@ import logging
 import sys
 # from conda_env import env
 # import os
-from click_test.utils.main import run_command
+from gencore_app.utils.main import run_command
 
 # from binstar_client.utils import get_server_api
 # aserver_api = get_server_api()

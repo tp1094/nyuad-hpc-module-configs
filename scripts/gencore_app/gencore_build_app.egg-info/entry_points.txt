@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        gencore_app=gencore_app.cli:cli
+    
