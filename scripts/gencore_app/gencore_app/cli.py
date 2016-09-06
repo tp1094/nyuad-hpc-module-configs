@@ -28,7 +28,6 @@ class MyCLI(click.MultiCommand):
         except ImportError:
             click.echo("we got an import error on {}".format(name))
             return
-        click.echo("mod cli is {}".format(mod.cli))
         return mod.cli
 
 class GlobalOpts(object):

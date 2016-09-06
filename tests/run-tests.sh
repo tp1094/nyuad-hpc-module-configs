@@ -23,17 +23,8 @@ then
     echo "Uploading packages to anaconda!"
     gencore_app upload_envs --force_rebuild --environment recipes/variant_detection/1.0/environment-1.0.yml
 
-    #echo "Uploading packages to anaconda!"
-    #python3 tests/test_environments.py --master --environment recipes/variant_detection/1.0/environment-1.0.yml --force_rebuild
-
-    #We will add this back soon
-    #python3 scripts/build_docs.py --master
-    #scripts/build_docs.sh
 else
     #Just test packages
     gencore_app build_envs --force_rebuild --environment recipes/variant_detection/1.0/environment-1.0.yml
     gencore_app upload_envs --force_rebuild --environment recipes/variant_detection/1.0/environment-1.0.yml
-
-    #Protocol for forcing a package and verbose
-    #python3 tests/test_environments.py --force_rebuild --verbose --environments recipes/qc/1.0/environment-1.0.yml
 fi
