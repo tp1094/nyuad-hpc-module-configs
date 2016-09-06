@@ -21,10 +21,10 @@ then
     anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
 
     echo "Uploading packages to anaconda!"
-    gencore_app upload_envs --force_rebuild --environment recipes/variant_detection/1.0/environment-1.0.yml
+    gencore_app upload_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml
 
 else
     #Just test packages
-    gencore_app build_envs --force_rebuild --environment recipes/variant_detection/1.0/environment-1.0.yml
-    gencore_app upload_envs --force_rebuild --environment recipes/variant_detection/1.0/environment-1.0.yml
+    gencore_app build_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml
+    gencore_app upload_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml
 fi
