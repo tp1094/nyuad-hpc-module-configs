@@ -6,6 +6,7 @@ import logging
 import os
 import sys
 import yaml
+import shutil
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -69,8 +70,12 @@ def make_doc_package(docs):
     cwd = os.getcwd()
     recipe_dir = "build/" + docs.name + "/conda.recipe"
 
+    build_template = cwd + "/package_template/build.sh"
+
     if not os.path.exists(recipe_dir):
         os.makedirs(recipe_dir)
+
+    shutil.copyfile(build_template, recipe_dir + "/build.sh")
 
     os.chdir(recipe_dir)
 
@@ -81,6 +86,10 @@ def make_doc_package(docs):
 
     yaml.dump(d)
     logging.debug("We made the yaml files")
+
+    cmd = "conda build ./"
+    status = run_command(cmd)
+    status_check_man(status)
 
     os.chdir(cwd)
 
