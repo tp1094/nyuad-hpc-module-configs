@@ -80,6 +80,8 @@ def make_doc_package(docs):
     yaml.dump(d)
     logging.debug("We made the yaml files")
 
+    os.chdir(cwd)
+
 def update_env(docs):
 
     env_data = env.from_file(docs.env_file)
