@@ -17,9 +17,11 @@ def cli(verbose, environments, force_rebuild):
     click.echo("hello")
 
     files = find_files(environments)
+    cwd = os.getcwd()
 
     for tfile in files:
         get_name(tfile)
+        os.chdir(cwd)
 
 def get_name(fname):
 
