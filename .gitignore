@@ -5,3 +5,5 @@ _book/*
 scripts/gencore_app/build
 scripts/gencore_app/dist
 scripts/gencore_app/gencore_app.egg-info
+build
+build/*

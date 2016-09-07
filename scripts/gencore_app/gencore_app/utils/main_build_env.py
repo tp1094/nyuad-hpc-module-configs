@@ -36,5 +36,4 @@ def status_check_build(build_passes):
         logging.warn("One or more builds did not pass!")
         sys.exit(1)
     else:
-        logging.info("All builds passed!")
-        sys.exit(0)
+        logging.info("Build passed!")

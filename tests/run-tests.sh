@@ -19,6 +19,7 @@ then
     #TODO One script for testing and one for uploading
 
     anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
+    #conda config --set anaconda_upload yes
 
     echo "Uploading packages to anaconda!"
     #gencore_app upload_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml
@@ -28,4 +29,5 @@ else
     #Just test packages
     #gencore_app build_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml
     gencore_app build_envs
+    gencore_app build_man
 fi
