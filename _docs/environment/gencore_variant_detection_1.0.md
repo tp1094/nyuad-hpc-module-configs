@@ -238,10 +238,10 @@ Genetic variant annotation and effect prediction toolbox
 ### star
 **Version:** 2.5.2a
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+An RNA-seq read aligner.
 
 
 
