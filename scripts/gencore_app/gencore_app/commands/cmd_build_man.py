@@ -31,7 +31,7 @@ def docs_prep(fname):
 
     #This will change when conda env supports versions!!
     name, version = get_name(fname)
-    marked = '_docs/environment/{}.md'.format(name)
+    marked = '_docs/environment/{}_{}.md'.format(name, version)
     docs = DocPackage(name , version, marked, fname)
 
     if remote_docs_exist(docs):

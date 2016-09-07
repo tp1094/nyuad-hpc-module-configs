@@ -28,7 +28,7 @@ then
 else
     #Just test packages
     #gencore_app build_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml
-    gencore_app build_envs
+    #gencore_app build_envs
     cd /nyuad-conda-configs
     gencore_app build_man
     gencore_app build_eb
