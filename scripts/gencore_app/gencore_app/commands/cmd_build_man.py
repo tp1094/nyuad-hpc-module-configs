@@ -1,7 +1,7 @@
 import click
 from gencore_app.cli import global_test_options
 from conda_env import env
-from gencore_app.utils.main import find_files, run_command
+from gencore_app.utils.main import find_files, run_command, get_name
 import logging
 import os
 import sys
@@ -24,23 +24,18 @@ def cli(verbose, environments, force_rebuild):
     cwd = os.getcwd()
 
     for tfile in files:
-        get_name(tfile)
+        docs_prep(tfile)
         os.chdir(cwd)
 
-def get_name(fname):
+def docs_prep(fname):
 
-    package = env.from_file(fname)
-    name  = package.name
+    #This will change when conda env supports versions!!
+    name, version = get_name(fname)
     marked = '_docs/environment/{}.md'.format(name)
-
-    l = name.split("_")
-    version = l.pop()
-    name = "_".join(l)
-
-    click.echo("")
     docs = DocPackage(name , version, marked, fname)
 
-    click.echo("Name is " + docs.name)
+    if remote_docs_exist(docs):
+        return
 
     make_man(docs)
 
@@ -60,9 +55,6 @@ def make_man(docs):
     make_doc_package(docs)
 
 def make_doc_package(docs):
-
-    if remote_docs_exist(docs):
-        return
 
     cwd = os.getcwd()
     recipe_dir = "build/" + docs.name + "/conda.recipe"

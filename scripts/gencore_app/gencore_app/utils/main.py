@@ -54,6 +54,17 @@ def find_files(environments):
     else:
         return  glob.glob("**/environment*.yml", recursive=True)
 
+def get_name(fname):
+
+    package = env.from_file(fname)
+    name  = package.name
+
+    l = name.split("_")
+    version = l.pop()
+    name = "_".join(l)
+
+    return name, version
+
 def remote_env_exists(tfile):
 
     #TODO Update this to use binstar utils
