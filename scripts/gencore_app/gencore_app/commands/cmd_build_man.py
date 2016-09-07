@@ -18,7 +18,7 @@ aserver_api = get_server_api()
 def cli(verbose, environments, force_rebuild):
     """Build man pages."""
 
-    click.echo("hello")
+    click.echo("Building man pages")
 
     files = find_files(environments)
     cwd = os.getcwd()
@@ -95,7 +95,8 @@ def update_env(docs):
 
 def remote_docs_exist(docs):
 
-    name  = docs.name
+    t = docs.name
+    name = t + "_docs"
     version = docs.version
     logging.debug("Testing for docs package name {}".format(name))
 

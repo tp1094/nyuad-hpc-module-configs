@@ -1,5 +1,6 @@
 nyuad-hpc-module-configs-deploy
 anaconda-token
+github-token
 _book
 _book/*
 scripts/gencore_app/build
