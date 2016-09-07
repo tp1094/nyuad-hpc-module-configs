@@ -7,8 +7,11 @@ import os
 import sys
 import yaml
 import shutil
+from binstar_client.utils import get_server_api
 
 logging.basicConfig(level=logging.DEBUG)
+
+aserver_api = get_server_api()
 
 @click.command('build_man', short_help='Build man')
 @global_test_options
@@ -35,7 +38,7 @@ def get_name(fname):
     name = "_".join(l)
 
     click.echo("")
-    docs = DocPackage(name + "_docs", version, marked, fname)
+    docs = DocPackage(name , version, marked, fname)
 
     click.echo("Name is " + docs.name)
 
@@ -43,29 +46,23 @@ def get_name(fname):
 
 def make_man(docs):
 
-    cwd = os.getcwd()
-
-    man_dir = "build/{}/man/man1".format(docs.name)
+    man_dir = "build/{}/share/man/man1".format(docs.name)
 
     if not os.path.exists(man_dir):
         os.makedirs(man_dir)
 
-    cmd = "marked-man {} > {}/{}.1.man".format(docs.marked, man_dir, docs.name)
+    cmd = "marked-man {} > {}/{}.1".format(docs.marked, man_dir, docs.name)
 
     man_passes = run_command(cmd)
 
     status_check_man(man_passes)
-
-    os.chdir(man_dir)
-    cmd = "gzip {}.1.man".format(docs.name)
-
-    man_passes = run_command(cmd)
-    status_check_man(man_passes)
-    os.chdir(cwd)
 
     make_doc_package(docs)
 
 def make_doc_package(docs):
+
+    if remote_docs_exist(docs):
+        return
 
     cwd = os.getcwd()
     recipe_dir = "build/" + docs.name + "/conda.recipe"
@@ -78,8 +75,9 @@ def make_doc_package(docs):
     shutil.copyfile(build_template, recipe_dir + "/build.sh")
 
     os.chdir(recipe_dir)
+    name = docs.name
 
-    d = {'package': {'name': docs.name, 'version': docs.version}, 'source': {'path': '{}/build/{}'.format(cwd, docs.name)} }
+    d = {'package': {'name': name + "_docs", 'version': docs.version}, 'source': {'path': '{}/build/{}'.format(cwd, docs.name)} }
 
     with open('meta.yaml', 'w') as yaml_file:
         yaml.dump(d, yaml_file, default_flow_style=False)
@@ -88,10 +86,12 @@ def make_doc_package(docs):
     logging.debug("We made the yaml files")
 
     cmd = "conda build ./"
-    status = run_command(cmd)
+    status = run_command(cmd, True)
     status_check_man(status)
 
     os.chdir(cwd)
+
+    update_env(docs)
 
 def update_env(docs):
 
@@ -100,6 +100,21 @@ def update_env(docs):
     env_data.dependencies.add("{}_docs={}".format(docs.name, docs.version))
 
     env_data.save()
+
+def remote_docs_exist(docs):
+
+    name  = docs.name
+    version = docs.version
+    logging.debug("Testing for docs package name {}".format(name))
+
+    try:
+        aserver_api.release(os.environ.get("ANACONDA_USER"), name, version)
+        logging.debug("Remote doc package exists. Next!")
+    except:
+        logging.debug("Remote doc package does not exist. Build")
+        return False
+
+    return True
 
 def status_check_man(man_passes):
 
