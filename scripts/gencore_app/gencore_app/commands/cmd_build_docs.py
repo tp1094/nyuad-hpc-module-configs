@@ -10,9 +10,21 @@ logging.basicConfig(level=logging.DEBUG)
 @click.command('build_docs', short_help='Build docs')
 @global_test_options
 def cli(verbose, environments, force_rebuild):
-    """Build docs."""
+    """ Build markdown docs for GitBooks
+        1. Check if remote env exists or force_rebuild enabled
+            a. If env exists skip building docs for this packge
+            b. If env exists, but force_rebuild enabled, rebuild the docs anyways
+        2. Build the software docs
+            a. Parse the conda configuration file, getting each dependency
+            b. For each dependency search some information from conda: namely version and summary
+            c. Add these to the markdown doc
+        3. Build the summary doc
+            a. The summary doc is a 'Table of Contents' for the GitBooks site
+        4. Write the table doc
+            a. This is a big matrix, which will probably be split into many matrices, describing which software is in which module
+    """
 
-    click.echo("hello")
+    click.echo("We are building the docs for GitHub Pages")
 
     docs = MeMyDocs()
 
@@ -167,12 +179,12 @@ class MeMyDocs():
         for dep_name in dep_keys:
             dep_obj = self.track_software.deps[dep_name]
 
-            f.write("### {}\n\n".format(dep_obj.name.capitalize()))
-            f.write("#### Summary\n\n")
+            f.write("## {}\n\n".format(dep_obj.name.capitalize()))
+            f.write("### Summary\n\n")
             f.write("{}\n\n".format(dep_obj.summary))
             f.write("**Version:** {}\n\n".format(dep_obj.version))
             f.write("**Conda Channel:** {}\n\n".format(dep_obj.channel))
-            f.write("#### HPC Modules\n\n")
+            f.write("### HPC Modules\n\n")
 
             #TODO Format these as urls
             for tenv in dep_obj.envs:
