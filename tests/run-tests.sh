@@ -31,6 +31,6 @@ else
     #gencore_app build_envs
     cd /nyuad-conda-configs
     gencore_app build_man
-    gencore_app build_eb
+    gencore_app build_eb --force_rebuild
     scripts/build_easybuild.sh
 fi

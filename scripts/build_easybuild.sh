@@ -10,6 +10,11 @@ fi
 # Build the documentation
 GITHUB_USERNAME=${TRAVIS_REPO_SLUG%/*}
 
+cd /nyuad-hpc-module-configs
+ls -lah
+
+#At least we can test if this works
+mkdir -p _easybuild
 git add _easybuild
 git config user.name "Travis CI"
 git commit --all -m "Updated docs to commit ${TRAVIS_COMMIT}."
