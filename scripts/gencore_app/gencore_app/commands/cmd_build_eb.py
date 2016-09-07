@@ -13,7 +13,7 @@ def cli(verbose, environments, force_rebuild):
     files = find_files(environments)
 
     for tfile in files:
-        if not remote_env_exists or force_rebuild:
+        if not remote_env_exists(tfile) or force_rebuild:
             name, version = get_name(tfile)
             print_html_doc(name, version)
 
