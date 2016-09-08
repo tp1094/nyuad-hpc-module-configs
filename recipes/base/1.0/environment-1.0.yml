@@ -1,4 +1,4 @@
-name: gencore_1.0
+name: gencore_base_1.0
 
 channels:
   - bioconda

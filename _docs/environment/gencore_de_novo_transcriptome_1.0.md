@@ -288,10 +288,10 @@ A lightweight OAI client library for Python
 ### star
 **Version:** 2.5.2a
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+An RNA-seq read aligner.
 
 
 

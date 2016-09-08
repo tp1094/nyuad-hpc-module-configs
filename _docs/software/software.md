@@ -1132,7 +1132,7 @@ An implementation of the grammar of graphics in R. It combines the advantages of
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** r
 
 #### HPC Modules
 
@@ -1371,11 +1371,11 @@ Stacks is a software pipeline for building loci from RAD-seq
 
 #### Summary
 
-
+An RNA-seq read aligner.
 
 **Version:** 2.5.2a
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### HPC Modules
 

@@ -1,10 +1,9 @@
 name: gencore_r_3.3.1
-
 channels:
-  - bioconda
-  - r
+- bioconda
+- r
 dependencies:
-  - r
-  - r-base
-  - r-essentials
-  - bioconductor-biobase
+- r
+- r-base
+- r-essentials
+- bioconductor-biobase
