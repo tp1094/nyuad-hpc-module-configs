@@ -10,7 +10,7 @@ fi
 # Build the documentation
 GITHUB_USERNAME=${TRAVIS_REPO_SLUG%/*}
 
-cd /nyuad-hpc-module-configs
+cd /nyuad-conda-configs
 ls -lah
 
 #At least we can test if this works

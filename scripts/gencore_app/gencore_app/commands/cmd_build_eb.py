@@ -23,6 +23,7 @@ def cli(verbose, environments, force_rebuild):
 
     for tfile in files:
         if force_rebuild or not remote_env_exists(tfile):
+            click.echo("We are creating eb for {}".format(tfile))
             name, version = get_name(tfile)
             print_html_doc(name, version)
 
