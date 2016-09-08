@@ -49,5 +49,5 @@ global_test_options = global_opts.global_test_options
 
 @click.command(cls=MyCLI)
 def cli():
-    """ DAMN YOU PYTHON AND YOUR FLEXIBLE NAMESPACES """
+    """ Test environments, build docs, build man pages, build doc pages, and finally upload envs """
     pass

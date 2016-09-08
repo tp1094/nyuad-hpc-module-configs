@@ -16,24 +16,22 @@ cd /nyuad-conda-configs
 if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
 then
     #Upload packages
-    #TODO One script for testing and one for uploading
-
     anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
     conda config --set anaconda_upload yes
 
-    echo "Uploading packages to anaconda!"
     #gencore_app upload_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml
 
     cd /nyuad-conda-configs
-    gencore_app build_man --force_rebuild
+    gencore_app build_man
     cd /nyuad-conda-configs
-    gencore_app build_eb --force_rebuild
+    gencore_app build_eb
 
     cd /nyuad-conda-configs
     scripts/build_easybuild.sh
     scripts/build_docs.sh
 
-    gencore_app upload_envs --force_rebuild
+    echo "Uploading packages to anaconda!"
+    gencore_app upload_envs
 else
     #Just test packages
     #gencore_app build_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml

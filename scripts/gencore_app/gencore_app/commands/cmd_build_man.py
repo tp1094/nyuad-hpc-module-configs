@@ -31,10 +31,15 @@ def cli(verbose, environments, force_rebuild):
     cwd = os.getcwd()
 
     for tfile in files:
-        docs_prep(tfile, force_rebuild)
+        docs = docs_prep(tfile)
+
+        if not force_rebuild or remote_docs_exist(docs):
+            continue
+
+        make_man(docs)
+        update_env(docs)
         os.chdir(cwd)
 
-    os.chdir(cwd)
 
 def docs_prep(fname, force_rebuild):
 
@@ -43,11 +48,7 @@ def docs_prep(fname, force_rebuild):
     marked = '_docs/environment/{}_{}.md'.format(name, version)
     docs = DocPackage(name , version, marked, fname)
 
-    # if not force_rebuild or remote_docs_exist(docs):
-        # return
-
-    # make_man(docs)
-    update_env(docs)
+    return docs
 
 def make_man(docs):
 
