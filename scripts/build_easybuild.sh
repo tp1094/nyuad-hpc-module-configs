@@ -8,18 +8,18 @@ if [[ -z "${GITHUB_TOKEN}" ]] ; then
 fi
 
 # Build the documentation
-GITHUB_USERNAME=${TRAVIS_REPO_SLUG%/*}
+#GITHUB_USERNAME=${TRAVIS_REPO_SLUG%/*}
 
 cd /nyuad-conda-configs
 
 #At least we can test if this works
 mkdir -p _easybuild
-git add _easybuild
 
 git status
 
-git config --global user.email "nobody@nobody.org"
-git config --global user.name "Travis CI"
+git config  user.email "nobody@nobody.org"
+git config  user.name "Travis CI"
 
-git commit --all -m "Updated docs to commit ${TRAVIS_COMMIT}."
-git push -f -q "https://${GITHUB_TOKEN}@github.com/${GITHUB_REPO}.git" "$TRAVIS_BRANCH"
+git add _easybuild
+git commit  -m "Updated docs to commit ${TRAVIS_COMMIT}."
+git push -f -q "https://${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/${GITHUB_REPO}.git" "$TRAVIS_BRANCH"
