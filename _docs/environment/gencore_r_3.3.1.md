@@ -18,7 +18,7 @@ Functions that are needed by many other packages or which replace R functions.
 ### r
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** r
 
 #### Summary:
 

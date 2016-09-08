@@ -228,10 +228,10 @@ Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FA
 ### star
 **Version:** 2.5.2a
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+An RNA-seq read aligner.
 
 
 
