@@ -31,22 +31,23 @@ def cli(verbose, environments, force_rebuild):
     cwd = os.getcwd()
 
     for tfile in files:
-        docs_prep(tfile)
+        docs_prep(tfile, force_rebuild)
         os.chdir(cwd)
 
     os.chdir(cwd)
 
-def docs_prep(fname):
+def docs_prep(fname, force_rebuild):
 
     #This will change when conda env supports versions!!
     name, version = get_name(fname)
     marked = '_docs/environment/{}_{}.md'.format(name, version)
     docs = DocPackage(name , version, marked, fname)
 
-    if remote_docs_exist(docs):
+    if not force_rebuild or remote_docs_exist(docs):
         return
 
     make_man(docs)
+    update_env(docs)
 
 def make_man(docs):
 
@@ -91,8 +92,6 @@ def make_doc_package(docs):
     status_check_man(status)
 
     os.chdir(cwd)
-
-    update_env(docs)
 
 def update_env(docs):
 
