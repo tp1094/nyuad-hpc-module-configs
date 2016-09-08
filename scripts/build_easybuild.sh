@@ -20,6 +20,10 @@ git status
 git config  user.email "nobody@nobody.org"
 git config  user.name "Travis CI"
 
+ORIGIN="https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git"
+git rm origin
+git remote add origin "$ORIGIN"
+
 git add _easybuild
 git commit  -m "Updated docs to commit ${TRAVIS_COMMIT}."
-git push -f -q "https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git" "$TRAVIS_BRANCH"
+git push -f "$ORIGIN" "$TRAVIS_BRANCH"
