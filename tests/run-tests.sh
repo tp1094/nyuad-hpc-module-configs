@@ -30,6 +30,7 @@ then
     gencore_app build_eb --force_rebuild
     cd /nyuad-conda-configs
     scripts/build_easybuild.sh
+    scripts/build_docs.sh
 
     gencore_app upload_envs --force_rebuild
 else
