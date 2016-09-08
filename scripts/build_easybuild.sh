@@ -29,5 +29,6 @@ git remote add origin "$ORIGIN"
 git checkout "$TRAVIS_BRANCH"
 
 git add _easybuild
-git commit  -m "Updated docs to commit ${TRAVIS_COMMIT}."
+#If it doesn't exit as 0 there is nothing to commit
+git commit  -m "Updated docs to commit ${TRAVIS_COMMIT}." || exit 0
 git push -f "$ORIGIN" "$TRAVIS_BRANCH"

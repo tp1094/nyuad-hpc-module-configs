@@ -28,5 +28,6 @@ git remote add origin "$ORIGIN"
 git checkout "$TRAVIS_BRANCH"
 
 git add _docs
-git commit  -m "Updated docs to commit ${TRAVIS_COMMIT}."
+#IF it doesn't exit as 0 its because there is nothing to commit
+git commit  -m "Updated docs to commit ${TRAVIS_COMMIT}." || exit 0
 git push -f "$ORIGIN" "$TRAVIS_BRANCH"
