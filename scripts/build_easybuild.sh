@@ -26,7 +26,7 @@ ORIGIN="https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHU
 git remote rm origin
 git remote add origin "$ORIGIN"
 
-git chekout "$TRAVIS_BRANCH"
+git checkout "$TRAVIS_BRANCH"
 
 git add _easybuild
 git commit  -m "Updated docs to commit ${TRAVIS_COMMIT}."
