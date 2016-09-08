@@ -15,6 +15,8 @@ cd /nyuad-conda-configs
 #At least we can test if this works
 mkdir -p _docs
 
+echo "BUILDING DOCS"
+
 git status
 
 git config  user.email "nobody@nobody.org"
@@ -24,6 +26,6 @@ ORIGIN="https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHU
 git remote rm origin
 git remote add origin "$ORIGIN"
 
-git add _easybuild
+git add _docs
 git commit  -m "Updated docs to commit ${TRAVIS_COMMIT}."
 git push -f "$ORIGIN" "$TRAVIS_BRANCH"

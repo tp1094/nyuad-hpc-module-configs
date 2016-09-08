@@ -15,6 +15,8 @@ cd /nyuad-conda-configs
 #At least we can test if this works
 mkdir -p _easybuild
 
+echo "BUILDING EASYBUILD"
+
 git status
 
 git config  user.email "nobody@nobody.org"

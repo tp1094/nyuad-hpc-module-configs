@@ -28,6 +28,7 @@ then
     gencore_app build_man --force_rebuild
     cd /nyuad-conda-configs
     gencore_app build_eb --force_rebuild
+
     cd /nyuad-conda-configs
     scripts/build_easybuild.sh
     scripts/build_docs.sh
