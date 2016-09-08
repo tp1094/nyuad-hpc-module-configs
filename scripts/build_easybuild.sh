@@ -22,4 +22,4 @@ git config  user.name "Travis CI"
 
 git add _easybuild
 git commit  -m "Updated docs to commit ${TRAVIS_COMMIT}."
-git push -f -q "https://${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/${GITHUB_REPO}.git" "$TRAVIS_BRANCH"
+git push -f -q "https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git" "$TRAVIS_BRANCH"
