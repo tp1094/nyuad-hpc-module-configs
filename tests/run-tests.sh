@@ -9,7 +9,7 @@ conda install -y pip
 cd /nyuad-conda-configs
 
 cd scripts/gencore_app
-python setup.py build && python setup.py install
+python setup.py build && python setup.py install > /dev/null 2>&1
 
 cd /nyuad-conda-configs
 

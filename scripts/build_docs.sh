@@ -25,6 +25,7 @@ git config  user.name "Travis CI"
 ORIGIN="https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git"
 git remote rm origin
 git remote add origin "$ORIGIN"
+git chekout "$TRAVIS_BRANCH"
 
 git add _docs
 git commit  -m "Updated docs to commit ${TRAVIS_COMMIT}."
