@@ -1,7 +1,9 @@
 import click
+import os
+from jinja2 import Environment, FileSystemLoader
+
 from gencore_app.cli import global_test_options
 from gencore_app.utils.main import find_files, get_name, remote_env_exists
-from jinja2 import Environment, FileSystemLoader
 
 @click.command('build_eb', short_help='Build Easyblock Configs')
 @global_test_options
@@ -11,6 +13,9 @@ def cli(verbose, environments, force_rebuild):
     click.echo("Building Easyblock Configs")
 
     files = find_files(environments)
+
+    if not os.path.exists('_easybuild'):
+        os.makedirs('_easybuild')
 
     for tfile in files:
         if not remote_env_exists(tfile) or force_rebuild:
