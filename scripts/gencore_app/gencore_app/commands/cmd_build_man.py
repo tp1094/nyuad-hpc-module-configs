@@ -34,6 +34,8 @@ def cli(verbose, environments, force_rebuild):
         docs_prep(tfile)
         os.chdir(cwd)
 
+    os.chdir(cwd)
+
 def docs_prep(fname):
 
     #This will change when conda env supports versions!!

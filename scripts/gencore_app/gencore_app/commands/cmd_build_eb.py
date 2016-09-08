@@ -12,13 +12,17 @@ def cli(verbose, environments, force_rebuild):
 
     click.echo("Building Easyblock Configs")
 
+    cwd = os.getcwd()
+
+    click.echo("We are in dir {}".format(cwd))
+
     files = find_files(environments)
 
     if not os.path.exists('_easybuild'):
         os.makedirs('_easybuild')
 
     for tfile in files:
-        if not remote_env_exists(tfile) or force_rebuild:
+        if force_rebuild or not remote_env_exists(tfile):
             name, version = get_name(tfile)
             print_html_doc(name, version)
 
