@@ -16,6 +16,9 @@ ls -lah
 #At least we can test if this works
 mkdir -p _easybuild
 git add _easybuild
+
+git status
+
 git config user.name "Travis CI"
 git commit --all -m "Updated docs to commit ${TRAVIS_COMMIT}."
-git push -f -q "https://${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/nyuad-hpc-module-configs.git" master &> /dev/null
+git push -f -q "https://${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/nyuad-hpc-module-configs.git" "$TRAVIS_BRANCH" &> /dev/null
