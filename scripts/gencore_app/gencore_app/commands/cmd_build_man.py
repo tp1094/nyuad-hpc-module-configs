@@ -43,10 +43,10 @@ def docs_prep(fname, force_rebuild):
     marked = '_docs/environment/{}_{}.md'.format(name, version)
     docs = DocPackage(name , version, marked, fname)
 
-    if not force_rebuild or remote_docs_exist(docs):
-        return
+    # if not force_rebuild or remote_docs_exist(docs):
+        # return
 
-    make_man(docs)
+    # make_man(docs)
     update_env(docs)
 
 def make_man(docs):
