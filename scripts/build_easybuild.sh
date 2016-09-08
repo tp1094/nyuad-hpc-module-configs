@@ -21,7 +21,7 @@ git config  user.email "nobody@nobody.org"
 git config  user.name "Travis CI"
 
 ORIGIN="https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git"
-git rm origin
+git remote rm origin
 git remote add origin "$ORIGIN"
 
 git add _easybuild
