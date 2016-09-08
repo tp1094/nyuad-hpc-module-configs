@@ -11,7 +11,6 @@ fi
 GITHUB_USERNAME=${TRAVIS_REPO_SLUG%/*}
 
 cd /nyuad-conda-configs
-ls -lah
 
 #At least we can test if this works
 mkdir -p _easybuild
@@ -19,6 +18,8 @@ git add _easybuild
 
 git status
 
-git config user.name "Travis CI"
+git config --global user.email "nobody@nobody.org"
+git config --global user.name "Travis CI"
+
 git commit --all -m "Updated docs to commit ${TRAVIS_COMMIT}."
-git push -f -q "https://${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/nyuad-hpc-module-configs.git" "$TRAVIS_BRANCH" &> /dev/null
+git push -f -q "https://${GITHUB_TOKEN}@github.com/${GITHUB_REPO}.git" "$TRAVIS_BRANCH"
