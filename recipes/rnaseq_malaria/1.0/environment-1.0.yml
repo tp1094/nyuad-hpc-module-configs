@@ -1,6 +1,7 @@
 name: gencore_rnaseq_malaria_1.0
 channels:
 - bioconda
+- jerowe
 dependencies:
 - perl-hpc-runner-slurm=2.58
 - perl-biox-workflow=1.10
@@ -28,3 +29,4 @@ dependencies:
 - htseq=0.6.1.post1
 - prinseq=0.20.4
 - trimmomatic=0.35
+- gencore_rnaseq_malaria_docs=1.0

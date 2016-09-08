@@ -1,6 +1,7 @@
 name: gencore_annotation_1.0
 channels:
 - bioconda
+- jerowe
 dependencies:
 - perl-hpc-runner-slurm=2.58
 - perl-biox-workflow=1.10
@@ -31,3 +32,4 @@ dependencies:
 - bowtie2=2.2.8
 - tophat=2.1.0
 - circos=0.69.2
+- gencore_annotation_docs=1.0

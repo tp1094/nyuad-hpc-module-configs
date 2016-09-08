@@ -2,8 +2,10 @@ name: gencore_python_1.0
 channels:
 - bioconda
 - r
+- jerowe
 dependencies:
 - python
 - ipython
 - numpy
 - scipy
+- gencore_python_docs=1.0

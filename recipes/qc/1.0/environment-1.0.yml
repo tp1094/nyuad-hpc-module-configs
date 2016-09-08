@@ -1,6 +1,7 @@
 name: gencore_qc_1.0
 channels:
 - bioconda
+- jerowe
 dependencies:
 - perl-hpc-runner-slurm=2.58
 - perl-biox-workflow=1.10
@@ -13,3 +14,4 @@ dependencies:
 - pyfaidx=0.4.7.1
 - pyfastaq=3.11.0
 - python=3.5
+- gencore_qc_docs=1.0

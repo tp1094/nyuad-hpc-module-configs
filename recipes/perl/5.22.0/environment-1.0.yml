@@ -1,9 +1,10 @@
 name: gencore_perl_5.22.0
-
 channels:
-  - bioconda
-  - r
+- bioconda
+- r
+- jerowe
 dependencies:
-  - perl-app-cpanminus
-  - perl-termreadkey
-  - perl-dbi
+- perl-app-cpanminus
+- perl-termreadkey
+- perl-dbi
+- gencore_perl_docs=5.22.0

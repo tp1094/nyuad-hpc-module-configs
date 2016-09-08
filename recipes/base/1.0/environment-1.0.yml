@@ -1,15 +1,16 @@
 name: gencore_base_1.0
-
 channels:
-  - bioconda
-  - r
+- bioconda
+- r
+- jerowe
 dependencies:
-  - perl-app-cpanminus
-  - perl-hpc-runner-slurm=2.58
-  - perl-biox-workflow=1.10
-  - perl-biox-workflow-plugin-fileexists=0.13
-  - perl-biox-workflow-plugin-filedetails=0.11
-  - r-base
-  - r-essentials
-  - r-ggplot2
-  - bioconductor-biocgenerics
+- perl-app-cpanminus
+- perl-hpc-runner-slurm=2.58
+- perl-biox-workflow=1.10
+- perl-biox-workflow-plugin-fileexists=0.13
+- perl-biox-workflow-plugin-filedetails=0.11
+- r-base
+- r-essentials
+- r-ggplot2
+- bioconductor-biocgenerics
+- gencore_base_docs=1.0
