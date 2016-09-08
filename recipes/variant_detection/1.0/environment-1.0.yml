@@ -30,4 +30,3 @@ dependencies:
 - prinseq=0.20.4
 - snpeff=4.3
 - vcflib=1.0.0_rc1
-- gencore_variant_detection_docs=1.0

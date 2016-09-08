@@ -87,7 +87,7 @@ def make_doc_package(docs):
     logging.debug("We made the yaml files")
 
     cmd = "conda build ./"
-    status = run_command(cmd, True)
+    status = run_command(cmd)
     status_check_man(status)
 
     os.chdir(cwd)
