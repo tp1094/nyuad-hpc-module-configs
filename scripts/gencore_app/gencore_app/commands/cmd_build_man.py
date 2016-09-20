@@ -41,7 +41,7 @@ def cli(verbose, environments, force_rebuild):
         os.chdir(cwd)
 
 
-def docs_prep(fname, force_rebuild):
+def docs_prep(fname):
 
     #This will change when conda env supports versions!!
     name, version = get_name(fname)
@@ -99,6 +99,7 @@ def update_env(docs):
     env_data = env.from_file(docs.env_file)
 
     env_data.dependencies.add("{}_docs={}".format(docs.name, docs.version))
+    env_data.channels.append('jerowe')
 
     env_data.save()
 

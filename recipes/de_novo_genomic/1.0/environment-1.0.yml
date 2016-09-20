@@ -2,6 +2,7 @@ name: gencore_de_novo_genomic_1.0
 channels:
 - bioconda
 - r
+- jerowe
 dependencies:
 - perl-hpc-runner-slurm=2.58
 - perl-biox-workflow=1.10
@@ -40,3 +41,4 @@ dependencies:
 - bowtie2=2.2.8
 - circos=0.69.2
 - mira=4.0.2
+- gencore_de_novo_genomic_docs=1.0

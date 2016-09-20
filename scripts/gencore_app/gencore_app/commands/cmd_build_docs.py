@@ -27,7 +27,6 @@ def cli(verbose, environments, force_rebuild):
     click.echo("We are building the docs for GitHub Pages")
 
     docs = MeMyDocs()
-
     docs.write_docs(environments)
 
 class TrackSoftware():
