@@ -1,0 +1,15 @@
+name: gencore_build_1.0
+channels:
+- jerowe
+- conda-forge
+dependencies:
+- perl-app-cpanminus
+- perl-hpc-runner-slurm=2.58
+- perl-biox-workflow=1.10
+- perl-biox-workflow-plugin-fileexists=0.13
+- perl-biox-workflow-plugin-filedetails=0.11
+- cmake
+- autoconf
+- automake
+- m4
+
