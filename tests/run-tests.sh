@@ -31,7 +31,7 @@ then
     scripts/build_docs.sh
 
     echo "Uploading packages to anaconda!"
-    gencore_app upload_envs
+    gencore_app upload_envs --force_rebuild
 else
     #Just test packages
     #gencore_app build_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml
