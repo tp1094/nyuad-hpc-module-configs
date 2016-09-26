@@ -1,15 +1,33 @@
-#!/usr/bin/env python3
-
-# import subprocess as sp
-# import os
-# import sys
+import click
+from gencore_app.cli import global_test_options
 from conda_env import env
-import glob
-import argparse
 from binstar_client.utils import get_server_api
+from gencore_app.utils.main import find_files
+import logging
 
-# import logging
-# logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
+
+@click.command('build_docs', short_help='Build docs')
+@global_test_options
+def cli(verbose, environments, force_rebuild):
+    """ Build markdown docs for GitBooks
+        1. Check if remote env exists or force_rebuild enabled
+            a. If env exists skip building docs for this packge
+            b. If env exists, but force_rebuild enabled, rebuild the docs anyways
+        2. Build the software docs
+            a. Parse the conda configuration file, getting each dependency
+            b. For each dependency search some information from conda: namely version and summary
+            c. Add these to the markdown doc
+        3. Build the summary doc
+            a. The summary doc is a 'Table of Contents' for the GitBooks site
+        4. Write the table doc
+            a. This is a big matrix, which will probably be split into many matrices, describing which software is in which module
+    """
+
+    click.echo("We are building the docs for GitHub Pages")
+
+    docs = MeMyDocs()
+    docs.write_docs(environments)
 
 class TrackSoftware():
 
@@ -33,7 +51,6 @@ class MeMyDocs():
 
     def __init__(self):
         self.track_software = TrackSoftware()
-        self.files = []
         self.enviroment = None
         self.all_envs = []
 
@@ -62,11 +79,18 @@ class MeMyDocs():
 
         if  key not in self.track_software.deps.keys():
             aserver_api = get_server_api()
-            packages = aserver_api.search(dep)
 
-            for package in packages:
-                if package['owner'] in channels and package['name'] == dep:
-                    dep_obj = DepPackage(dep, version, package['summary'], package['owner'] )
+            package = None
+
+            for channel in channels:
+                try:
+                    package = aserver_api.package(channel, dep)
+                    logging.debug("Package {} exists in channel {}.".format(dep, channel))
+                except:
+                    logging.debug("Package {} does not exist in channel {}.".format(dep, channel))
+
+                if package:
+                    dep_obj = DepPackage(dep, version, package['summary'], channel )
                     self.track_software.deps[key] = dep_obj
                     dep_obj.add_envs(self.environment)
                     return dep_obj
@@ -154,12 +178,12 @@ class MeMyDocs():
         for dep_name in dep_keys:
             dep_obj = self.track_software.deps[dep_name]
 
-            f.write("### {}\n\n".format(dep_obj.name.capitalize()))
-            f.write("#### Summary\n\n")
+            f.write("## {}\n\n".format(dep_obj.name.capitalize()))
+            f.write("### Summary\n\n")
             f.write("{}\n\n".format(dep_obj.summary))
             f.write("**Version:** {}\n\n".format(dep_obj.version))
             f.write("**Conda Channel:** {}\n\n".format(dep_obj.channel))
-            f.write("#### HPC Modules\n\n")
+            f.write("### HPC Modules\n\n")
 
             #TODO Format these as urls
             for tenv in dep_obj.envs:
@@ -188,6 +212,8 @@ class MeMyDocs():
         f.write("# Software\n\n")
 
         packages = self.track_software.deps.keys()
+        t = list(packages)
+        packages = t
         packages.sort()
 
         f.write("| | ")
@@ -210,41 +236,14 @@ class MeMyDocs():
             f.write("|\n")
         f.write("\n")
 
-    def find_files(self):
+    def write_docs(self, environments):
 
-        if args.environments:
-            # return  args.environments
-            self.files = args.environments
-        else:
-            # return  glob.glob("**/environment*.yml", recursive=True)
-            self.files = glob.glob("**/environment*.yml", recursive=True)
+        files = find_files(environments)
 
-        for fname in self.files:
+        for fname in files:
             print("Processing {}\n".format(fname))
             self.write_env_markdown(fname)
 
         self.write_software_markdown()
         self.write_summary_markdown()
         self.write_table_markdown()
-
-if __name__ == "__main__":
-
-    p = argparse.ArgumentParser(description="Build docs")
-    p.add_argument("--environments",
-                   nargs="+",
-                   help="List of environmental files to build")
-    p.add_argument("--master",
-                   help="Build master branch",
-                   default=False,
-                   action="store_true")
-    p.add_argument("--verbose",
-                   help="print stdout of commands",
-                   default=False,
-                   action="store_true")
-
-    global args
-    args = p.parse_args()
-
-    docs = MeMyDocs()
-
-    docs.find_files()

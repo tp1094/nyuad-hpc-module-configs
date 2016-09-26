@@ -1,6 +1,6 @@
 name: gencore_rnaseq_1.0
 channels:
-  - bioconda
+- bioconda
 dependencies:
   - perl-hpc-runner-slurm=2.58
   - perl-biox-workflow=1.10

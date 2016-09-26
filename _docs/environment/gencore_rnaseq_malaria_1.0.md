@@ -135,6 +135,46 @@ Quantifying abundances of transcripts from RNA-Seq data, or more generally of ta
 
 
 
+### perl-biox-workflow-plugin-filedetails
+**Version:** 0.11
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Get metadata for files in directories processed by BioX::Workflow
+
+
+
+### perl-biox-workflow-plugin-fileexists
+**Version:** 0.13
+
+**Conda Channel:** bioconda
+
+#### Summary:
+a plugin to BioX::Workflow
+
+
+
+### perl-biox-workflow
+**Version:** 1.10
+
+**Conda Channel:** bioconda
+
+#### Summary:
+A very opinionated template based workflow writer.
+
+
+
+### perl-hpc-runner-slurm
+**Version:** 2.58
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Job Submission to Slurm
+
+
+
 ### picard
 **Version:** 2.0.1
 
@@ -178,10 +218,10 @@ Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FA
 ### star
 **Version:** 2.5.2a
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+An RNA-seq read aligner.
 
 
 

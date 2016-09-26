@@ -8,9 +8,26 @@ if [[ -z "${GITHUB_TOKEN}" ]] ; then
 fi
 
 # Build the documentation
-GITHUB_USERNAME=${TRAVIS_REPO_SLUG%/*}
+#GITHUB_USERNAME=${TRAVIS_REPO_SLUG%/*}
+
+cd /nyuad-conda-configs
+
+#At least we can test if this works
+mkdir -p _docs
+
+echo "BUILDING DOCS"
+
+git status
+
+git config  user.email "nobody@nobody.org"
+git config  user.name "Travis CI"
+
+ORIGIN="https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git"
+git remote rm origin
+git remote add origin "$ORIGIN"
+git checkout "$TRAVIS_BRANCH"
 
 git add _docs
-git config user.name "Travis CI"
-git commit --all -m "Updated docs to commit ${TRAVIS_COMMIT}."
-git push -f -q "https://${GITHUB_TOKEN}@github.com/${GITHUB_USERNAME}/nyuad-hpc-module-configs.git" master &> /dev/null
+#IF it doesn't exit as 0 its because there is nothing to commit
+git commit  -m "Updated docs to commit ${TRAVIS_COMMIT}." || exit 0
+git push -f "$ORIGIN" "$TRAVIS_BRANCH"
