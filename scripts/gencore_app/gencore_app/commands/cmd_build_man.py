@@ -2,12 +2,12 @@ import click
 from gencore_app.cli import global_test_options
 from conda_env import env
 from gencore_app.utils.main import find_files, run_command, get_name
-import logging
 import os
 import sys
 import yaml
 import shutil
 from binstar_client.utils import get_server_api
+import logging
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -26,6 +26,7 @@ def cli(verbose, environments, force_rebuild):
     """
 
     click.echo("Building man pages")
+    logging.debug("DEBUG")
 
     files = find_files(environments)
     cwd = os.getcwd()
@@ -33,8 +34,14 @@ def cli(verbose, environments, force_rebuild):
     for tfile in files:
         docs = docs_prep(tfile)
 
-        if not force_rebuild or remote_docs_exist(docs):
+        if remote_docs_exist(docs) and not force_rebuild:
             continue
+
+        # if not force_rebuild or remote_docs_exist(docs):
+            # continue
+
+        logging.debug("Debug we are building the docs")
+        click.echo("echo we are building the man pages")
 
         make_man(docs)
         update_env(docs)
@@ -52,6 +59,7 @@ def docs_prep(fname):
 
 def make_man(docs):
 
+    click.echo("We are making the man page")
     man_dir = "build/{}/share/man/man1".format(docs.name)
 
     if not os.path.exists(man_dir):
@@ -59,13 +67,15 @@ def make_man(docs):
 
     cmd = "marked-man {} > {}/{}.1".format(docs.marked, man_dir, docs.name)
 
-    man_passes = run_command(cmd)
+    man_passes = run_command(cmd, True)
 
     status_check_man(man_passes)
 
     make_doc_package(docs)
 
 def make_doc_package(docs):
+
+    click.echo("In make doc packages")
 
     cwd = os.getcwd()
     recipe_dir = "build/" + docs.name + "/conda.recipe"
@@ -89,22 +99,25 @@ def make_doc_package(docs):
     logging.debug("We made the yaml files")
 
     cmd = "conda build ./"
-    status = run_command(cmd)
+    status = run_command(cmd, True)
     status_check_man(status)
 
     os.chdir(cwd)
 
 def update_env(docs):
 
+    click.echo("Updating env")
     env_data = env.from_file(docs.env_file)
 
     env_data.dependencies.add("{}_docs={}".format(docs.name, docs.version))
-    env_data.channels.append('jerowe')
+    env_data.channels.append('nyuad-cgsb')
+    click.echo("Should have updated channels")
 
     env_data.save()
 
 def remote_docs_exist(docs):
 
+    click.echo("Testing to see if remote env exists")
     t = docs.name
     name = t + "_docs"
     version = docs.version
@@ -112,9 +125,9 @@ def remote_docs_exist(docs):
 
     try:
         aserver_api.release(os.environ.get("ANACONDA_USER"), name, version)
-        logging.debug("Remote doc package exists. Next!")
+        click.echo("Remote doc package exists. Next!")
     except:
-        logging.debug("Remote doc package does not exist. Build")
+        click.echo("Remote doc package does not exist. Build")
         return False
 
     return True
@@ -123,6 +136,7 @@ def status_check_man(man_passes):
 
     if not man_passes:
         logging.warn("One or more man pages did not pass!")
+        click.echo("One more man pages did not pass!")
         sys.exit(1)
 
 class DocPackage(object):

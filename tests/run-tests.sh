@@ -23,17 +23,17 @@ then
 
     cd /nyuad-conda-configs
 
-    gencore_app build_man --environments recipes/annotation/1.0/environment-1.0.yml
+    gencore_app build_man --verbose --environments recipes/annotation/1.0/environment-1.0.yml
 
     cd /nyuad-conda-configs
-    gencore_app build_eb --environments recipes/annotation/1.0/environment-1.0.yml
+    gencore_app build_eb --verbose --environments recipes/annotation/1.0/environment-1.0.yml
 
     cd /nyuad-conda-configs
     scripts/build_easybuild.sh
     scripts/build_docs.sh
 
     echo "Uploading packages to anaconda!"
-    gencore_app upload_envs --environments recipes/annotation/1.0/environment-1.0.yml
+    gencore_app upload_envs --verbose --environments recipes/annotation/1.0/environment-1.0.yml
 else
     #Just test packages
     #gencore_app build_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml
