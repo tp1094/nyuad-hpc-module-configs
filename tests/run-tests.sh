@@ -36,7 +36,7 @@ then
     gencore_app upload_envs --verbose --environments recipes/annotation/1.0/environment-1.0.yml
 else
     #Just test packages
-    #gencore_app build_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml
+    gencore_app build_envs --force_rebuild --environments recipes/de_novo_metagenomic/1.0/environment-1.0.yml
     #gencore_app build_envs
     echo "not building envs right now..."
 fi
