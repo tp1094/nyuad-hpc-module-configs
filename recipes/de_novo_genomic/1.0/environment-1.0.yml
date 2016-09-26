@@ -40,4 +40,3 @@ dependencies:
 - bowtie2=2.2.8
 - circos=0.69.2
 - mira=4.0.2
-- gencore_de_novo_genomic_docs=1.0
