@@ -23,20 +23,19 @@ then
 
     cd /nyuad-conda-configs
 
-    gencore_app build_man --verbose --environments recipes/annotation/1.0/environment-1.0.yml
+    gencore_app build_man --verbose --environments recipes/de_novo_metagenomic/1.0/environment-1.0.yml
 
     cd /nyuad-conda-configs
-    gencore_app build_eb --verbose --environments recipes/annotation/1.0/environment-1.0.yml
+    gencore_app build_eb --verbose --environments recipes/de_novo_metagenomic/1.0/environment-1.0.yml
 
     cd /nyuad-conda-configs
     scripts/build_easybuild.sh
     scripts/build_docs.sh
 
     echo "Uploading packages to anaconda!"
-    gencore_app upload_envs --verbose --environments recipes/annotation/1.0/environment-1.0.yml
+    gencore_app upload_envs --verbose --environments recipes/de_novo_metagenomic/1.0/environment-1.0.yml
 else
     #Just test packages
     gencore_app build_envs --force_rebuild --environments recipes/de_novo_metagenomic/1.0/environment-1.0.yml
     #gencore_app build_envs
-    echo "not building envs right now..."
 fi
