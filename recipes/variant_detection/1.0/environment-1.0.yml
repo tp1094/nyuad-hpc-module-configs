@@ -34,4 +34,3 @@ dependencies:
 - r-base
 - r-essentials
 - bioconductor-biobase
-- gencore_variant_detection_docs=1.0

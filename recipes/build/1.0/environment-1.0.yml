@@ -1,6 +1,6 @@
 name: gencore_build_1.0
 channels:
-- jerowe
+- bioconda
 - conda-forge
 dependencies:
 - perl-app-cpanminus
@@ -12,4 +12,3 @@ dependencies:
 - autoconf
 - automake
 - m4
-
