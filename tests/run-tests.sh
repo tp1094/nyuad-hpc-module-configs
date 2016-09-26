@@ -13,6 +13,8 @@ python setup.py build && python setup.py install > /dev/null 2>&1
 
 cd /nyuad-conda-configs
 
+#gencore_app upload_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml
+
 if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
 then
     #Upload packages
@@ -20,11 +22,11 @@ then
     conda config --set anaconda_upload yes
 
     cd /nyuad-conda-configs
-    #gencore_app upload_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml
 
-    gencore_app build_man
+    gencore_app build_man --environments recipes/annotation/1.0/environment-1.0.yml
+
     cd /nyuad-conda-configs
-    gencore_app build_eb
+    gencore_app build_eb --environments recipes/annotation/1.0/environment-1.0.yml
 
     cd /nyuad-conda-configs
     scripts/build_easybuild.sh
