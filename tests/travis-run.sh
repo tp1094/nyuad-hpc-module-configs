@@ -2,8 +2,6 @@
 
 set -euo pipefail
 
-env |grep TRAVIS
-
 if [[ $TRAVIS_OS_NAME = "linux" ]]
 then
     #Use docker container to run tests

@@ -59,5 +59,4 @@ source activate gencore_variant_detection_1.0
 #Try it out!
 which perl
 which R
-which trimmomatic
 which picard

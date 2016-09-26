@@ -2,7 +2,6 @@ name: gencore_variant_detection_1.0
 channels:
 - bioconda
 - r
-- jerowe
 dependencies:
 - perl-hpc-runner-slurm=2.58
 - perl-biox-workflow=1.10
@@ -31,4 +30,8 @@ dependencies:
 - prinseq=0.20.4
 - snpeff=4.3
 - vcflib=1.0.0_rc1
+- r
+- r-base
+- r-essentials
+- bioconductor-biobase
 - gencore_variant_detection_docs=1.0
