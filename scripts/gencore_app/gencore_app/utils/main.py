@@ -8,11 +8,11 @@ import os
 aserver_api = get_server_api()
 
 logger = logging.getLogger(__name__)
-
+logger.setLevel(logging.INFO)
 
 def run_command(cmd, verbose=True):
 
-    logger.debug("Running cmd {}".format(cmd))
+    logger.info("Running cmd {}".format(cmd))
     readSize = 1024 * 8
 
     try:
@@ -31,7 +31,7 @@ def run_command(cmd, verbose=True):
         output = p.stdout.read(readSize).decode("utf-8")
 
         if output and verbose:
-            logger.debug(output)
+            logger.info(output)
 
         ec = p.poll()
 
@@ -39,9 +39,9 @@ def run_command(cmd, verbose=True):
     output = p.stdout.read(readSize).decode("utf-8")
 
     if output and verbose:
-        logger.debug(output)
+        logger.info(output)
 
-    logger.debug("Exit Code {}".format(ec))
+    logger.info("Exit Code {}".format(ec))
 
     if ec == 0:
         return True
@@ -70,13 +70,13 @@ def remote_env_exists(tfile):
 
     #TODO Update this to use binstar utils
     env_config = env.from_file(tfile)
-    logger.debug("Testing for package name {}".format(env_config.name))
+    logger.info("Testing for package name {}".format(env_config.name))
 
     try:
         aserver_api.package(os.environ.get("ANACONDA_USER"), env_config.name)
-        logger.debug("Remote env exists. Next!")
+        logger.info("Remote env exists. Next!")
     except:
-        logger.debug("Remote env does not exist! Don't skip!")
+        logger.info("Remote env does not exist! Don't skip!")
         return False
 
     return True
