@@ -4,15 +4,15 @@ import glob
 from conda_env import env
 from binstar_client.utils import get_server_api
 import os
-import click
 
 aserver_api = get_server_api()
 
-logging.basicConfig(level=click.echo)
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
 def run_command(cmd, verbose=True):
 
-    click.echo("Running cmd {}".format(cmd))
+    logger.info("Running cmd {}".format(cmd))
     readSize = 1024 * 8
 
     try:
@@ -31,7 +31,7 @@ def run_command(cmd, verbose=True):
         output = p.stdout.read(readSize).decode("utf-8")
 
         if output and verbose:
-            click.echo(output)
+            logger.info(output)
 
         ec = p.poll()
 
@@ -39,9 +39,9 @@ def run_command(cmd, verbose=True):
     output = p.stdout.read(readSize).decode("utf-8")
 
     if output and verbose:
-        click.echo(output)
+        logger.info(output)
 
-    click.echo("Exit Code {}".format(ec))
+    logger.info("Exit Code {}".format(ec))
 
     if ec == 0:
         return True
@@ -70,13 +70,13 @@ def remote_env_exists(tfile):
 
     #TODO Update this to use binstar utils
     env_config = env.from_file(tfile)
-    click.echo("Testing for package name {}".format(env_config.name))
+    logger.info("Testing for package name {}".format(env_config.name))
 
     try:
         aserver_api.package(os.environ.get("ANACONDA_USER"), env_config.name)
-        click.echo("Remote env exists. Next!")
+        logger.info("Remote env exists. Next!")
     except:
-        click.echo("Remote env does not exist! Don't skip!")
+        logger.info("Remote env does not exist! Don't skip!")
         return False
 
     return True

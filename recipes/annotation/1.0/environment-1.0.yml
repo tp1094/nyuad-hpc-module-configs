@@ -1,6 +1,7 @@
 name: gencore_annotation_1.0
 channels:
 - bioconda
+- nyuad-cgsb
 dependencies:
 - perl-hpc-runner-slurm=2.58
 - perl-biox-workflow=1.10

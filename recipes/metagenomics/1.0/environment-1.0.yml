@@ -22,4 +22,3 @@ dependencies:
 - seqtk=1.2
 - pear=0.9.6
 - bowtie2=2.2.8
-- gencore_metagenomics_docs=1.0
