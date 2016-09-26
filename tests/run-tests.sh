@@ -19,9 +19,9 @@ then
     anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
     conda config --set anaconda_upload yes
 
+    cd /nyuad-conda-configs
     #gencore_app upload_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml
 
-    cd /nyuad-conda-configs
     gencore_app build_man
     cd /nyuad-conda-configs
     gencore_app build_eb
@@ -31,7 +31,7 @@ then
     scripts/build_docs.sh
 
     echo "Uploading packages to anaconda!"
-    gencore_app upload_envs
+    gencore_app upload_envs --environments recipes/annotation/1.0/environment-1.0.yml
 else
     #Just test packages
     #gencore_app build_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml
