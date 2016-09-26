@@ -4,6 +4,10 @@ import click
 from gencore_app.cli import global_test_options
 from gencore_app.utils.main import find_files, remote_env_exists
 from gencore_app.utils.main_build_env import status_check_build, try_conda_env_create
+import logging
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
 @click.command('build_envs', short_help='Build environments')
 @global_test_options

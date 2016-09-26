@@ -4,7 +4,8 @@ import logging
 import sys
 from gencore_app.utils.main import run_command
 
-logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
 def try_conda_env_create(fname):
 
@@ -26,7 +27,7 @@ def try_conda_env_create(fname):
 
 def run_conda_env_create(fname):
 
-    logging.debug("Testing environment build file {}".format(fname))
+    logger.info("Testing environment build file {}".format(fname))
     cmd = "conda env create --force --file {}".format(fname)
     return run_command(cmd)
 
