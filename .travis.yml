@@ -1,11 +1,10 @@
 os:
 - linux
-- osx
 language: c
 sudo: required
 services:
 - docker
-before_install: 
+before_install:
 script: bash tests/travis-setup.sh; bash tests/travis-run.sh
 env:
   global:
