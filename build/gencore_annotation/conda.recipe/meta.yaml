@@ -1,5 +1,0 @@
-package:
-  name: gencore_annotation_docs
-  version: '1.0'
-source:
-  path: /home/jillian/Dropbox/projects/infrastructure/nyuad-hpc-module-configs/build/gencore_annotation
