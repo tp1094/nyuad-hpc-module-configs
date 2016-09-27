@@ -39,5 +39,5 @@ then
 else
     #Just test packages
     #This is what it should be!
-    gencore_app build_envs --environments test/environment-test.yml
+    gencore_app build_envs
 fi
