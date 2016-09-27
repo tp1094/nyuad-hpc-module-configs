@@ -43,13 +43,14 @@ else
     anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
     conda config --set anaconda_upload yes
 
-    cd /nyuad-conda-configs
-    gencore_app build_envs  --environments test/environment-test.yml
-
     gencore_app build_man  --environments test/environment-test.yml
 
     cd /nyuad-conda-configs
     gencore_app build_eb  --environments test/environment-test.yml
+
+    #This bothers me - we shouldn't be doing any of this unless the env builds!
+    cd /nyuad-conda-configs
+    gencore_app build_envs  --environments test/environment-test.yml
 
     cd /nyuad-conda-configs
     scripts/build_easybuild.sh

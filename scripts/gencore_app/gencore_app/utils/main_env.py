@@ -21,22 +21,28 @@ class Environment(Environment):
         self.channels = channels
         self.extra_args = kwargs
 
-#Do we need this?
-#All extra tags go away on save...
-    def clean_rebuild_tag(self, stream=None):
-        d = self.to_dict()
+    def to_dict_extra_args(self):
+        d = yaml.dict([('name', self.name)])
+        if self.channels:
+            d['channels'] = self.channels
+        if self.dependencies:
+            d['dependencies'] = self.dependencies.raw
+        if self.prefix:
+            d['prefix'] = self.prefix
+        if self.extra_args:
+            d['extra_args'] = self.extra_args
+        return d
 
-        if 'rebuild' in d:
-            del d['rebuild']
-
+    def to_yaml_extra_args(self, stream=None):
+        d = self.to_dict_extra_args()
         out = compat.u(yaml.dump(d, default_flow_style=False))
         if stream is None:
             return out
         stream.write(compat.b(out, encoding="utf-8"))
 
-    def save_clean_env(self):
+    def save_extra_args(self):
         with open(self.filename, "wb") as fp:
-            self.to_yaml(stream=fp)
+            self.to_yaml_extra_args(stream=fp)
 
 def from_yaml(yamlstr, **kwargs):
     """Load and return a ``Environment`` from a given ``yaml string``"""

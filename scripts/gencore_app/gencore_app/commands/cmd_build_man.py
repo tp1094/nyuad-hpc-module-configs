@@ -1,7 +1,8 @@
+#gencore_app.commands.cmd_build_man
+
 import click
 from gencore_app.cli import global_test_options
-# from conda_env import env
-from gencore_app.utils.main import find_files, run_command, get_name, from_file
+from gencore_app.utils.main import rebuild
 import os
 import sys
 import yaml
@@ -26,26 +27,20 @@ def cli(verbose, environments):
         6. Update the original env to include the new docs package
     """
 
-    logger.info("Building man pages")
+	logger.info("Building man pages")
 
-    files = find_files(environments)
-    cwd = os.getcwd()
+	files = find_files(environments)
+	cwd = os.getcwd()
 
-    for tfile in files:
-        docs = docs_prep(tfile)
+	for filename in files:
+		docs = docs_prep(filename)
 
-        if remote_docs_exist(docs) and not force_rebuild:
-            continue
+		if rebuild(filename):
+			logger.info("echo we are building the man pages")
 
-        # if not force_rebuild or remote_docs_exist(docs):
-            # continue
-
-        logger.info("echo we are building the man pages")
-
-        make_man(docs)
-        update_env(docs)
-        os.chdir(cwd)
-
+			make_man(docs)
+			update_env(docs)
+			os.chdir(cwd)
 
 def docs_prep(fname):
 
