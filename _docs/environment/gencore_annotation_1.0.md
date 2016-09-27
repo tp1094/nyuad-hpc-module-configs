@@ -48,50 +48,50 @@ A powerful toolset for genome arithmetic
 ### blast
 **Version:** 2.2.31
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-BLAST+ is a new suite of BLAST tools that utilizes the NCBI C++ Toolkit.
+
 
 
 
 ### blat
 **Version:** 35
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-BLAT is a bioinformatics software tool which performs rapid mRNA/DNA and cross-species protein alignments.
+
 
 
 
 ### bowtie2
 **Version:** 2.2.8
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Fast and sensitive read alignment
+
 
 
 
 ### bwa
 **Version:** 0.7.15
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-The BWA read mapper.
+
 
 
 
 ### circos
 **Version:** 0.69.2
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Circos is a software package for visualizing data and information. It visualizes data in a circular layout
+
 
 
 
@@ -117,6 +117,16 @@ Circos is a software package for visualizing data and information. It visualizes
 
 ### genblastg
 **Version:** 1.38
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### gencore_annotation_docs
+**Version:** 1.0
 
 **Conda Channel:** default
 

@@ -1,0 +1,5 @@
+package:
+  name: env_docs
+  version: '1'
+source:
+  path: /home/jillian/Dropbox/projects/infrastructure/nyuad-hpc-module-configs/scripts/gencore_app/tests/build/env
