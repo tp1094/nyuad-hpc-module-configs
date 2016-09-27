@@ -49,27 +49,27 @@ class IntegrationTest(unittest.TestCase):
 
     def test_rebuild(self):
         create_env(environment_2)
-        o, e, s = run('gencore_app build_envs --environments environment.yml')
+        o, e, s = run('gencore_app build_envs')
         self.assertStatusOk(s)
-        o, e, s = run('gencore_app build_docs --environments environment.yml')
+        o, e, s = run('gencore_app build_docs')
         self.assertStatusOk(s)
-        o, e, s = run('gencore_app build_man --environments environment.yml')
+        o, e, s = run('gencore_app build_man')
         self.assertStatusOk(s)
-        o, e, s = run('gencore_app upload_envs --environments environment.yml')
+        o, e, s = run('gencore_app upload_envs')
 
-    def test_no_rebuild(self):
-        create_env(environment_1)
-        o, e, s = run('gencore_app build_envs --environments environment.yml')
-        self.assertStatusOk(s)
-        o, e, s = run('gencore_app build_docs --environments environment.yml')
-        self.assertStatusOk(s)
-        o, e, s = run('gencore_app build_man --environments environment.yml')
-        self.assertStatusOk(s)
-        o, e, s = run('gencore_app upload_envs --environments environment.yml')
+    # def test_no_rebuild(self):
+        # create_env(environment_1)
+        # o, e, s = run('gencore_app build_envs')
+        # self.assertStatusOk(s)
+        # o, e, s = run('gencore_app build_docs')
+        # self.assertStatusOk(s)
+        # o, e, s = run('gencore_app build_man')
+        # self.assertStatusOk(s)
+        # o, e, s = run('gencore_app upload_envs')
 
 
-    def tearDown(self):
-        run('rm -f environment.yml')
+    # def tearDown(self):
+        # run('rm -f environment.yml')
 
 if __name__ == '__main__':
     unittest.main()

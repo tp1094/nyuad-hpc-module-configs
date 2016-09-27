@@ -36,7 +36,7 @@ def try_conda_env_create(fname):
 def run_conda_env_create(fname):
 
     logger.info("Testing environment build file {}".format(fname))
-    cmd = "conda env create --force --file {}".format(fname)
+    cmd = "conda env create --quiet --force --file {}".format(fname)
     return run_command(cmd)
 
 def status_check_build(build_passes):

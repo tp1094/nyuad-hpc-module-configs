@@ -101,21 +101,22 @@ def make_doc_package(docs):
 
 def update_env(docs):
 
-	env_data = from_file(docs.env_file)
+	env = from_file(docs.env_file)
 
 	docs_package = "{}_docs={}".format(docs.name, docs.version)
 	docs_dependencies = "{}_docs {}*".format(docs.name, docs.version)
 
-	deps = env_data.dependencies
+	deps = env.dependencies
 	conda_deps = deps.get('conda')
 
 	if docs_dependencies not in conda_deps:
-		env_data.dependencies.add(docs_package)
+		env.dependencies.add(docs_package)
 
-	if 'nyuad-cgsb' not in env_data.channels:
-		env_data.channels.append('nyuad-cgsb')
+	if 'nyuad-cgsb' not in env.channels:
+		env.channels.append('nyuad-cgsb')
 
-	env_data.save()
+	env.save()
+	env.save_extra_args()
 
 	logger.info('Successfully saved env')
 

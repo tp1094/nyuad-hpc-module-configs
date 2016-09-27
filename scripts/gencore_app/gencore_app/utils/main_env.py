@@ -1,8 +1,8 @@
 from conda_env.env import Environment
 from conda_env.env import Dependencies
 from conda_env import exceptions, compat
+from conda_env import yaml
 import logging
-import yaml
 import os
 
 logger = logging.getLogger(__name__)
@@ -49,7 +49,8 @@ def from_yaml(yamlstr, **kwargs):
     data = yaml.load(yamlstr)
     if kwargs is not None:
         for key, value in kwargs.items():
-            data[key] = value
+            if key and value:
+                data[key] = value
     return Environment(**data)
 
 def from_file(filename):

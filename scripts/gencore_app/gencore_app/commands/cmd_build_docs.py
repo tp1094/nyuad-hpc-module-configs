@@ -1,7 +1,7 @@
 import click
 from gencore_app.cli import global_test_options
 from binstar_client.utils import get_server_api
-from gencore_app.utils.main import find_files, remote_env_exists, from_file
+from gencore_app.utils.main import rebuild, find_files, from_file
 import logging
 
 # logging.basicConfig(level=logger.info)
@@ -126,15 +126,10 @@ class MeMyDocs():
 
     def write_env_markdown(self, fname):
 
-        #We don't have to do this one unless it is the first time building we are rebuilding
-        package = from_file(fname)
+        if not rebuild(fname):
+            return
 
-        if 'rebuild' not in package.extra_args:
-            return
-        elif 'rebuild' in package.extra_args and package.extra_args['rebuild'] is not True:
-            return
-        elif not remote_env_exists(fname):
-            return
+        package = from_file(fname)
 
         name  = package.name
         self.environment = name
