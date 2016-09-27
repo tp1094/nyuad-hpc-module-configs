@@ -36,8 +36,13 @@ def try_conda_env_create(fname):
 def run_conda_env_create(fname):
 
     logger.info("Testing environment build file {}".format(fname))
-    cmd = "conda env create --quiet --force --file {}".format(fname)
-    return run_command(cmd)
+
+    remove_envs = "rm -rf /anaconda/envs/*"
+    if run_command(remove_envs):
+        cmd = "conda env create --quiet --force --file {}".format(fname)
+        return run_command(cmd)
+    else:
+        return False
 
 def status_check_build(build_passes):
 
