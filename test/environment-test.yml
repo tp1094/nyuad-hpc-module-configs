@@ -1,0 +1,5 @@
+name: env_test_1.0
+channels:
+- bioconda
+dependencies:
+- perl-threaded
