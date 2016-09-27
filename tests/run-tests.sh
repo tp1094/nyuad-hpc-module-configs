@@ -36,6 +36,25 @@ then
     gencore_app upload_envs --verbose --environments recipes/de_novo_metagenomic/1.0/environment-1.0.yml
 else
     #Just test packages
-    gencore_app build_envs --force_rebuild --environments recipes/de_novo_metagenomic/1.0/environment-1.0.yml
+    #This is what it should be!
     #gencore_app build_envs
+
+    #RUNNING TESTS
+    anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
+    conda config --set anaconda_upload yes
+
+    cd /nyuad-conda-configs
+    gencore_app build_envs  --environments test/environment-test.yml
+
+    gencore_app build_man  --environments test/environment-test.yml
+
+    cd /nyuad-conda-configs
+    gencore_app build_eb  --environments test/environment-test.yml
+
+    cd /nyuad-conda-configs
+    scripts/build_easybuild.sh
+    scripts/build_docs.sh
+
+    echo "Uploading packages to anaconda!"
+    gencore_app upload_envs  --environments test/environment-test.yml
 fi

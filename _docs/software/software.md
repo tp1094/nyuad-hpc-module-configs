@@ -64,11 +64,11 @@ A powerful toolset for genome arithmetic
 
 ### Summary
 
-BLAST+ is a new suite of BLAST tools that utilizes the NCBI C++ Toolkit.
+
 
 **Version:** 2.2.31
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 ### HPC Modules
 
@@ -79,11 +79,11 @@ BLAST+ is a new suite of BLAST tools that utilizes the NCBI C++ Toolkit.
 
 ### Summary
 
-BLAT is a bioinformatics software tool which performs rapid mRNA/DNA and cross-species protein alignments.
+
 
 **Version:** 35
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 ### HPC Modules
 
@@ -94,11 +94,11 @@ BLAT is a bioinformatics software tool which performs rapid mRNA/DNA and cross-s
 
 ### Summary
 
-Fast and sensitive read alignment
+
 
 **Version:** 2.2.8
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 ### HPC Modules
 
@@ -109,11 +109,11 @@ Fast and sensitive read alignment
 
 ### Summary
 
-The BWA read mapper.
+
 
 **Version:** 0.7.15
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 ### HPC Modules
 
@@ -124,11 +124,11 @@ The BWA read mapper.
 
 ### Summary
 
-Circos is a software package for visualizing data and information. It visualizes data in a circular layout
+
 
 **Version:** 0.69.2
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 ### HPC Modules
 

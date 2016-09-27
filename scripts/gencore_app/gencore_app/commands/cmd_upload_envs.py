@@ -1,28 +1,32 @@
 import click
+import logging
+
 from gencore_app.cli import global_test_options
-from gencore_app.utils.main import find_files, remote_env_exists
+from gencore_app.utils.main import find_files, rebuild
 from gencore_app.utils.main_upload import upload_remote_env, status_check_upload
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
 @click.command('upload_envs', short_help='Upload environments to anaconda cloud')
 @global_test_options
-def cli(verbose, environments, force_rebuild):
+def cli(verbose, environments):
     """ Only on master branch
         1. Check if remote env exists
         (Rebuild the env?)
         2. Upload the env to anaconda
     """
 
-    click.echo("environments are {}".format(environments))
+    logger.info("environments are {}".format(environments))
 
     files = find_files(environments)
-    click.echo('files are {}'.format(files))
+    logger.info('files are {}'.format(files))
 
-    for tfile in files:
-        env_exists = remote_env_exists(tfile)
-        click.echo("Does the env exist? {}".format(env_exists))
+    for filename in files:
 
-        if force_rebuild or not env_exists:
-            upload_passes = upload_remote_env(tfile)
+        if rebuild(filename):
+            logger.info("We are uploading env {}".format(filename))
+            upload_passes = upload_remote_env(filename)
             status_check_upload(upload_passes)
         else:
-            click.echo("env exists we are skipping")
+            logger.info("env exists we are skipping")

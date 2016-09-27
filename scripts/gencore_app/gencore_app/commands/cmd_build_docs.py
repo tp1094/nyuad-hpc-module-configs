@@ -1,15 +1,16 @@
 import click
 from gencore_app.cli import global_test_options
-from conda_env import env
 from binstar_client.utils import get_server_api
-from gencore_app.utils.main import find_files
+from gencore_app.utils.main import find_files, remote_env_exists, from_file
 import logging
 
-logging.basicConfig(level=logging.DEBUG)
+# logging.basicConfig(level=logger.info)
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
 @click.command('build_docs', short_help='Build docs')
 @global_test_options
-def cli(verbose, environments, force_rebuild):
+def cli(verbose, environments):
     """ Build markdown docs for GitBooks
         1. Check if remote env exists or force_rebuild enabled
             a. If env exists skip building docs for this packge
@@ -85,9 +86,9 @@ class MeMyDocs():
             for channel in channels:
                 try:
                     package = aserver_api.package(channel, dep)
-                    logging.debug("Package {} exists in channel {}.".format(dep, channel))
+                    logger.info("Package {} exists in channel {}.".format(dep, channel))
                 except:
-                    logging.debug("Package {} does not exist in channel {}.".format(dep, channel))
+                    logger.info("Package {} does not exist in channel {}.".format(dep, channel))
 
                 if package:
                     dep_obj = DepPackage(dep, version, package['summary'], channel )
@@ -125,7 +126,15 @@ class MeMyDocs():
 
     def write_env_markdown(self, fname):
 
-        package = env.from_file(fname)
+        #We don't have to do this one unless it is the first time building we are rebuilding
+        package = from_file(fname)
+
+        if 'rebuild' not in package.extra_args:
+            return
+        elif 'rebuild' in package.extra_args and package.extra_args['rebuild'] is not True:
+            return
+        elif not remote_env_exists(fname):
+            return
 
         name  = package.name
         self.environment = name
