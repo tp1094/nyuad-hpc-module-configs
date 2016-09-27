@@ -43,6 +43,8 @@ else
     anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
     conda config --set anaconda_upload yes
 
+    gencore_app build_docs  --environments test/environment-test.yml
+
     gencore_app build_man  --environments test/environment-test.yml
 
     cd /nyuad-conda-configs
