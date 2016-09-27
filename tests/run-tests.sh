@@ -26,7 +26,7 @@ then
     gencore_app build_man --verbose --environments recipes/de_novo_metagenomic/1.0/environment-1.0.yml
 
     cd /nyuad-conda-configs
-    gencore_app build_eb --verbose --environments recipes/de_novo_metagenomic/1.0/environment-1.0.yml
+    gencore_app build_eb  --verbose --environments recipes/de_novo_metagenomic/1.0/environment-1.0.yml
 
     cd /nyuad-conda-configs
     scripts/build_easybuild.sh
@@ -34,34 +34,10 @@ then
 
     echo "Uploading packages to anaconda!"
     gencore_app upload_envs --verbose --environments recipes/de_novo_metagenomic/1.0/environment-1.0.yml
+
+    scripts/commit_recipes.sh
 else
     #Just test packages
     #This is what it should be!
-    #gencore_app build_envs
-
-    #RUNNING TESTS
-    anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
-    conda config --set anaconda_upload yes
-
-    cd /nyuad-conda-configs
-    echo "BUILDING ENV"
-    gencore_app build_envs  --environments test/environment-test.yml
-
-    echo "BUILDING DOCS"
-    gencore_app build_docs  --environments test/environment-test.yml
-
-    echo "BUILDING MAN"
-    gencore_app build_man  --environments test/environment-test.yml
-
-    echo "BUILDING EB"
-    cd /nyuad-conda-configs
-    gencore_app build_eb  --environments test/environment-test.yml
-
-
-    cd /nyuad-conda-configs
-    scripts/build_easybuild.sh
-    scripts/build_docs.sh
-
-    echo "Uploading packages to anaconda!"
-    gencore_app upload_envs  --environments test/environment-test.yml
+    gencore_app build_envs
 fi
