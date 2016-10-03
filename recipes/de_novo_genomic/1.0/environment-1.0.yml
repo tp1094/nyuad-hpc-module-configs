@@ -40,3 +40,5 @@ dependencies:
 - bowtie2=2.2.8
 - circos=0.69.2
 - mira=4.0.2
+- spades=3.9.0
+- abyss=1.9.0
