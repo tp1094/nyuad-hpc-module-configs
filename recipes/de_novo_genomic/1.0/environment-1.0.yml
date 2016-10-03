@@ -27,7 +27,6 @@ dependencies:
 - genblastg=1.38
 - genblasta=1.0.4
 - sickle=0.5
-- spades=3.8.1
 - abyss=1.9.0
 - velvet=1.2.10
 - quast=4.1
@@ -41,4 +40,3 @@ dependencies:
 - circos=0.69.2
 - mira=4.0.2
 - spades=3.9.0
-- abyss=1.9.0
