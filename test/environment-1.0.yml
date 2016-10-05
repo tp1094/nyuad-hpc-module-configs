@@ -1,6 +1,0 @@
-name: test_1.0
-rebuild: 1
-channels:
-- bioconda
-dependencies:
-- perl-threaded
