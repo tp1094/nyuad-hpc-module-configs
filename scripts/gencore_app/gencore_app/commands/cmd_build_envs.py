@@ -2,7 +2,7 @@
 
 import click
 from gencore_app.cli import global_test_options
-from gencore_app.utils.main import find_files, remote_env_exists
+from gencore_app.utils.main import find_files, rebuild
 from gencore_app.utils.main_build_env import status_check_build, try_conda_env_create
 import logging
 
@@ -12,22 +12,21 @@ logger.setLevel(logging.INFO)
 @click.command('build_envs', short_help='Build environments')
 @global_test_options
 
-def cli(verbose, environments, force_rebuild):
+def cli(verbose, environments):
     """1. Check remote env exists.
        2. Build the env.
        3. Exit if anything bad happens """
 
-    click.echo("environments are {}".format(environments))
+    logger.info("environments are {}".format(environments))
 
     files = find_files(environments)
-    click.echo('files are {}'.format(files))
+    logger.info('files are {}'.format(files))
 
-    for tfile in files:
-        env_exists = remote_env_exists(tfile)
-        click.echo("Does the env exist? {}".format(env_exists))
+    for filename in files:
 
-        if force_rebuild or not env_exists:
-            build_passes = try_conda_env_create(tfile)
+        if rebuild(filename):
+            logger.info('Building {}'.format(filename))
+            build_passes = try_conda_env_create(filename)
             status_check_build(build_passes)
         else:
-            click.echo("env exists we are skipping")
+            logger.info('Remote env exists and rebuild not specified for {}'.format(filename))

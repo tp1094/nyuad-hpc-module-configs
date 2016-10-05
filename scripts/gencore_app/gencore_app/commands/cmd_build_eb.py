@@ -1,30 +1,36 @@
 import click
 import os
 from jinja2 import Environment, FileSystemLoader
+import logging
 
 from gencore_app.cli import global_test_options
-from gencore_app.utils.main import find_files, get_name, remote_env_exists
+from gencore_app.utils.main import find_files,  get_name, rebuild
+
+# logging.basicConfig(level=logger.info)
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
 @click.command('build_eb', short_help='Build Easyblock Configs')
 @global_test_options
-def cli(verbose, environments, force_rebuild):
+def cli(verbose, environments):
     """Build  Easyblock Configs."""
 
-    click.echo("Building Easyblock Configs")
+    logger.info("Building Easyblock Configs")
 
     cwd = os.getcwd()
 
-    click.echo("We are in dir {}".format(cwd))
+    logger.info("We are in dir {}".format(cwd))
 
     files = find_files(environments)
 
     if not os.path.exists('_easybuild'):
         os.makedirs('_easybuild')
 
-    for tfile in files:
-        if force_rebuild or not remote_env_exists(tfile):
-            click.echo("We are creating eb for {}".format(tfile))
-            name, version = get_name(tfile)
+    for filename in files:
+
+        if rebuild(filename):
+            logger.info("We are creating eb for {}".format(filename))
+            name, version = get_name(filename)
             print_html_doc(name, version)
 
 def print_html_doc(name, version):

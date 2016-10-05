@@ -3,11 +3,16 @@
 import logging
 import sys
 from gencore_app.utils.main import run_command
+from gencore_app.utils.main_env import from_file
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 def try_conda_env_create(fname):
+
+    #Clean up any extra tags
+    env = from_file(fname)
+    env.save()
 
     retries_max = 2
     retries_count = 0
@@ -23,13 +28,21 @@ def try_conda_env_create(fname):
         else:
             logging.warn('Conda Env was NOT created successfully! Retrying {}'.format(retries_count))
 
+    #Add back in extra_args
+    env.save_extra_args()
+
     return create_env
 
 def run_conda_env_create(fname):
 
     logger.info("Testing environment build file {}".format(fname))
-    cmd = "conda env create --force --file {}".format(fname)
-    return run_command(cmd)
+
+    remove_envs = "rm -rf /anaconda/envs/*"
+    if run_command(remove_envs):
+        cmd = "conda env create --quiet --force --file {}".format(fname)
+        return run_command(cmd)
+    else:
+        return False
 
 def status_check_build(build_passes):
 

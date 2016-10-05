@@ -1,9 +1,10 @@
 import subprocess as sp
 import logging
 import glob
-from conda_env import env
-from binstar_client.utils import get_server_api
 import os
+
+from binstar_client.utils import get_server_api
+from gencore_app.utils.main_env import from_file
 
 aserver_api = get_server_api()
 
@@ -56,8 +57,14 @@ def find_files(environments):
         return  glob.glob("**/environment*.yml", recursive=True)
 
 def get_name(fname):
+    """
+    Until we get versions into conda env our modules are written as
+    gencore_metagenomics_1.0
+    This corresponds to module gencore_metagenomics/1.0
+    This method will go away when there are versions!
+    """
 
-    package = env.from_file(fname)
+    package = from_file(fname)
     name  = package.name
 
     l = name.split("_")
@@ -66,17 +73,33 @@ def get_name(fname):
 
     return name, version
 
-def remote_env_exists(tfile):
+def remote_env_exists(env):
 
-    #TODO Update this to use binstar utils
-    env_config = env.from_file(tfile)
-    logger.info("Testing for package name {}".format(env_config.name))
+    logger.info("Testing for package name {}".format(env.name))
 
     try:
-        aserver_api.package(os.environ.get("ANACONDA_USER"), env_config.name)
+        aserver_api.package(os.environ.get("ANACONDA_USER"), env.name)
         logger.info("Remote env exists. Next!")
     except:
         logger.info("Remote env does not exist! Don't skip!")
         return False
 
     return True
+
+def rebuild(filename):
+    """
+    Return a boolean based on whether or not we are building the environment
+    1. If the environment does not exist - we always build iti
+    2. If the remote environment exists
+        a. rebuild: True specified in yaml - rebuild
+        b. rebuld not specified in yaml - don't rebuild
+    """
+
+    env = from_file(filename)
+
+    if not remote_env_exists(env):
+        return True
+    elif 'rebuild' in env.extra_args and env.extra_args['rebuild']:
+        return True
+    else:
+        return False
