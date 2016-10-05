@@ -1,6 +1,7 @@
 name: gencore_metagenomics_1.0
 channels:
 - bioconda
+- nyuad-cgsb
 dependencies:
 - perl-hpc-runner-slurm=2.58
 - perl-biox-workflow=1.10
@@ -22,3 +23,4 @@ dependencies:
 - seqtk=1.2
 - pear=0.9.6
 - bowtie2=2.2.8
+- gencore_metagenomics_docs=1.0
