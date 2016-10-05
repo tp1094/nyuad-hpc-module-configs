@@ -1,6 +1,7 @@
 name: gencore_epigenetics_1.0
 channels:
 - bioconda
+- nyuad-cgsb
 dependencies:
 - perl-hpc-runner-slurm=2.58
 - perl-biox-workflow=1.10
@@ -17,3 +18,4 @@ dependencies:
 - numpy=1.11.1
 - python=2.7
 - macs2=2.1.1.20160309
+- gencore_epigenetics_docs=1.0
