@@ -29,7 +29,7 @@ then
     gencore_app build_eb  --environments recipes/rnaseq/1.0/environment-1.0.yml
 
     cd /nyuad-conda-configs
-    gencore_app build_eb  --verbose --environments recipes/de_novo_genomic/1.0/environment-1.0.yml
+    gencore_app build_eb   --environments recipes/de_novo_genomic/1.0/environment-1.0.yml
 
     cd /nyuad-conda-configs
     scripts/build_easybuild.sh
