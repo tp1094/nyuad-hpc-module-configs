@@ -23,24 +23,24 @@ then
 
     cd /nyuad-conda-configs
 
-    gencore_app build_man  --environments recipes/rad/1.0/environment-1.0.yml
+    gencore_app build_man  --environments recipes/rad-ddocent/1.0/environment-1.0.yml
 
     cd /nyuad-conda-configs
-    gencore_app build_eb  --environments recipes/rad/1.0/environment-1.0.yml
+    gencore_app build_eb  --environments recipes/rad-ddocent/1.0/environment-1.0.yml
 
     cd /nyuad-conda-configs
-    gencore_app build_eb   --environments recipes/rad/1.0/environment-1.0.yml
+    gencore_app build_eb   --environments recipes/rad-ddocent/1.0/environment-1.0.yml
 
     cd /nyuad-conda-configs
     scripts/build_easybuild.sh
     scripts/build_docs.sh
 
     echo "Uploading packages to anaconda!"
-    gencore_app upload_envs  --environments recipes/rad/1.0/environment-1.0.yml
+    gencore_app upload_envs  --environments recipes/rad-ddocent/1.0/environment-1.0.yml
 
     scripts/commit_recipes.sh
 else
     #Just test packages
-    gencore_app build_envs  --environments recipes/rad/1.0/environment-1.0.yml
+    gencore_app build_envs  --environments recipes/rad-ddocent/1.0/environment-1.0.yml
     #This is what it should be!
 fi
