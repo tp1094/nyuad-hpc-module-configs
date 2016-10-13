@@ -4,11 +4,11 @@
 
 ### Summary
 
-
+Assembly By Short Sequences - a de novo, parallel, paired-end sequence assembler
 
 **Version:** 1.9.0
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -19,11 +19,11 @@
 
 ### Summary
 
-
+AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and Oliver Keller. It can be used as an ab initio program, which means it bases its prediction purely on the sequence. AUGUSTUS may also incorporate hints on the gene structure coming from extrinsic sources such as EST, MS/MS, protein alignments and synthenic genomic alignments.
 
 **Version:** 3.2.2
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -42,7 +42,7 @@
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -53,11 +53,11 @@
 
 ### Summary
 
-
+Tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -144,7 +144,7 @@ A powerful toolset for genome arithmetic
 
 **Version:** 2.2.0
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -155,11 +155,11 @@ A powerful toolset for genome arithmetic
 
 ### Summary
 
-
+Functions that are needed by many other packages or which replace R functions.
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -171,11 +171,11 @@ A powerful toolset for genome arithmetic
 
 ### Summary
 
-
+S4 generic functions needed by many Bioconductor packages.
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -253,11 +253,11 @@ Differential expression analysis of RNA-seq expression profiles with biological 
 
 ### Summary
 
-
+BLAST+ is a new suite of BLAST tools that utilizes the NCBI C++ Toolkit.
 
 **Version:** 2.2.31
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -321,11 +321,11 @@ Fast and sensitive read alignment
 
 ### Summary
 
-
+The BWA read mapper.
 
 **Version:** 0.7.15
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -342,11 +342,11 @@ Fast and sensitive read alignment
 
 ### Summary
 
-
+Clusters and compares protein or nucleotide sequences
 
 **Version:** 4.6.4
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -358,11 +358,11 @@ Fast and sensitive read alignment
 
 ### Summary
 
-
+Circos is a software package for visualizing data and information. It visualizes data in a circular layout
 
 **Version:** 0.69.2
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -377,11 +377,11 @@ Fast and sensitive read alignment
 
 ### Summary
 
-
+CMake is an extensible, open-source system that manages the build process
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -410,11 +410,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+ dDocent is  an interactive bash wrapper to QC, assemble, map, and call SNPs from double digest RAD data
 
 **Version:** 2.1
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -425,11 +425,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Suitable for variant calling with reference and de novo assembly of small genomes.
 
 **Version:** 52488
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -441,11 +441,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Suitable for de novo assembly of large and small genomes.
 
 **Version:** 52488
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -457,11 +457,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+A quality control tool for high throughput sequence data.
 
 **Version:** 0.11.5
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -477,7 +477,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 0.0.14
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -488,11 +488,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Bayesian haplotype-based polymorphism discovery and genotyping
 
 **Version:** 1.0.2.29
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -506,11 +506,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+The full Genome Analysis Toolkit (GATK) framework, license restricted.
 
 **Version:** 3.5
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -522,11 +522,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+The full Genome Analysis Toolkit (GATK) framework, license restricted.
 
 **Version:** 3.6
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -538,11 +538,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+genBlast is a program suite, consisting of two programs: genBlastA and genBlastG. genBlastA parses local alignments, or high-scoring segment pairs (HSPs) produced by local sequence alignment programs such as BLAST and WU-BLAST and identify groups of HSPs.
 
 **Version:** 1.0.4
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -554,11 +554,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+genBlast is a program suite, consisting of two programs: genBlastA and genBlastG. genBlastA parses local alignments, or high-scoring segment pairs (HSPs) produced by local sequence alignment programs such as BLAST and WU-BLAST and identify groups of HSPs.
 
 **Version:** 1.38
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -574,7 +574,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -589,7 +589,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -604,7 +604,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -619,7 +619,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -634,7 +634,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -649,7 +649,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -664,7 +664,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -679,7 +679,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -694,7 +694,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 5.22.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -709,7 +709,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -724,7 +724,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -739,7 +739,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 3.3.1
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -754,7 +754,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -769,7 +769,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -784,7 +784,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -799,7 +799,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -814,7 +814,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 ### HPC Modules
 
@@ -825,11 +825,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+graph-based alignment of next generation sequencing reads to a population of genomes
 
 **Version:** 2.0.4
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -840,11 +840,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Biosequence analysis using profile hidden Markov models
 
 **Version:** 3.1b2
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -859,11 +859,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+A framework to process and analyze data from high-throughput sequencing (HTS) assays
 
 **Version:** 0.6.1.post1
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -876,11 +876,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+IDBA-UD is a iterative De Bruijn Graph De Novo Assembler for Short Reads Sequencing data with Highly Uneven Sequencing Depth.
 
 **Version:** 1.1.1
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -906,11 +906,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA. A k-mer is a substring of length k, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence
 
 **Version:** 2.2.3
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -922,11 +922,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Quantifying abundances of transcripts from RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads.
 
 **Version:** 0.43.0
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -938,11 +938,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+KAT is a suite of tools that analyse jellyfish hashes or sequence files (fasta or fastq) using kmer counts
 
 **Version:** 2.0.8
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -953,11 +953,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+KmerGenie estimates the best k-mer length for genome de novo assembly
 
 **Version:** 1.7016
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -973,7 +973,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -984,11 +984,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+MACS -- Model-based Analysis of ChIP-Seq
 
 **Version:** 2.1.1.20160309
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -999,11 +999,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+mawk is an interpreter for the AWK Programming Language.
 
 **Version:** 1.3.4
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1015,11 +1015,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Perl libraries that do feature extraction for metavelvet-sl
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1030,11 +1030,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+MetaVelvet-SL : An extension of Velvet assembler to de novo metagenomic assembler utilizing supervised learning
 
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1045,11 +1045,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+MetaVelvet : An extension of Velvet assembler to de novo metagenome assembly from short sequence reads
 
 **Version:** 1.2.02
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1060,11 +1060,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+MIRA is a whole genome shotgun and EST sequence assembler for Sanger, 454, Solexa (Illumina), IonTorrent data and PacBio (the later at the moment only CCS and error-corrected CLR reads)
 
 **Version:** 4.0.2
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1120,11 +1120,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+paired-end read merger
 
 **Version:** 0.9.6
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1139,11 +1139,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+get, unpack, build and install modules from CPAN
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1156,11 +1156,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Get metadata for files in directories processed by BioX::Workflow
 
 **Version:** 0.11
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1184,11 +1184,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+a plugin to BioX::Workflow
 
 **Version:** 0.13
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1213,11 +1213,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+A very opinionated template based workflow writer.
 
 **Version:** 1.10
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1242,11 +1242,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Database independent interface for Perl
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1257,11 +1257,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Job Submission to Slurm
 
 **Version:** 2.58
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1286,11 +1286,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+A perl module for simple terminal control
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1305,7 +1305,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 2.0.1
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1320,7 +1320,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** 2.5.0
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1335,11 +1335,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic sequence data
 
 **Version:** 0.20.4
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1355,11 +1355,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+pyfaidx: efficient pythonic random access to fasta subsequences
 
 **Version:** 0.4.7.1
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1370,11 +1370,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+fast, memory-efficient, pythonic (and command-line) access to fasta sequence files
 
 **Version:** 0.5.2
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1385,11 +1385,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Script to manipulate FASTA and FASTQ files, plus API for developers
 
 **Version:** 3.11.0
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1445,11 +1445,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Quantitative Insights Into Microbial Ecology
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1460,11 +1460,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Quality Assessment Tool for Genome Assemblies
 
 **Version:** 4.1
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1480,7 +1480,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** r
 
 ### HPC Modules
 
@@ -1493,11 +1493,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Some essential packages for working with R
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** r
 
 ### HPC Modules
 
@@ -1510,11 +1510,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+An implementation of the grammar of graphics in R. It combines the advantages of both base and lattice graphics: conditioning and shared axes are handled automatically, and you can still build up a plot step by step from multiple data sources. It also implements a sophisticated multidimensional conditioning system and a consistent interface to map data to aesthetic attributes. See http://ggplot2.org for more information, documentation and examples.
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1529,7 +1529,7 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** r
 
 ### HPC Modules
 
@@ -1541,11 +1541,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Efficient tool for clustering and assembling short reads, especially for RAD
 
 **Version:** 2.0.4
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1556,11 +1556,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+RepeatMasker is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences.
 
 **Version:** 4.0.6
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1571,11 +1571,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite.
 
 **Version:** 2.2.28
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1586,11 +1586,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+RSEM (RNA-Seq by Expectation-Maximization)
 
 **Version:** 1.2.28
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1601,11 +1601,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Highly-accurate & wicked fast transcript-level quantification from RNA-seq reads using lightweight alignments
 
 **Version:** 0.6.0
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1616,11 +1616,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Tools for dealing with SAM, BAM and CRAM files
 
 **Version:** 1.3.1
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1655,11 +1655,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format
 
 **Version:** 1.2
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1677,11 +1677,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+A lightweight OAI client library for Python
 
 **Version:** 0.5
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1693,11 +1693,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Genetic variant annotation and effect prediction toolbox
 
 **Version:** 4.3
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1709,11 +1709,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+SoapDenovo2 Data prepare module using assembled contig to do scaffold assembly
 
 **Version:** 2.0
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1724,11 +1724,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+SOAPdenovo is a novel short-read assembly method that can build a de novo draft assembly for the human-sized genomes.
 
 **Version:** 2.40
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1739,11 +1739,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+SPAdes – St. Petersburg genome assembler – is intended for both standard isolates and single-cell MDA bacteria assemblies.
 
 **Version:** 3.9.0
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1754,11 +1754,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Stacks is a software pipeline for building loci from RAD-seq
 
 **Version:** 1.40
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1769,11 +1769,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+An RNA-seq read aligner.
 
 **Version:** 2.5.2a
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1787,11 +1787,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Transcriptome assembly and quantification for RNA-seq
 
 **Version:** 1.3.0
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1802,11 +1802,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+A spliced read mapper for RNA-Seq
 
 **Version:** 2.1.0
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1821,11 +1821,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+TransDecoder identifies candidate coding regions within transcript sequences, such as those generated by de novo RNA-Seq transcript assembly using Trinity, or constructed based on RNA-Seq alignments to the genome using Tophat and Cufflinks.
 
 **Version:** 2.1.0
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1836,11 +1836,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Genetic variant annotation and effect prediction toolbox
 
 **Version:** 0.35
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1851,11 +1851,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Genetic variant annotation and effect prediction toolbox
 
 **Version:** 0.36
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1870,11 +1870,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms
 
 **Version:** 3.2.2
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1885,11 +1885,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Command-line tools for manipulating VCF files
 
 **Version:** 1.0.0_rc1
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1909,11 +1909,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+A set of tools written in Perl and C++ for working with VCF files.
 
 **Version:** 0.1.14
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1933,11 +1933,11 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 ### Summary
 
-
+Sequence Assembler for short reads
 
 **Version:** 1.2.10
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 

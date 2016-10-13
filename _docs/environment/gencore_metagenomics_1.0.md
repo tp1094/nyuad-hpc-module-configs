@@ -8,10 +8,10 @@ Coming soon!
 ### augustus
 **Version:** 3.2.2
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and Oliver Keller. It can be used as an ab initio program, which means it bases its prediction purely on the sequence. AUGUSTUS may also incorporate hints on the gene structure coming from extrinsic sources such as EST, MS/MS, protein alignments and synthenic genomic alignments.
 
 
 
@@ -48,10 +48,10 @@ A powerful toolset for genome arithmetic
 ### blast
 **Version:** 2.2.31
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+BLAST+ is a new suite of BLAST tools that utilizes the NCBI C++ Toolkit.
 
 
 
@@ -78,27 +78,27 @@ Fast and sensitive read alignment
 ### bwa
 **Version:** 0.7.15
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+The BWA read mapper.
 
 
 
 ### cd-hit
 **Version:** 4.6.4
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+Clusters and compares protein or nucleotide sequences
 
 
 
 ### gencore_metagenomics_docs
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 #### Summary:
 
@@ -108,110 +108,110 @@ Fast and sensitive read alignment
 ### hmmer
 **Version:** 3.1b2
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+Biosequence analysis using profile hidden Markov models
 
 
 
 ### mawk
 **Version:** 1.3.4
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+mawk is an interpreter for the AWK Programming Language.
 
 
 
 ### pear
 **Version:** 0.9.6
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+paired-end read merger
 
 
 
 ### perl-biox-workflow-plugin-fileexists
 **Version:** 0.13
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+a plugin to BioX::Workflow
 
 
 
 ### perl-biox-workflow
 **Version:** 1.10
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+A very opinionated template based workflow writer.
 
 
 
 ### perl-hpc-runner-slurm
 **Version:** 2.58
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+Job Submission to Slurm
 
 
 
 ### qiime
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+Quantitative Insights Into Microbial Ecology
 
 
 
 ### samtools
 **Version:** 1.3.1
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+Tools for dealing with SAM, BAM and CRAM files
 
 
 
 ### seqtk
 **Version:** 1.2
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format
 
 
 
 ### vcflib
 **Version:** 1.0.0_rc1
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+Command-line tools for manipulating VCF files
 
 
 
 ### vcftools
 **Version:** 0.1.14
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+A set of tools written in Perl and C++ for working with VCF files.
 
 
 

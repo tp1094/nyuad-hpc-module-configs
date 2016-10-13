@@ -8,7 +8,7 @@ Coming soon!
 ### autoconf
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
 
@@ -18,27 +18,27 @@ Coming soon!
 ### automake
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+Tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.
 
 
 
 ### cmake
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+CMake is an extensible, open-source system that manages the build process
 
 
 
 ### gencore_build_docs
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 #### Summary:
 
@@ -48,7 +48,7 @@ Coming soon!
 ### m4
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
 
@@ -58,50 +58,50 @@ Coming soon!
 ### perl-app-cpanminus
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+get, unpack, build and install modules from CPAN
 
 
 
 ### perl-biox-workflow-plugin-filedetails
 **Version:** 0.11
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+Get metadata for files in directories processed by BioX::Workflow
 
 
 
 ### perl-biox-workflow-plugin-fileexists
 **Version:** 0.13
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+a plugin to BioX::Workflow
 
 
 
 ### perl-biox-workflow
 **Version:** 1.10
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+A very opinionated template based workflow writer.
 
 
 
 ### perl-hpc-runner-slurm
 **Version:** 2.58
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+Job Submission to Slurm
 
 
 

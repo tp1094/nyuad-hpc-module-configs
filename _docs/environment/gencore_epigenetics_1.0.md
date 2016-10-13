@@ -48,17 +48,17 @@ Fast and sensitive read alignment
 ### bwa
 **Version:** 0.7.15
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+The BWA read mapper.
 
 
 
 ### gencore_epigenetics_docs
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 #### Summary:
 
@@ -68,10 +68,10 @@ Fast and sensitive read alignment
 ### macs2
 **Version:** 2.1.1.20160309
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+MACS -- Model-based Analysis of ChIP-Seq
 
 
 
@@ -88,40 +88,40 @@ Fast and sensitive read alignment
 ### perl-biox-workflow-plugin-filedetails
 **Version:** 0.11
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+Get metadata for files in directories processed by BioX::Workflow
 
 
 
 ### perl-biox-workflow-plugin-fileexists
 **Version:** 0.13
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+a plugin to BioX::Workflow
 
 
 
 ### perl-biox-workflow
 **Version:** 1.10
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+A very opinionated template based workflow writer.
 
 
 
 ### perl-hpc-runner-slurm
 **Version:** 2.58
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+Job Submission to Slurm
 
 
 
@@ -138,30 +138,30 @@ Fast and sensitive read alignment
 ### samtools
 **Version:** 1.3.1
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+Tools for dealing with SAM, BAM and CRAM files
 
 
 
 ### vcflib
 **Version:** 1.0.0_rc1
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+Command-line tools for manipulating VCF files
 
 
 
 ### vcftools
 **Version:** 0.1.14
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+A set of tools written in Perl and C++ for working with VCF files.
 
 
 

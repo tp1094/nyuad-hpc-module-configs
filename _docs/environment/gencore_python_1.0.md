@@ -8,7 +8,7 @@ Coming soon!
 ### gencore_python_docs
 **Version:** 1.0
 
-**Conda Channel:** default
+**Conda Channel:** nyuad-cgsb
 
 #### Summary:
 
