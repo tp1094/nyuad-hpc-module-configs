@@ -29,7 +29,7 @@ then
     gencore_app build_eb
 
     cd /nyuad-conda-configs
-    gencore_app build_eb
+    gencore_app build_docs
 
     cd /nyuad-conda-configs
     scripts/build_easybuild.sh

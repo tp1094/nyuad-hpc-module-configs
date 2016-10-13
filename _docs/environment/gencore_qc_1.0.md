@@ -8,17 +8,27 @@ Coming soon!
 ### fastqc
 **Version:** 0.11.5
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-A quality control tool for high throughput sequence data.
+
 
 
 
 ### fastx_toolkit
 **Version:** 0.0.14
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### gencore_qc_docs
+**Version:** 1.0
+
+**Conda Channel:** default
 
 #### Summary:
 
@@ -28,70 +38,70 @@ A quality control tool for high throughput sequence data.
 ### perl-biox-workflow-plugin-filedetails
 **Version:** 0.11
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Get metadata for files in directories processed by BioX::Workflow
+
 
 
 
 ### perl-biox-workflow-plugin-fileexists
 **Version:** 0.13
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-a plugin to BioX::Workflow
+
 
 
 
 ### perl-biox-workflow
 **Version:** 1.10
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-A very opinionated template based workflow writer.
+
 
 
 
 ### perl-hpc-runner-slurm
 **Version:** 2.58
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Job Submission to Slurm
+
 
 
 
 ### pyfaidx
 **Version:** 0.4.7.1
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-pyfaidx: efficient pythonic random access to fasta subsequences
+
 
 
 
 ### pyfasta
 **Version:** 0.5.2
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-fast, memory-efficient, pythonic (and command-line) access to fasta sequence files
+
 
 
 
 ### pyfastaq
 **Version:** 3.11.0
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Script to manipulate FASTA and FASTQ files, plus API for developers
+
 
 
 
@@ -108,10 +118,10 @@ Script to manipulate FASTA and FASTQ files, plus API for developers
 ### trimmomatic
 **Version:** 0.36
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Genetic variant annotation and effect prediction toolbox
+
 
 
 

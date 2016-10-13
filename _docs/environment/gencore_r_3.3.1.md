@@ -8,17 +8,27 @@ Coming soon!
 ### bioconductor-biobase
 **Version:** latest
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Functions that are needed by many other packages or which replace R functions.
+
+
+
+
+### gencore_r_docs
+**Version:** 3.3.1
+
+**Conda Channel:** default
+
+#### Summary:
+
 
 
 
 ### r
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** default
 
 #### Summary:
 
@@ -28,7 +38,7 @@ Functions that are needed by many other packages or which replace R functions.
 ### r-base
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** default
 
 #### Summary:
 
@@ -38,10 +48,10 @@ Functions that are needed by many other packages or which replace R functions.
 ### r-essentials
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** default
 
 #### Summary:
-Some essential packages for working with R
+
 
 
 

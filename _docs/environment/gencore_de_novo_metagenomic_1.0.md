@@ -8,10 +8,10 @@ Coming soon!
 ### augustus
 **Version:** 3.2.2
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and Oliver Keller. It can be used as an ab initio program, which means it bases its prediction purely on the sequence. AUGUSTUS may also incorporate hints on the gene structure coming from extrinsic sources such as EST, MS/MS, protein alignments and synthenic genomic alignments.
+
 
 
 
@@ -48,10 +48,10 @@ A powerful toolset for genome arithmetic
 ### blast
 **Version:** 2.2.31
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-BLAST+ is a new suite of BLAST tools that utilizes the NCBI C++ Toolkit.
+
 
 
 
@@ -78,107 +78,127 @@ Fast and sensitive read alignment
 ### bwa
 **Version:** 0.7.15
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-The BWA read mapper.
+
 
 
 
 ### circos
 **Version:** 0.69.2
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Circos is a software package for visualizing data and information. It visualizes data in a circular layout
+
 
 
 
 ### hmmer
 **Version:** 3.1b2
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Biosequence analysis using profile hidden Markov models
+
 
 
 
 ### mawk
 **Version:** 1.3.4
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-mawk is an interpreter for the AWK Programming Language.
+
+
+
+
+### metavelvet-sl-feature-extraction
+**Version:** 1.0
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### metavelvet-sl
+**Version:** 1.0
+
+**Conda Channel:** default
+
+#### Summary:
+
 
 
 
 ### metavelvet
 **Version:** 1.2.02
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-MetaVelvet : An extension of Velvet assembler to de novo metagenome assembly from short sequence reads
+
 
 
 
 ### pear
 **Version:** 0.9.6
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-paired-end read merger
+
 
 
 
 ### perl-biox-workflow-plugin-filedetails
 **Version:** 0.11
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Get metadata for files in directories processed by BioX::Workflow
+
 
 
 
 ### perl-biox-workflow-plugin-fileexists
 **Version:** 0.13
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-a plugin to BioX::Workflow
+
 
 
 
 ### perl-biox-workflow
 **Version:** 1.10
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-A very opinionated template based workflow writer.
+
 
 
 
 ### perl-hpc-runner-slurm
 **Version:** 2.58
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Job Submission to Slurm
+
 
 
 
 ### picard
 **Version:** 2.5.0
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
 
@@ -188,60 +208,60 @@ Job Submission to Slurm
 ### prinseq
 **Version:** 0.20.4
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic sequence data
+
 
 
 
 ### samtools
 **Version:** 1.3.1
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Tools for dealing with SAM, BAM and CRAM files
+
 
 
 
 ### seqtk
 **Version:** 1.2
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format
+
 
 
 
 ### trimmomatic
 **Version:** 0.36
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Genetic variant annotation and effect prediction toolbox
+
 
 
 
 ### vcflib
 **Version:** 1.0.0_rc1
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Command-line tools for manipulating VCF files
+
 
 
 
 ### vcftools
 **Version:** 0.1.14
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-A set of tools written in Perl and C++ for working with VCF files.
+
 
 
 

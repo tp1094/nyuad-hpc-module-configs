@@ -8,10 +8,10 @@ Coming soon!
 ### augustus
 **Version:** 3.2.2
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and Oliver Keller. It can be used as an ab initio program, which means it bases its prediction purely on the sequence. AUGUSTUS may also incorporate hints on the gene structure coming from extrinsic sources such as EST, MS/MS, protein alignments and synthenic genomic alignments.
+
 
 
 
@@ -58,20 +58,20 @@ A powerful toolset for genome arithmetic
 ### blat
 **Version:** 35
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+BLAT is a bioinformatics software tool which performs rapid mRNA/DNA and cross-species protein alignments.
 
 
 
 ### bowtie2
 **Version:** 2.2.8
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
-
+Fast and sensitive read alignment
 
 
 
@@ -135,16 +135,6 @@ A powerful toolset for genome arithmetic
 
 
 
-### gencore_annotation_docs
-**Version:** 1.0
-
-**Conda Channel:** default
-
-#### Summary:
-
-
-
-
 ### hmmer
 **Version:** 3.1b2
 
@@ -177,6 +167,16 @@ A powerful toolset for genome arithmetic
 
 ### kmergenie
 **Version:** 1.7016
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### pauda
+**Version:** 1.0.1
 
 **Conda Channel:** default
 

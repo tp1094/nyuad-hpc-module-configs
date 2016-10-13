@@ -5,6 +5,16 @@ Coming soon!
 
 ## Software Packages
 
+### gencore_python_docs
+**Version:** 1.0
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
 ### ipython
 **Version:** latest
 
