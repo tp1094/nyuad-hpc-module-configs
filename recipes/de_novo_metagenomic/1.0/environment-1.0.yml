@@ -28,3 +28,4 @@ dependencies:
 - metavelvet=1.2.02
 - metavelvet-sl=1.0
 - metavelvet-sl-feature-extraction=1.0
+- metaphlan2=2.5.0
