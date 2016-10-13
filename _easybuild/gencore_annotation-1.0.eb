@@ -21,7 +21,7 @@ builddependencies = [('gencore_anaconda', '2-4.0.0')]
 
 #sources = ["environment.yml"]
 #environment_file = sources[0]
-remote_environment="jerowe/gencore_annotation_1.0"
+remote_environment="nyuad-cgsb/gencore_annotation_1.0"
 
 sanity_check_paths = {
     'files': ["bin/conda"],
