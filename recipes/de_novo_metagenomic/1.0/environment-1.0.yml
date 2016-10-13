@@ -26,4 +26,6 @@ dependencies:
 - bowtie2=2.2.8
 - circos=0.69.2
 - metavelvet=1.2.02
+- metavelvet-sl=1.0
+- metavelvet-sl-feature-extraction=1.0
 - metaphlan2=2.5.0

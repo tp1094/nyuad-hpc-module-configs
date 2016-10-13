@@ -35,7 +35,6 @@ class GlobalOpts(object):
     def __init__(self):
         self.values = [
             click.option('--verbose', '-v',  is_flag = True, default=False, help='Enable verbose logging'),
-            click.option('--force_rebuild', '-f',  is_flag = True, default=False, help='Force rebuild'),
             click.option('--environments', '-e', default=None, multiple=True, type=click.Path(exists=True), help='Add environments'),
         ]
 

@@ -1,0 +1,7 @@
+name: env_1
+channels:
+- bioconda
+- nyuad-cgsb
+dependencies:
+- perl-threaded
+- env_docs=1
