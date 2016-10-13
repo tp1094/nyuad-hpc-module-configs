@@ -2,6 +2,7 @@ name: gencore_variant_detection_1.0
 channels:
 - bioconda
 - r
+- nyuad-cgsb
 dependencies:
 - perl-hpc-runner-slurm=2.58
 - perl-biox-workflow=1.10
@@ -34,3 +35,4 @@ dependencies:
 - r-base
 - r-essentials
 - bioconductor-biobase
+- gencore_variant_detection_docs=1.0

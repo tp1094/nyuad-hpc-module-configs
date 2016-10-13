@@ -115,6 +115,26 @@ mawk is an interpreter for the AWK Programming Language.
 
 
 
+### metavelvet-sl-feature-extraction
+**Version:** 1.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Perl libraries that do feature extraction for metavelvet-sl
+
+
+
+### metavelvet-sl
+**Version:** 1.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+MetaVelvet-SL : An extension of Velvet assembler to de novo metagenomic assembler utilizing supervised learning
+
+
+
 ### metavelvet
 **Version:** 1.2.02
 
