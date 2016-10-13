@@ -115,6 +115,16 @@ mawk is an interpreter for the AWK Programming Language.
 
 
 
+### metaphlan2
+**Version:** 2.5.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+MetaPhlAn is a computational tool for profiling the composition of microbial communities (Bacteria, Archaea, Eukaryotes and Viruses) from metagenomic shotgun sequencing data with species level resolution. From version 2.0 MetaPhlAn is also able to identify specific strains (in the not-so-frequent cases in which the sample contains a previously sequenced strains) and to track strains across samples for all species.
+
+
+
 ### metavelvet-sl-feature-extraction
 **Version:** 1.0
 
