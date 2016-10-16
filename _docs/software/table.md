@@ -39,6 +39,7 @@
 | gencore_build_docs=1.0 | | | **Y** | | | | | | | | | | | | | | | |
 | gencore_de_novo_genomic_docs=1.0 | | | | **Y** | | | | | | | | | | | | | | |
 | gencore_de_novo_genomic_soapdenovo2_docs=1.0 | | | | | **Y** | | | | | | | | | | | | | |
+| gencore_de_novo_metagenomic_docs=1.0 | | | | | | **Y** | | | | | | | | | | | | |
 | gencore_de_novo_transcriptome_docs=1.0 | | | | | | | **Y** | | | | | | | | | | | |
 | gencore_epigenetics_docs=1.0 | | | | | | | | **Y** | | | | | | | | | | |
 | gencore_metagenomics_docs=1.0 | | | | | | | | | **Y** | | | | | | | | | |

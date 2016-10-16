@@ -641,6 +641,21 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 * gencore_de_novo_genomic_soapdenovo2_1.0
 
 
+## Gencore_de_novo_metagenomic_docs
+
+### Summary
+
+
+
+**Version:** 1.0
+
+**Conda Channel:** nyuad-cgsb
+
+### HPC Modules
+
+* gencore_de_novo_metagenomic_1.0
+
+
 ## Gencore_de_novo_transcriptome_docs
 
 ### Summary
