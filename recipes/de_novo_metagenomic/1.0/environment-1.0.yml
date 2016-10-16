@@ -1,4 +1,5 @@
 name: gencore_de_novo_metagenomic_1.0
+rebuild: 1
 channels:
 - bioconda
 dependencies:
