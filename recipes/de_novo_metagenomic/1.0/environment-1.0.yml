@@ -1,7 +1,7 @@
 name: gencore_de_novo_metagenomic_1.0
-rebuild: 1
 channels:
 - bioconda
+- nyuad-cgsb
 dependencies:
 - perl-hpc-runner-slurm=2.58
 - perl-biox-workflow=1.10
@@ -30,3 +30,6 @@ dependencies:
 - metavelvet-sl=1.0
 - metavelvet-sl-feature-extraction=1.0
 - metaphlan2=2.5.0
+- gencore_de_novo_metagenomic_docs=1.0
+extra_args:
+  rebuild: 1
