@@ -821,6 +821,21 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 * gencore_rnaseq_malaria_1.0
 
 
+## Gencore_trinity_docs
+
+### Summary
+
+
+
+**Version:** 1.0
+
+**Conda Channel:** nyuad-cgsb
+
+### HPC Modules
+
+* gencore_trinity_1.0
+
+
 ## Gencore_variant_detection_docs
 
 ### Summary

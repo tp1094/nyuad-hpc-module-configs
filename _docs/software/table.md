@@ -51,6 +51,7 @@
 | gencore_rad_docs=1.0 | | | | | | | | | | | | | | **Y** | | | | | |
 | gencore_rnaseq_docs=1.0 | | | | | | | | | | | | | | | | **Y** | | | |
 | gencore_rnaseq_malaria_docs=1.0 | | | | | | | | | | | | | | | | | **Y** | | |
+| gencore_trinity_docs=1.0 | | | | | | | | | | | | | | | | | | **Y** | |
 | gencore_variant_detection_docs=1.0 | | | | | | | | | | | | | | | | | | | **Y** |
 | hisat2=2.0.4 | | | | | | | | | | | | | | | | **Y** | | | |
 | hmmer=3.1b2 | **Y** | | | **Y** | | **Y** | **Y** | | **Y** | | | | | | | | | | |
