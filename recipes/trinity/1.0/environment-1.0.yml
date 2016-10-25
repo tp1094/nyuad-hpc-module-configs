@@ -10,3 +10,4 @@ dependencies:
 - trinotate=3.2.2
 - transdecoder=2.1.0
 - trinity=2.2.0
+- gencore_trinity_docs=1.0
