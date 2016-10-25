@@ -22,10 +22,6 @@ then
     conda config --set anaconda_upload yes
 
     cd /nyuad-conda-configs
-
-    gencore_app build_man
-
-    cd /nyuad-conda-configs
     gencore_app build_eb
 
     cd /nyuad-conda-configs
@@ -34,6 +30,9 @@ then
     cd /nyuad-conda-configs
     scripts/build_easybuild.sh
     scripts/build_docs.sh
+
+    cd /nyuad-conda-configs
+    gencore_app build_man
 
     echo "Uploading packages to anaconda!"
     gencore_app upload_envs
