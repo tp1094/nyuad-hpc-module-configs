@@ -1,0 +1,12 @@
+name: gencore_trinity_1.0
+channels:
+- bioconda
+- nyuad-cgsb
+dependencies:
+- perl-hpc-runner-slurm=2.58
+- perl-biox-workflow=1.10
+- perl-biox-workflow-plugin-fileexists=0.13
+- perl-biox-workflow-plugin-filedetails=0.11
+- trinotate=3.2.2
+- transdecoder=2.1.0
+- trinity=2.2.0
