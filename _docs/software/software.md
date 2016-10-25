@@ -1207,6 +1207,7 @@ Get metadata for files in directories processed by BioX::Workflow
 * gencore_rad_ddocent_1.0
 * gencore_rnaseq_1.0
 * gencore_rnaseq_malaria_1.0
+* gencore_trinity_1.0
 * gencore_variant_detection_1.0
 
 
@@ -1236,6 +1237,7 @@ a plugin to BioX::Workflow
 * gencore_rad_ddocent_1.0
 * gencore_rnaseq_1.0
 * gencore_rnaseq_malaria_1.0
+* gencore_trinity_1.0
 * gencore_variant_detection_1.0
 
 
@@ -1265,6 +1267,7 @@ A very opinionated template based workflow writer.
 * gencore_rad_ddocent_1.0
 * gencore_rnaseq_1.0
 * gencore_rnaseq_malaria_1.0
+* gencore_trinity_1.0
 * gencore_variant_detection_1.0
 
 
@@ -1309,6 +1312,7 @@ Job Submission to Slurm
 * gencore_rad_ddocent_1.0
 * gencore_rnaseq_1.0
 * gencore_rnaseq_malaria_1.0
+* gencore_trinity_1.0
 * gencore_variant_detection_1.0
 
 
@@ -1860,6 +1864,7 @@ TransDecoder identifies candidate coding regions within transcript sequences, su
 ### HPC Modules
 
 * gencore_annotation_1.0
+* gencore_trinity_1.0
 
 
 ## Trimmomatic
@@ -1896,6 +1901,21 @@ Genetic variant annotation and effect prediction toolbox
 * gencore_rnaseq_1.0
 
 
+## Trinity
+
+### Summary
+
+Trinity assembles transcript sequences from Illumina RNA-Seq data
+
+**Version:** 2.2.0
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_trinity_1.0
+
+
 ## Trinotate
 
 ### Summary
@@ -1909,6 +1929,7 @@ Trinotate is a comprehensive annotation suite designed for automatic functional 
 ### HPC Modules
 
 * gencore_annotation_1.0
+* gencore_trinity_1.0
 
 
 ## Vcflib
