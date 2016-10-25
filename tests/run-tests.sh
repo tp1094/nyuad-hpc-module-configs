@@ -42,5 +42,4 @@ then
 else
     #Just test packages
     gencore_app build_envs
-    #This is what it should be!
 fi

@@ -1,4 +1,4 @@
-# gencore_1.0
+# gencore_base_1.0
 ## Summary
 
 Coming soon!
@@ -12,6 +12,16 @@ Coming soon!
 
 #### Summary:
 S4 generic functions needed by many Bioconductor packages.
+
+
+
+### gencore_base_docs
+**Version:** 1.0
+
+**Conda Channel:** nyuad-cgsb
+
+#### Summary:
+
 
 
 

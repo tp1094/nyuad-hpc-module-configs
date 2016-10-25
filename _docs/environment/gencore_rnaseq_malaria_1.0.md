@@ -115,6 +115,16 @@ The full Genome Analysis Toolkit (GATK) framework, license restricted.
 
 
 
+### gencore_rnaseq_malaria_docs
+**Version:** 1.0
+
+**Conda Channel:** nyuad-cgsb
+
+#### Summary:
+
+
+
+
 ### htseq
 **Version:** 0.6.1.post1
 

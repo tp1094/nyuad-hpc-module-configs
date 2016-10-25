@@ -35,6 +35,16 @@ A powerful toolset for genome arithmetic
 
 
 
+### bioconductor-ballgown
+**Version:** 2.2.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+
+
+
+
 ### bioconductor-cummerbund
 **Version:** 2.12.1
 
@@ -122,6 +132,26 @@ A quality control tool for high throughput sequence data.
 
 #### Summary:
 The full Genome Analysis Toolkit (GATK) framework, license restricted.
+
+
+
+### gencore_rnaseq_docs
+**Version:** 1.0
+
+**Conda Channel:** nyuad-cgsb
+
+#### Summary:
+
+
+
+
+### hisat2
+**Version:** 2.0.4
+
+**Conda Channel:** bioconda
+
+#### Summary:
+graph-based alignment of next generation sequencing reads to a population of genomes
 
 
 
@@ -232,6 +262,16 @@ Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FA
 
 #### Summary:
 An RNA-seq read aligner.
+
+
+
+### stringtie
+**Version:** 1.3.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Transcriptome assembly and quantification for RNA-seq
 
 
 
