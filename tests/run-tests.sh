@@ -23,24 +23,24 @@ then
 
     cd /nyuad-conda-configs
 
-    gencore_app build_man  --environments recipes/rnaseq/1.0/environment-1.0.yml
+    gencore_app build_man
 
     cd /nyuad-conda-configs
-    gencore_app build_eb  --environments recipes/rnaseq/1.0/environment-1.0.yml
+    gencore_app build_eb
 
     cd /nyuad-conda-configs
-    gencore_app build_eb   --environments recipes/de_novo_genomic/1.0/environment-1.0.yml
+    gencore_app build_docs
 
     cd /nyuad-conda-configs
     scripts/build_easybuild.sh
     scripts/build_docs.sh
 
     echo "Uploading packages to anaconda!"
-    gencore_app upload_envs  --environments recipes/rnaseq/1.0/environment-1.0.yml
+    gencore_app upload_envs
 
     scripts/commit_recipes.sh
 else
     #Just test packages
-    gencore_app build_envs  --environments recipes/rnaseq/1.0/environment-1.0.yml
+    gencore_app build_envs
     #This is what it should be!
 fi
