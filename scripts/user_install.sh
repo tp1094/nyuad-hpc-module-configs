@@ -52,7 +52,7 @@ conda install conda-env
 #########################################################
 
 #Create the software stack
-conda env create --quiet nyuad_gencore/gencore_variant_detection_1.0
+conda env create --quiet nyuad-gencore/gencore_variant_detection_1.0
 
 #Use the software stack
 source activate gencore_variant_detection_1.0
