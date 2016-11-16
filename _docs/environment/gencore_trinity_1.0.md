@@ -86,7 +86,7 @@ Trinity assembles transcript sequences from Illumina RNA-Seq data
 
 
 ### trinotate
-**Version:** 3.2.2
+**Version:** 3.0.1
 
 **Conda Channel:** bioconda
 

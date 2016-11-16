@@ -1953,6 +1953,21 @@ Trinity assembles transcript sequences from Illumina RNA-Seq data
 
 Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms
 
+**Version:** 3.0.1
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_trinity_1.0
+
+
+## Trinotate
+
+### Summary
+
+Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms
+
 **Version:** 3.2.2
 
 **Conda Channel:** bioconda
@@ -1960,7 +1975,6 @@ Trinotate is a comprehensive annotation suite designed for automatic functional 
 ### HPC Modules
 
 * gencore_annotation_1.0
-* gencore_trinity_1.0
 
 
 ## Vcflib
