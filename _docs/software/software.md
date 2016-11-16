@@ -1092,7 +1092,7 @@ MetaVelvet-SL : An extension of Velvet assembler to de novo metagenomic assemble
 
 MetaVelvet : An extension of Velvet assembler to de novo metagenome assembly from short sequence reads
 
-**Version:** 1.2.02
+**Version:** 1.1.01
 
 **Conda Channel:** bioconda
 
@@ -1154,7 +1154,7 @@ MIRA is a whole genome shotgun and EST sequence assembler for Sanger, 454, Solex
 
 **Version:** 1.0.1
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
@@ -1644,6 +1644,7 @@ RSEM (RNA-Seq by Expectation-Maximization)
 ### HPC Modules
 
 * gencore_de_novo_transcriptome_1.0
+* gencore_trinity_1.0
 
 
 ## Salmon
@@ -1751,6 +1752,21 @@ Genetic variant annotation and effect prediction toolbox
 ### HPC Modules
 
 * gencore_annotation_1.0
+* gencore_variant_detection_1.0
+
+
+## Snpsift
+
+### Summary
+
+
+
+**Version:** 4.3
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
 * gencore_variant_detection_1.0
 
 
