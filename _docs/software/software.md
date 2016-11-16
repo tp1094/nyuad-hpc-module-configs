@@ -1092,7 +1092,7 @@ MetaVelvet-SL : An extension of Velvet assembler to de novo metagenomic assemble
 
 MetaVelvet : An extension of Velvet assembler to de novo metagenome assembly from short sequence reads
 
-**Version:** 1.2.02
+**Version:** 1.1.01
 
 **Conda Channel:** bioconda
 
