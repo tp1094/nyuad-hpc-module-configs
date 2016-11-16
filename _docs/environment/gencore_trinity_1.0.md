@@ -55,6 +55,16 @@ Job Submission to Slurm
 
 
 
+### rsem
+**Version:** 1.2.28
+
+**Conda Channel:** bioconda
+
+#### Summary:
+RSEM (RNA-Seq by Expectation-Maximization)
+
+
+
 ### transdecoder
 **Version:** 2.1.0
 
