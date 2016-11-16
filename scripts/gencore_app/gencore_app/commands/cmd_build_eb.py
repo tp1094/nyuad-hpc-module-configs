@@ -28,10 +28,10 @@ def cli(verbose, environments):
 
     for filename in files:
 
-        if rebuild(filename):
-            logger.info("We are creating eb for {}".format(filename))
-            name, version = get_name(filename)
-            print_html_doc(name, version)
+        # if rebuild(filename):
+        logger.info("We are creating eb for {}".format(filename))
+        name, version = get_name(filename)
+        print_html_doc(name, version)
 
 def print_html_doc(name, version):
     # Create the jinja2 environment.

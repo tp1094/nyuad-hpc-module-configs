@@ -24,5 +24,5 @@ git checkout "$TRAVIS_BRANCH"
 
 git add recipes
 #IF it doesn't exit as 0 its because there is nothing to commit
-git commit  -m "Updated recipes to remove extra_args to commit ${TRAVIS_COMMIT}." || exit 0
+git commit  -m "Updated recipes  ${TRAVIS_COMMIT}." || exit 0
 git push -f "$ORIGIN" "$TRAVIS_BRANCH"

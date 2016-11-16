@@ -2,6 +2,7 @@ name: gencore_build_1.0
 channels:
 - bioconda
 - conda-forge
+- nyuad-cgsb
 dependencies:
 - perl-app-cpanminus
 - perl-hpc-runner-slurm=2.58
@@ -12,3 +13,4 @@ dependencies:
 - autoconf
 - automake
 - m4
+- gencore_build_docs=1.0

@@ -8,12 +8,12 @@
 
 easyblock = 'EB_CondaEnv'
 
-name = "gencore_annotation"
+name = "gencore_trinity"
 version = "1.0"
 variant = "Linux-x86_64"
 
 homepage = "http://cbi.abudhabi.nyu.edu/w/"
-description = """ gencore_annotation """
+description = """ gencore_trinity """
 
 toolchain = {'name': 'dummy', 'version': 'dummy'}
 
@@ -21,7 +21,7 @@ builddependencies = [('gencore_anaconda', '2-4.0.0')]
 
 #sources = ["environment.yml"]
 #environment_file = sources[0]
-remote_environment="nyuad-cgsb/gencore_annotation_1.0"
+remote_environment="nyuad-cgsb/gencore_trinity_1.0"
 
 sanity_check_paths = {
     'files': ["bin/conda"],
