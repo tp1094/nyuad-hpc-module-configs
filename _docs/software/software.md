@@ -1644,6 +1644,7 @@ RSEM (RNA-Seq by Expectation-Maximization)
 ### HPC Modules
 
 * gencore_de_novo_transcriptome_1.0
+* gencore_trinity_1.0
 
 
 ## Salmon
