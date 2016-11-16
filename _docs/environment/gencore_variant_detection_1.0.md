@@ -285,6 +285,16 @@ Genetic variant annotation and effect prediction toolbox
 
 
 
+### snpsift
+**Version:** 4.3
+
+**Conda Channel:** bioconda
+
+#### Summary:
+
+
+
+
 ### star
 **Version:** 2.5.2a
 

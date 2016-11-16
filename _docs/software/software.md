@@ -1755,6 +1755,21 @@ Genetic variant annotation and effect prediction toolbox
 * gencore_variant_detection_1.0
 
 
+## Snpsift
+
+### Summary
+
+
+
+**Version:** 4.3
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection_1.0
+
+
 ## Soapdenovo2-prepare
 
 ### Summary
