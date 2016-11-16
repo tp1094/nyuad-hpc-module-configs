@@ -40,8 +40,9 @@ conda config --add create_default_packages setuptools
 conda config --add create_default_packages ipython
 
 #Add default channels
-conda config --add channels bioconda
 conda config --add channels r
+conda config --add channels conda-forge
+conda config --add channels bioconda
 
 #Install conda env
 conda install conda-env
@@ -51,7 +52,7 @@ conda install conda-env
 #########################################################
 
 #Create the software stack
-conda env create --quiet jerowe/gencore_variant_detection_1.0
+conda env create --quiet nyuad-gencore/gencore_variant_detection_1.0
 
 #Use the software stack
 source activate gencore_variant_detection_1.0

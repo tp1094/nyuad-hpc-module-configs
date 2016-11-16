@@ -95,6 +95,16 @@ Circos is a software package for visualizing data and information. It visualizes
 
 
 
+### gencore_de_novo_metagenomic_docs
+**Version:** 1.0
+
+**Conda Channel:** nyuad-cgsb
+
+#### Summary:
+
+
+
+
 ### hmmer
 **Version:** 3.1b2
 
@@ -112,6 +122,36 @@ Biosequence analysis using profile hidden Markov models
 
 #### Summary:
 mawk is an interpreter for the AWK Programming Language.
+
+
+
+### metaphlan2
+**Version:** 2.5.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+MetaPhlAn is a computational tool for profiling the composition of microbial communities (Bacteria, Archaea, Eukaryotes and Viruses) from metagenomic shotgun sequencing data with species level resolution. From version 2.0 MetaPhlAn is also able to identify specific strains (in the not-so-frequent cases in which the sample contains a previously sequenced strains) and to track strains across samples for all species.
+
+
+
+### metavelvet-sl-feature-extraction
+**Version:** 1.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Perl libraries that do feature extraction for metavelvet-sl
+
+
+
+### metavelvet-sl
+**Version:** 1.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+MetaVelvet-SL : An extension of Velvet assembler to de novo metagenomic assembler utilizing supervised learning
 
 
 

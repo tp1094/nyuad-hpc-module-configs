@@ -95,6 +95,16 @@ Clusters and compares protein or nucleotide sequences
 
 
 
+### gencore_metagenomics_docs
+**Version:** 1.0
+
+**Conda Channel:** nyuad-cgsb
+
+#### Summary:
+
+
+
+
 ### hmmer
 **Version:** 3.1b2
 

@@ -126,8 +126,8 @@ class MeMyDocs():
 
     def write_env_markdown(self, fname):
 
-        if not rebuild(fname):
-            return
+        # if not rebuild(fname):
+            # return
 
         package = from_file(fname)
 
