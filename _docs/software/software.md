@@ -1154,7 +1154,7 @@ MIRA is a whole genome shotgun and EST sequence assembler for Sanger, 454, Solex
 
 **Version:** 1.0.1
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 ### HPC Modules
 

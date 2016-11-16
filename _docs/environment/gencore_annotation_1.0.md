@@ -178,7 +178,7 @@ KmerGenie estimates the best k-mer length for genome de novo assembly
 ### pauda
 **Version:** 1.0.1
 
-**Conda Channel:** default
+**Conda Channel:** bioconda
 
 #### Summary:
 
