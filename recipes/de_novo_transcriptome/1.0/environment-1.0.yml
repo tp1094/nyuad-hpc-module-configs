@@ -2,6 +2,7 @@ name: gencore_de_novo_transcriptome_1.0
 channels:
 - bioconda
 - r
+- nyuad-cgsb
 dependencies:
 - perl-hpc-runner-slurm=2.58
 - perl-biox-workflow=1.10
@@ -36,3 +37,4 @@ dependencies:
 - bioconductor-deseq2=1.10.1
 - bioconductor-edger=3.14.0
 - htseq=0.6.1.post1
+- gencore_de_novo_transcriptome_docs=1.0
