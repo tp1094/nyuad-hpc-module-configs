@@ -47,6 +47,7 @@
 | gencore_perl_docs=5.22.0 | | | | | | | | | | **Y** | | | | | | | | | | |
 | gencore_python_docs=1.0 | | | | | | | | | | | **Y** | | | | | | | | | |
 | gencore_qc_docs=1.0 | | | | | | | | | | | | **Y** | | | | | | | | |
+| gencore_qiime_docs=1.0 | | | | | | | | | | | | | **Y** | | | | | | | |
 | gencore_r_docs=3.3.1 | | | | | | | | | | | | | | **Y** | | | | | | |
 | gencore_rad_ddocent_docs=1.0 | | | | | | | | | | | | | | | | **Y** | | | | |
 | gencore_rad_docs=1.0 | | | | | | | | | | | | | | | **Y** | | | | | |

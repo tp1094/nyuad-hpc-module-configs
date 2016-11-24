@@ -761,6 +761,21 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 * gencore_qc_1.0
 
 
+## Gencore_qiime_docs
+
+### Summary
+
+
+
+**Version:** 1.0
+
+**Conda Channel:** nyuad-cgsb
+
+### HPC Modules
+
+* gencore_qiime_1.0
+
+
 ## Gencore_r_docs
 
 ### Summary
