@@ -55,6 +55,16 @@ Job Submission to Slurm
 
 
 
+### rsem
+**Version:** 1.2.28
+
+**Conda Channel:** bioconda
+
+#### Summary:
+RSEM (RNA-Seq by Expectation-Maximization)
+
+
+
 ### transdecoder
 **Version:** 2.1.0
 
@@ -76,7 +86,7 @@ Trinity assembles transcript sequences from Illumina RNA-Seq data
 
 
 ### trinotate
-**Version:** 3.2.2
+**Version:** 3.0.1
 
 **Conda Channel:** bioconda
 
