@@ -45,6 +45,16 @@ A powerful toolset for genome arithmetic
 
 
 
+### bioconductor-dada2
+**Version:** 1.0.3
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Exact sample inference from Illumina amplicon data. Resolves real variants differing by as little as one nucleotide.
+
+
+
 ### blast
 **Version:** 2.2.31
 
@@ -162,16 +172,6 @@ A very opinionated template based workflow writer.
 
 #### Summary:
 Job Submission to Slurm
-
-
-
-### qiime
-**Version:** latest
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Quantitative Insights Into Microbial Ecology
 
 
 

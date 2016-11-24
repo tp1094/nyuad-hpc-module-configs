@@ -165,6 +165,16 @@ MetaVelvet : An extension of Velvet assembler to de novo metagenome assembly fro
 
 
 
+### mothur
+**Version:** 1.36.1
+
+**Conda Channel:** bioconda
+
+#### Summary:
+
+
+
+
 ### pear
 **Version:** 0.9.6
 

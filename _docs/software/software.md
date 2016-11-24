@@ -198,6 +198,21 @@ Allows for persistent storage, access, exploration, and manipulation of Cufflink
 * gencore_rnaseq_malaria_1.0
 
 
+## Bioconductor-dada2
+
+### Summary
+
+Exact sample inference from Illumina amplicon data. Resolves real variants differing by as little as one nucleotide.
+
+**Version:** 1.0.3
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_metagenomics_1.0
+
+
 ## Bioconductor-deseq2
 
 ### Summary
@@ -1116,6 +1131,21 @@ MIRA is a whole genome shotgun and EST sequence assembler for Sanger, 454, Solex
 * gencore_de_novo_genomic_1.0
 
 
+## Mothur
+
+### Summary
+
+
+
+**Version:** 1.36.1
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_de_novo_metagenomic_1.0
+
+
 ## Numpy
 
 ### Summary
@@ -1248,6 +1278,7 @@ a plugin to BioX::Workflow
 * gencore_epigenetics_1.0
 * gencore_metagenomics_1.0
 * gencore_qc_1.0
+* gencore_qiime_1.0
 * gencore_rad_1.0
 * gencore_rad_ddocent_1.0
 * gencore_rnaseq_1.0
@@ -1278,6 +1309,7 @@ A very opinionated template based workflow writer.
 * gencore_epigenetics_1.0
 * gencore_metagenomics_1.0
 * gencore_qc_1.0
+* gencore_qiime_1.0
 * gencore_rad_1.0
 * gencore_rad_ddocent_1.0
 * gencore_rnaseq_1.0
@@ -1323,6 +1355,7 @@ Job Submission to Slurm
 * gencore_epigenetics_1.0
 * gencore_metagenomics_1.0
 * gencore_qc_1.0
+* gencore_qiime_1.0
 * gencore_rad_1.0
 * gencore_rad_ddocent_1.0
 * gencore_rnaseq_1.0
@@ -1496,13 +1529,13 @@ Script to manipulate FASTA and FASTQ files, plus API for developers
 
 Quantitative Insights Into Microbial Ecology
 
-**Version:** latest
+**Version:** 1.9.1
 
 **Conda Channel:** bioconda
 
 ### HPC Modules
 
-* gencore_metagenomics_1.0
+* gencore_qiime_1.0
 
 
 ## Quast

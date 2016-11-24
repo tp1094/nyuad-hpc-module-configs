@@ -15,6 +15,7 @@
 	* [Gencore_perl_5.22.0](environment/gencore_perl_5.22.0.md)
 	* [Gencore_python_1.0](environment/gencore_python_1.0.md)
 	* [Gencore_qc_1.0](environment/gencore_qc_1.0.md)
+	* [Gencore_qiime_1.0](environment/gencore_qiime_1.0.md)
 	* [Gencore_r_3.3.1](environment/gencore_r_3.3.1.md)
 	* [Gencore_rad_1.0](environment/gencore_rad_1.0.md)
 	* [Gencore_rad_ddocent_1.0](environment/gencore_rad_ddocent_1.0.md)
