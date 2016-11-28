@@ -135,6 +135,16 @@ mawk is an interpreter for the AWK Programming Language.
 
 
 
+### mothur
+**Version:** 1.36.1
+
+**Conda Channel:** bioconda
+
+#### Summary:
+
+
+
+
 ### pear
 **Version:** 0.9.6
 
