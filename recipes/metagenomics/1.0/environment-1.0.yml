@@ -1,5 +1,6 @@
 name: gencore_metagenomics_1.0
 channels:
+- conda-forge
 - bioconda
 - nyuad-cgsb
 dependencies:
@@ -23,4 +24,5 @@ dependencies:
 - pear=0.9.6
 - bowtie2=2.2.8
 - bioconductor-dada2=1.0.3
+- mothur=1.36.1
 - gencore_metagenomics_docs=1.0
