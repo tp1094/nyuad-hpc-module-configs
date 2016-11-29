@@ -1025,6 +1025,21 @@ KmerGenie estimates the best k-mer length for genome de novo assembly
 * gencore_de_novo_genomic_1.0
 
 
+## Kraken
+
+### Summary
+
+Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies.
+
+**Version:** 0.10.6_eaf8fb68
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_kraken_1.0
+
+
 ## M4
 
 ### Summary

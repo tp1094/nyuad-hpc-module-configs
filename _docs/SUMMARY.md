@@ -11,6 +11,7 @@
 	* [Gencore_de_novo_metagenomic_1.0](environment/gencore_de_novo_metagenomic_1.0.md)
 	* [Gencore_de_novo_transcriptome_1.0](environment/gencore_de_novo_transcriptome_1.0.md)
 	* [Gencore_epigenetics_1.0](environment/gencore_epigenetics_1.0.md)
+	* [Gencore_kraken_1.0](environment/gencore_kraken_1.0.md)
 	* [Gencore_metagenomics_1.0](environment/gencore_metagenomics_1.0.md)
 	* [Gencore_perl_5.22.0](environment/gencore_perl_5.22.0.md)
 	* [Gencore_python_1.0](environment/gencore_python_1.0.md)
