@@ -701,6 +701,21 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 * gencore_epigenetics_1.0
 
 
+## Gencore_kraken_docs
+
+### Summary
+
+
+
+**Version:** 1.0
+
+**Conda Channel:** nyuad-cgsb
+
+### HPC Modules
+
+* gencore_kraken_1.0
+
+
 ## Gencore_metagenomics_docs
 
 ### Summary
