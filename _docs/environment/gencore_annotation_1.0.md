@@ -148,10 +148,10 @@ Biosequence analysis using profile hidden Markov models
 ### jellyfish
 **Version:** 2.2.3
 
-**Conda Channel:** bioconda
+**Conda Channel:** conda-forge
 
 #### Summary:
-Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA. A k-mer is a substring of length k, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence
+
 
 
 
@@ -286,7 +286,7 @@ TransDecoder identifies candidate coding regions within transcript sequences, su
 
 
 ### trinotate
-**Version:** 3.2.2
+**Version:** 3.0.1
 
 **Conda Channel:** bioconda
 

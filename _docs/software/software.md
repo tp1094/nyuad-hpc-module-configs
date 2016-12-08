@@ -981,11 +981,11 @@ IDBA-UD is a iterative De Bruijn Graph De Novo Assembler for Short Reads Sequenc
 
 ### Summary
 
-Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA. A k-mer is a substring of length k, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence
+
 
 **Version:** 2.2.3
 
-**Conda Channel:** bioconda
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -2038,22 +2038,8 @@ Trinotate is a comprehensive annotation suite designed for automatic functional 
 
 ### HPC Modules
 
-* gencore_trinity_1.0
-
-
-## Trinotate
-
-### Summary
-
-Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms
-
-**Version:** 3.2.2
-
-**Conda Channel:** bioconda
-
-### HPC Modules
-
 * gencore_annotation_1.0
+* gencore_trinity_1.0
 
 
 ## Vcflib
