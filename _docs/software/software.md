@@ -609,6 +609,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 ### HPC Modules
 
 * gencore_base_1.0
+* gencore_test_1.0
 
 
 ## Gencore_build_docs
@@ -1085,6 +1086,21 @@ MACS -- Model-based Analysis of ChIP-Seq
 * gencore_epigenetics_1.0
 
 
+## Mafft
+
+### Summary
+
+Multiple alignment program for amino acid or nucleotide sequences based on fast Fourier transform
+
+**Version:** 7.221
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_evonet_1.0
+
+
 ## Mawk
 
 ### Summary
@@ -1099,6 +1115,21 @@ mawk is an interpreter for the AWK Programming Language.
 
 * gencore_de_novo_metagenomic_1.0
 * gencore_metagenomics_1.0
+
+
+## Mcl
+
+### Summary
+
+MCL - a cluster algorithm for graphs
+
+**Version:** 14.137
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_evonet_1.0
 
 
 ## Metaphlan2
@@ -1190,6 +1221,21 @@ MIRA is a whole genome shotgun and EST sequence assembler for Sanger, 454, Solex
 
 * gencore_de_novo_metagenomic_1.0
 * gencore_metagenomics_1.0
+
+
+## Multiqc
+
+### Summary
+
+Create aggregate bioinformatics analysis report across many samples
+
+**Version:** 0.8
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_qc_1.0
 
 
 ## Numpy
@@ -1293,6 +1339,7 @@ Get metadata for files in directories processed by BioX::Workflow
 * gencore_de_novo_metagenomic_1.0
 * gencore_de_novo_transcriptome_1.0
 * gencore_epigenetics_1.0
+* gencore_evonet_1.0
 * gencore_qc_1.0
 * gencore_rad_1.0
 * gencore_rad_ddocent_1.0
@@ -1322,6 +1369,7 @@ a plugin to BioX::Workflow
 * gencore_de_novo_metagenomic_1.0
 * gencore_de_novo_transcriptome_1.0
 * gencore_epigenetics_1.0
+* gencore_evonet_1.0
 * gencore_metagenomics_1.0
 * gencore_qc_1.0
 * gencore_qiime_1.0
@@ -1353,6 +1401,7 @@ A very opinionated template based workflow writer.
 * gencore_de_novo_metagenomic_1.0
 * gencore_de_novo_transcriptome_1.0
 * gencore_epigenetics_1.0
+* gencore_evonet_1.0
 * gencore_metagenomics_1.0
 * gencore_qc_1.0
 * gencore_qiime_1.0
@@ -1399,6 +1448,7 @@ Job Submission to Slurm
 * gencore_de_novo_metagenomic_1.0
 * gencore_de_novo_transcriptome_1.0
 * gencore_epigenetics_1.0
+* gencore_evonet_1.0
 * gencore_metagenomics_1.0
 * gencore_qc_1.0
 * gencore_qiime_1.0
@@ -1423,6 +1473,21 @@ A perl module for simple terminal control
 ### HPC Modules
 
 * gencore_perl_5.22.0
+
+
+## Perl
+
+### Summary
+
+The Perl programming language interpreter.
+
+**Version:** latest
+
+**Conda Channel:** conda-forge
+
+### HPC Modules
+
+* gencore_test
 
 
 ## Picard
@@ -1847,6 +1912,21 @@ Genetic variant annotation and effect prediction toolbox
 ### HPC Modules
 
 * gencore_variant_detection_1.0
+
+
+## Soapdenovo2-gapcloser
+
+### Summary
+
+a tool named GapCloser for SOAPdenovo.
+
+**Version:** 1.12
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_de_novo_genomic_soapdenovo2_1.0
 
 
 ## Soapdenovo2-prepare
