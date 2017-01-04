@@ -4,6 +4,7 @@ import glob
 import os
 
 from binstar_client.utils import get_server_api
+# from conda_env.env import  from_file
 from gencore_app.utils.main_env import from_file
 
 aserver_api = get_server_api()
@@ -62,14 +63,17 @@ def get_name(fname):
     gencore_metagenomics_1.0
     This corresponds to module gencore_metagenomics/1.0
     This method will go away when there are versions!
+
+    We have versions!
     """
 
     package = from_file(fname)
     name  = package.name
+    version = package.version
 
-    l = name.split("_")
-    version = l.pop()
-    name = "_".join(l)
+    # l = name.split("_")
+    # version = l.pop()
+    # name = "_".join(l)
 
     return name, version
 
@@ -94,6 +98,7 @@ def rebuild(filename):
         a. rebuild: True specified in yaml - rebuild
         b. rebuld not specified in yaml - don't rebuild
     """
+    #TODO add in md5 sum check instead of if env exists
 
     env = from_file(filename)
 
