@@ -198,10 +198,10 @@ IDBA-UD is a iterative De Bruijn Graph De Novo Assembler for Short Reads Sequenc
 ### jellyfish
 **Version:** 2.2.3
 
-**Conda Channel:** bioconda
+**Conda Channel:** conda-forge
 
 #### Summary:
-Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA. A k-mer is a substring of length k, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence
+
 
 
 
