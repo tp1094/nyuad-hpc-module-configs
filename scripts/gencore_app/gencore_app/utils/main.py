@@ -4,7 +4,7 @@ import glob
 import os
 
 from binstar_client.utils import get_server_api
-from gencore_app.utils.main_env import from_file
+from conda_env.env import  from_file
 
 aserver_api = get_server_api()
 
@@ -94,6 +94,7 @@ def rebuild(filename):
         a. rebuild: True specified in yaml - rebuild
         b. rebuld not specified in yaml - don't rebuild
     """
+    #TODO add in md5 sum check instead of if env exists
 
     env = from_file(filename)
 

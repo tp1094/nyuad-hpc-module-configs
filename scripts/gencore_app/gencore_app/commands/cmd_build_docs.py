@@ -1,8 +1,9 @@
 import click
 from gencore_app.cli import global_test_options
 from binstar_client.utils import get_server_api
-from gencore_app.utils.main import rebuild, find_files, from_file
+from gencore_app.utils.main import rebuild, find_files
 import logging
+from gencore_app.utils.main_env import Environment, from_file
 
 # logging.basicConfig(level=logger.info)
 logger = logging.getLogger(__name__)
@@ -29,6 +30,36 @@ def cli(verbose, environments):
 
     docs = MeMyDocs()
     docs.write_docs(environments)
+
+def flatten_deps(deps):
+    flat_deps = []
+
+    for dep in deps:
+        if isinstance(dep, str):
+            flat_deps.append(dep)
+        elif isinstance(dep, dict):
+            vals = dep.values()
+            tvals = list(vals)
+            ttvals = tvals[0]
+            for i in ttvals:
+                flat_deps.append(i)
+
+    return flat_deps
+
+def parse_deps(dep):
+
+    dep_split = dep.split('=')
+
+    if len(dep_split) == 2:
+        #There is a version
+        package_name = dep_split[0]
+        package_version = dep_split[1]
+    else:
+        #There is no version
+        package_name = dep_split[0]
+        package_version = 'latest'
+
+    return package_name, package_version
 
 class TrackSoftware():
 
@@ -59,20 +90,6 @@ class MeMyDocs():
         self.all_envs.append(self.environment)
         self.all_envs.sort()
 
-    def parse_deps(self, dep):
-
-        dep_split = dep.split('=')
-
-        if len(dep_split) == 2:
-            #There is a version
-            package_name = dep_split[0]
-            package_version = dep_split[1]
-        else:
-            #There is no version
-            package_name = dep_split[0]
-            package_version = 'latest'
-
-        return package_name, package_version
 
     def search_deps(self, dep, version, channels):
 
@@ -109,21 +126,6 @@ class MeMyDocs():
 
             return dep_obj
 
-    def flatten_deps(self, deps):
-        flat_deps = []
-
-        for dep in deps:
-            if isinstance(dep, str):
-                flat_deps.append(dep)
-            elif isinstance(dep, dict):
-                vals = dep.values()
-                tvals = list(vals)
-                ttvals = tvals[0]
-                for i in ttvals:
-                    flat_deps.append(i)
-
-        return flat_deps
-
     def write_env_markdown(self, fname):
 
         # if not rebuild(fname):
@@ -138,7 +140,7 @@ class MeMyDocs():
         p_dict = package.to_dict()
         deps = p_dict['dependencies']
 
-        flat_deps = self.flatten_deps(deps)
+        flat_deps = flatten_deps(deps)
         deps = flat_deps
         deps.sort()
 
@@ -156,7 +158,7 @@ class MeMyDocs():
         f.write("## Software Packages\n\n")
 
         for dep in deps:
-            package_name, package_version = self.parse_deps(dep)
+            package_name, package_version = parse_deps(dep)
 
             package_obj = self.search_deps(package_name, package_version, channels)
 

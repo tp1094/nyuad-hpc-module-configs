@@ -46,9 +46,10 @@ def cli(verbose, environments):
 def docs_prep(fname):
 
 	#This will change when conda env supports versions!!
+	#TODO Update this to env.name
 	name, version = get_name(fname)
 	marked = '_docs/environment/{}_{}.md'.format(name, version)
-	docs = DocPackage(name , version, marked, fname)
+	docs = DocPackage(name, version, marked, fname)
 
 	return docs
 
@@ -135,7 +136,7 @@ def remote_docs_exist(docs):
 		logger.info("Remote doc package does not exist. Build")
 		return False
 
-	return True
+return True
 
 def status_check_man(man_passes):
 
