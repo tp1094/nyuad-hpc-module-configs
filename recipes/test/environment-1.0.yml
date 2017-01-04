@@ -6,5 +6,4 @@ channels:
 - nyuad-cgsb
 dependencies:
 - perl
-- gencore_test_docs=1.0
 version: 1.0
