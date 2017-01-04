@@ -2,6 +2,7 @@
 
 import logging
 import sys
+import os
 from gencore_app.utils.main import run_command
 from gencore_app.utils.main_env import from_file
 
@@ -12,7 +13,10 @@ def try_conda_env_create(fname):
 
     #Clean up any extra tags
     env = from_file(fname)
-    env.save()
+    #Do we need this?
+    #env.save()
+
+    fname = env.save_conda_safe()
 
     retries_max = 2
     retries_count = 0
@@ -29,7 +33,8 @@ def try_conda_env_create(fname):
             logging.warn('Conda Env was NOT created successfully! Retrying {}'.format(retries_count))
 
     #Add back in extra_args
-    env.save_extra_args()
+    #env.save_extra_args()
+    os.remove(fname)
 
     return create_env
 
