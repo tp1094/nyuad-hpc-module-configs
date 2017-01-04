@@ -701,6 +701,21 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 * gencore_epigenetics_1.0
 
 
+## Gencore_kraken_docs
+
+### Summary
+
+
+
+**Version:** 1.0
+
+**Conda Channel:** nyuad-cgsb
+
+### HPC Modules
+
+* gencore_kraken_1.0
+
+
 ## Gencore_metagenomics_docs
 
 ### Summary
@@ -1023,6 +1038,21 @@ KmerGenie estimates the best k-mer length for genome de novo assembly
 
 * gencore_annotation_1.0
 * gencore_de_novo_genomic_1.0
+
+
+## Kraken
+
+### Summary
+
+Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies.
+
+**Version:** 0.10.6_eaf8fb68
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_kraken_1.0
 
 
 ## M4
