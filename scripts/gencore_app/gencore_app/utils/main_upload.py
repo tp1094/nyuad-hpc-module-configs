@@ -15,10 +15,18 @@ def upload_remote_env(fname, verbose=False):
     #TODO Update this to use conda env upload utils
     logging.info("Uploading remote env of {}".format(fname))
     env = from_file(fname)
+    # version = env.version
     labels = gen_labels(env)
-    uploader = Uploader(env.name, fname, summary='', env_data=dict(env.to_dict()))
-    uploader.version = env.version
+
+    if env.summary:
+        summary = env.summary
+    else:
+        summary = ''
+
+    uploader = Uploader(env.name, fname, summary=summary, env_data=dict(env.to_dict()))
+    # uploader.version = env.version
     info = uploader.upload(labels)
+
     url = info.get('url', 'anaconda.org')
     logging.info("Your environment file has been uploaded to {}".format(url))
 
@@ -45,7 +53,7 @@ def gen_labels(env):
     if 'tags' in env.extra_args:
         for tag in env.extra_args.tags:
             labels.append(tag)
-    
+
     return labels
 
 class Uploader(Uploader):

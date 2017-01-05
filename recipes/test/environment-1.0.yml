@@ -1,4 +1,8 @@
 name: gencore_test
+summary:  'Metagenomics is the study of genetic material recovered directly
+        from environmental samples. The broad field may also be referred to as
+        environmental genomics, ecogenomics or community genomics.'
+version: 1.0
 channels:
 - conda-forge
 - r
@@ -6,4 +10,3 @@ channels:
 - nyuad-cgsb
 dependencies:
 - perl
-version: 1.0

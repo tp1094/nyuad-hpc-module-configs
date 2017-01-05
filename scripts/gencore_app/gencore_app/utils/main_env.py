@@ -28,10 +28,11 @@ def from_file(filename):
 
 class Environment(Environment):
     def __init__(self, name=None, filename=None, channels=None,
-                 dependencies=None, prefix=None, version=None, **kwargs):
+                 dependencies=None, prefix=None, version=None, summary=None, **kwargs):
         super(self.__class__, self).__init__(name, filename, channels, dependencies, prefix)
         self.version = version
         self.extra_args = kwargs
+        self.summary = summary
 
     #We are adding this in here to make sure we get a conda happy object
     #This is actually the original to_dict method - but I don't like it
@@ -55,6 +56,8 @@ class Environment(Environment):
             d['prefix'] = self.prefix
         if self.version:
             d['version'] = self.version
+        if self.summary:
+            d['summary'] = self.summary
         if self.extra_args:
             d['extra_args'] = self.extra_args
         return d
