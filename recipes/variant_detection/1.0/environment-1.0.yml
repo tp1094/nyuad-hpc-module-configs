@@ -1,8 +1,11 @@
 name: gencore_variant_detection_1.0
 channels:
-- bioconda
+- defaults
+- conda-forge
 - r
+- bioconda
 - nyuad-cgsb
+- conda-forge
 dependencies:
 - perl-hpc-runner-slurm=2.58
 - perl-biox-workflow=1.10
@@ -32,8 +35,7 @@ dependencies:
 - snpeff=4.3
 - snpsift=4.3
 - vcflib=1.0.0_rc1
-- r
-- r-base
-- r-essentials
+- r-base=3.3.1
+- r-essentials=3.3.1
 - bioconductor-biobase
 - gencore_variant_detection_docs=1.0

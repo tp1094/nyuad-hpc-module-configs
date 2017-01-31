@@ -1,7 +1,9 @@
 name: gencore_python_1.0
 channels:
-- bioconda
+- defaults
+- conda-forge
 - r
+- bioconda
 - nyuad-cgsb
 dependencies:
 - python

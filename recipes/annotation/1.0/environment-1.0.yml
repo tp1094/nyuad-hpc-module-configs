@@ -1,7 +1,8 @@
 name: gencore_annotation_1.0
 channels:
-- r
 - conda-forge
+- defaults
+- r
 - bioconda
 - nyuad-cgsb
 dependencies:
