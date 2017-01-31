@@ -1475,21 +1475,6 @@ A perl module for simple terminal control
 * gencore_perl_5.22.0
 
 
-## Perl
-
-### Summary
-
-The Perl programming language interpreter.
-
-**Version:** latest
-
-**Conda Channel:** conda-forge
-
-### HPC Modules
-
-* gencore_test
-
-
 ## Picard
 
 ### Summary
