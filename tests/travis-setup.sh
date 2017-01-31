@@ -3,7 +3,7 @@ set -e
 
 if [[ $TRAVIS_OS_NAME = "linux" ]]
 then
-    docker pull jerowe/nyuad-anaconda
+    docker pull quay.io/nyuad_cgsb/anaconda-centos
 else
 
     exit 0
