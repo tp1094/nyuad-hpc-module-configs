@@ -13,7 +13,6 @@ dependencies:
 - perl-biox-workflow-plugin-fileexists=0.13
 - perl-biox-workflow-plugin-filedetails=0.11
 - r-base=3.3.1
-- r-essentials=3.3.1
 - r-ggplot2
 - bioconductor-biocgenerics
 - gencore_base_docs=1.0
