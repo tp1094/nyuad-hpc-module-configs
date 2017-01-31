@@ -5,6 +5,7 @@ set -e # Exit with nonzero exit code if anything fails
 export PATH=/anaconda/bin:$PATH
 
 conda install -y pip
+conda install conda conda-build
 
 cd /nyuad-conda-configs
 
