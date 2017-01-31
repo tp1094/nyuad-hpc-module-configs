@@ -38,11 +38,11 @@ AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and
 
 ### Summary
 
-
+Extensible M4 macros that produce shell scripts to configure software source code packages.
 
 **Version:** latest
 
-**Conda Channel:** bioconda
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -394,7 +394,7 @@ Circos is a software package for visualizing data and information. It visualizes
 
 CMake is an extensible, open-source system that manages the build process
 
-**Version:** latest
+**Version:** 3.7.1
 
 **Conda Channel:** conda-forge
 
@@ -967,11 +967,11 @@ IDBA-UD is a iterative De Bruijn Graph De Novo Assembler for Short Reads Sequenc
 
 ### Summary
 
-
+IPython: Productive Interactive Computing
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1060,11 +1060,11 @@ Kraken is a system for assigning taxonomic labels to short DNA sequences, usuall
 
 ### Summary
 
-
+Implementation of the traditional Unix macro processor.
 
 **Version:** latest
 
-**Conda Channel:** bioconda
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1242,11 +1242,11 @@ Create aggregate bioinformatics analysis report across many samples
 
 ### Summary
 
-
+array processing for numbers, strings, records, and objects.
 
 **Version:** 1.11.1
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1257,11 +1257,11 @@ Create aggregate bioinformatics analysis report across many samples
 
 ### Summary
 
-
+array processing for numbers, strings, records, and objects.
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1593,11 +1593,11 @@ Script to manipulate FASTA and FASTQ files, plus API for developers
 
 ### Summary
 
-
+General purpose programming language
 
 **Version:** 2.7
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1608,11 +1608,11 @@ Script to manipulate FASTA and FASTQ files, plus API for developers
 
 ### Summary
 
-
+General purpose programming language
 
 **Version:** 3.5
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1623,11 +1623,11 @@ Script to manipulate FASTA and FASTQ files, plus API for developers
 
 ### Summary
 
-
+General purpose programming language
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1671,14 +1671,16 @@ Quality Assessment Tool for Genome Assemblies
 
 
 
-**Version:** latest
+**Version:** 3.3.1
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
 * gencore_base_1.0
 * gencore_r_3.3.1
+* gencore_rnaseq_1.0
+* gencore_rnaseq_malaria_1.0
 * gencore_variant_detection_1.0
 
 
@@ -1688,7 +1690,7 @@ Quality Assessment Tool for Genome Assemblies
 
 Some essential packages for working with R
 
-**Version:** latest
+**Version:** 3.3.1
 
 **Conda Channel:** r
 
@@ -1696,6 +1698,8 @@ Some essential packages for working with R
 
 * gencore_base_1.0
 * gencore_r_3.3.1
+* gencore_rnaseq_1.0
+* gencore_rnaseq_malaria_1.0
 * gencore_variant_detection_1.0
 
 
@@ -1703,21 +1707,6 @@ Some essential packages for working with R
 
 ### Summary
 
-An implementation of the grammar of graphics in R. It combines the advantages of both base and lattice graphics: conditioning and shared axes are handled automatically, and you can still build up a plot step by step from multiple data sources. It also implements a sophisticated multidimensional conditioning system and a consistent interface to map data to aesthetic attributes. See http://ggplot2.org for more information, documentation and examples.
-
-**Version:** latest
-
-**Conda Channel:** bioconda
-
-### HPC Modules
-
-* gencore_base_1.0
-
-
-## R
-
-### Summary
-
 
 
 **Version:** latest
@@ -1726,8 +1715,7 @@ An implementation of the grammar of graphics in R. It combines the advantages of
 
 ### HPC Modules
 
-* gencore_r_3.3.1
-* gencore_variant_detection_1.0
+* gencore_base_1.0
 
 
 ## Rainbow
@@ -1834,11 +1822,11 @@ Tools for dealing with SAM, BAM and CRAM files
 
 ### Summary
 
-
+Scientific Library for Python
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 

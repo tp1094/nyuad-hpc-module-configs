@@ -118,10 +118,10 @@ Script to manipulate FASTA and FASTQ files, plus API for developers
 ### python
 **Version:** 3.5
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+General purpose programming language
 
 
 

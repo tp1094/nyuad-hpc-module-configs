@@ -205,6 +205,26 @@ PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic se
 
 
 
+### r-base
+**Version:** 3.3.1
+
+**Conda Channel:** conda-forge
+
+#### Summary:
+
+
+
+
+### r-essentials
+**Version:** 3.3.1
+
+**Conda Channel:** r
+
+#### Summary:
+Some essential packages for working with R
+
+
+
 ### samtools
 **Version:** 1.3.1
 
