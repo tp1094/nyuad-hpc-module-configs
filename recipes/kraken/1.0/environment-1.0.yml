@@ -1,6 +1,7 @@
 name: gencore_kraken_1.0
 channels:
 - conda-forge
+- defaults
 - r
 - bioconda
 - nyuad-cgsb
