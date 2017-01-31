@@ -133,7 +133,8 @@ class MeMyDocs():
 
         package = from_file(fname)
 
-        name  = package.name
+        name = package.name
+        version = package.version
         self.environment = name
         self.add_envs()
 
@@ -147,7 +148,7 @@ class MeMyDocs():
         channels = p_dict['channels']
 
         # f = open('/nyuad-conda-configs/_docs/environment/{}.md'.format(name), 'w')
-        f = open('_docs/environment/{}.md'.format(name), 'w')
+        f = open('_docs/environment/{}_{}.md'.format(name, version), 'w')
 
         f.write("# {}\n".format(name))
 
