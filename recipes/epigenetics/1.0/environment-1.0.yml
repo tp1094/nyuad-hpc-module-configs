@@ -1,5 +1,8 @@
 name: gencore_epigenetics_1.0
 channels:
+- conda-forge
+- defaults
+- r
 - bioconda
 - nyuad-cgsb
 dependencies:

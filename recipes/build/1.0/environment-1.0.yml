@@ -1,7 +1,9 @@
 name: gencore_build_1.0
 channels:
-- bioconda
+- defaults
 - conda-forge
+- r
+- bioconda
 - nyuad-cgsb
 dependencies:
 - perl-app-cpanminus
@@ -9,7 +11,7 @@ dependencies:
 - perl-biox-workflow=1.10
 - perl-biox-workflow-plugin-fileexists=0.13
 - perl-biox-workflow-plugin-filedetails=0.11
-- cmake
+- cmake=3.7.1
 - autoconf
 - automake
 - m4

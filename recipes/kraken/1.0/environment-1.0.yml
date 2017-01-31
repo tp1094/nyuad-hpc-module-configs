@@ -1,0 +1,10 @@
+name: gencore_kraken_1.0
+channels:
+- conda-forge
+- defaults
+- r
+- bioconda
+- nyuad-cgsb
+dependencies:
+- kraken=0.10.6_eaf8fb68
+- gencore_kraken_docs=1.0

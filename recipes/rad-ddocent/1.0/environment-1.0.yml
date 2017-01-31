@@ -1,5 +1,8 @@
 name: gencore_rad_ddocent_1.0
 channels:
+- defaults
+- conda-forge
+- r
 - bioconda
 - nyuad-cgsb
 dependencies:

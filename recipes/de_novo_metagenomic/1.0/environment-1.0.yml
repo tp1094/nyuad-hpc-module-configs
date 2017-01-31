@@ -1,5 +1,8 @@
 name: gencore_de_novo_metagenomic_1.0
 channels:
+- conda-forge
+- defaults
+- r
 - bioconda
 - nyuad-cgsb
 dependencies:
@@ -30,4 +33,5 @@ dependencies:
 - metavelvet-sl=1.0
 - metavelvet-sl-feature-extraction=1.0
 - metaphlan2=2.5.0
+- mothur=1.36.1
 - gencore_de_novo_metagenomic_docs=1.0
