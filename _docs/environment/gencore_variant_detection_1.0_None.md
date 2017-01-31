@@ -1,19 +1,9 @@
-# gencore_annotation_1.0
+# gencore_variant_detection_1.0
 ## Summary
 
 Coming soon!
 
 ## Software Packages
-
-### augustus
-**Version:** 3.2.2
-
-**Conda Channel:** bioconda
-
-#### Summary:
-AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and Oliver Keller. It can be used as an ab initio program, which means it bases its prediction purely on the sequence. AUGUSTUS may also incorporate hints on the gene structure coming from extrinsic sources such as EST, MS/MS, protein alignments and synthenic genomic alignments.
-
-
 
 ### bamtools
 **Version:** 2.4.0
@@ -42,6 +32,16 @@ Tools for dealing with BCF and VCF files
 
 #### Summary:
 A powerful toolset for genome arithmetic
+
+
+
+### bioconductor-biobase
+**Version:** latest
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Functions that are needed by many other packages or which replace R functions.
 
 
 
@@ -95,6 +95,36 @@ Circos is a software package for visualizing data and information. It visualizes
 
 
 
+### cufflinks
+**Version:** 2.2.1
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Transcriptome assembly and differential expression analysis for RNA-Seq.
+
+
+
+### discovar
+**Version:** 52488
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Suitable for variant calling with reference and de novo assembly of small genomes.
+
+
+
+### discovardenovo
+**Version:** 52488
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Suitable for de novo assembly of large and small genomes.
+
+
+
 ### freebayes
 **Version:** 1.0.2.29
 
@@ -105,27 +135,17 @@ Bayesian haplotype-based polymorphism discovery and genotyping
 
 
 
-### genblasta
-**Version:** 1.0.4
+### gatk
+**Version:** 3.5
 
 **Conda Channel:** bioconda
 
 #### Summary:
-genBlast is a program suite, consisting of two programs: genBlastA and genBlastG. genBlastA parses local alignments, or high-scoring segment pairs (HSPs) produced by local sequence alignment programs such as BLAST and WU-BLAST and identify groups of HSPs.
+The full Genome Analysis Toolkit (GATK) framework, license restricted.
 
 
 
-### genblastg
-**Version:** 1.38
-
-**Conda Channel:** bioconda
-
-#### Summary:
-genBlast is a program suite, consisting of two programs: genBlastA and genBlastG. genBlastA parses local alignments, or high-scoring segment pairs (HSPs) produced by local sequence alignment programs such as BLAST and WU-BLAST and identify groups of HSPs.
-
-
-
-### gencore_annotation_docs
+### gencore_variant_detection_docs
 **Version:** 1.0
 
 **Conda Channel:** nyuad-cgsb
@@ -135,53 +155,13 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 
 
 
-### hmmer
-**Version:** 3.1b2
+### pear
+**Version:** 0.9.6
 
 **Conda Channel:** bioconda
 
 #### Summary:
-Biosequence analysis using profile hidden Markov models
-
-
-
-### jellyfish
-**Version:** 2.2.3
-
-**Conda Channel:** conda-forge
-
-#### Summary:
-
-
-
-
-### kat
-**Version:** 2.0.8
-
-**Conda Channel:** bioconda
-
-#### Summary:
-KAT is a suite of tools that analyse jellyfish hashes or sequence files (fasta or fastq) using kmer counts
-
-
-
-### kmergenie
-**Version:** 1.7016
-
-**Conda Channel:** bioconda
-
-#### Summary:
-KmerGenie estimates the best k-mer length for genome de novo assembly
-
-
-
-### pauda
-**Version:** 1.0.1
-
-**Conda Channel:** bioconda
-
-#### Summary:
-
+paired-end read merger
 
 
 
@@ -225,23 +205,43 @@ Job Submission to Slurm
 
 
 
-### repeatmasker
-**Version:** 4.0.6
+### picard
+**Version:** 2.5.0
 
 **Conda Channel:** bioconda
 
 #### Summary:
-RepeatMasker is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences.
 
 
 
-### rmblast
-**Version:** 2.2.28
+
+### prinseq
+**Version:** 0.20.4
 
 **Conda Channel:** bioconda
 
 #### Summary:
-RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite.
+PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic sequence data
+
+
+
+### r-base
+**Version:** 3.3.1
+
+**Conda Channel:** conda-forge
+
+#### Summary:
+
+
+
+
+### r-essentials
+**Version:** 3.3.1
+
+**Conda Channel:** r
+
+#### Summary:
+Some essential packages for working with R
 
 
 
@@ -255,6 +255,16 @@ Tools for dealing with SAM, BAM and CRAM files
 
 
 
+### seqtk
+**Version:** 1.2
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format
+
+
+
 ### snpeff
 **Version:** 4.3
 
@@ -265,6 +275,26 @@ Genetic variant annotation and effect prediction toolbox
 
 
 
+### snpsift
+**Version:** 4.3
+
+**Conda Channel:** bioconda
+
+#### Summary:
+
+
+
+
+### star
+**Version:** 2.5.2a
+
+**Conda Channel:** bioconda
+
+#### Summary:
+An RNA-seq read aligner.
+
+
+
 ### tophat
 **Version:** 2.1.0
 
@@ -272,26 +302,6 @@ Genetic variant annotation and effect prediction toolbox
 
 #### Summary:
 A spliced read mapper for RNA-Seq
-
-
-
-### transdecoder
-**Version:** 2.1.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-TransDecoder identifies candidate coding regions within transcript sequences, such as those generated by de novo RNA-Seq transcript assembly using Trinity, or constructed based on RNA-Seq alignments to the genome using Tophat and Cufflinks.
-
-
-
-### trinotate
-**Version:** 3.0.1
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms
 
 
 

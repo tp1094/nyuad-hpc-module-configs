@@ -1,19 +1,9 @@
-# gencore_de_novo_genomic_1.0
+# gencore_de_novo_transcriptome_1.0
 ## Summary
 
 Coming soon!
 
 ## Software Packages
-
-### abyss
-**Version:** 1.9.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Assembly By Short Sequences - a de novo, parallel, paired-end sequence assembler
-
-
 
 ### augustus
 **Version:** 3.2.2
@@ -52,6 +42,36 @@ Tools for dealing with BCF and VCF files
 
 #### Summary:
 A powerful toolset for genome arithmetic
+
+
+
+### bioconductor-deseq2
+**Version:** 1.10.1
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Estimate variance-mean dependence in count data from high-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution.
+
+
+
+### bioconductor-deseq
+**Version:** 1.22.1
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Estimate variance-mean dependence in count data from high-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution
+
+
+
+### bioconductor-edger
+**Version:** 3.14.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Differential expression analysis of RNA-seq expression profiles with biological replication. Implements a range of statistical methodology based on the negative binomial distributions, including empirical Bayes estimation, exact tests, generalized linear models and quasi-likelihood tests. As well as RNA-seq, it be applied to differential signal analysis of other types of genomic data that produce counts, including ChIP-seq, SAGE and CAGE.
 
 
 
@@ -105,67 +125,17 @@ Circos is a software package for visualizing data and information. It visualizes
 
 
 
-### discovar
-**Version:** 52488
+### cufflinks
+**Version:** 2.2.1
 
 **Conda Channel:** bioconda
 
 #### Summary:
-Suitable for variant calling with reference and de novo assembly of small genomes.
+Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 
 
-### discovardenovo
-**Version:** 52488
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Suitable for de novo assembly of large and small genomes.
-
-
-
-### freebayes
-**Version:** 1.0.2.29
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Bayesian haplotype-based polymorphism discovery and genotyping
-
-
-
-### gatk
-**Version:** 3.6
-
-**Conda Channel:** bioconda
-
-#### Summary:
-The full Genome Analysis Toolkit (GATK) framework, license restricted.
-
-
-
-### genblasta
-**Version:** 1.0.4
-
-**Conda Channel:** bioconda
-
-#### Summary:
-genBlast is a program suite, consisting of two programs: genBlastA and genBlastG. genBlastA parses local alignments, or high-scoring segment pairs (HSPs) produced by local sequence alignment programs such as BLAST and WU-BLAST and identify groups of HSPs.
-
-
-
-### genblastg
-**Version:** 1.38
-
-**Conda Channel:** bioconda
-
-#### Summary:
-genBlast is a program suite, consisting of two programs: genBlastA and genBlastG. genBlastA parses local alignments, or high-scoring segment pairs (HSPs) produced by local sequence alignment programs such as BLAST and WU-BLAST and identify groups of HSPs.
-
-
-
-### gencore_de_novo_genomic_docs
+### gencore_de_novo_transcriptome_docs
 **Version:** 1.0
 
 **Conda Channel:** nyuad-cgsb
@@ -185,43 +155,13 @@ Biosequence analysis using profile hidden Markov models
 
 
 
-### idba
-**Version:** 1.1.1
+### htseq
+**Version:** 0.6.1.post1
 
 **Conda Channel:** bioconda
 
 #### Summary:
-IDBA-UD is a iterative De Bruijn Graph De Novo Assembler for Short Reads Sequencing data with Highly Uneven Sequencing Depth.
-
-
-
-### jellyfish
-**Version:** 2.2.3
-
-**Conda Channel:** conda-forge
-
-#### Summary:
-
-
-
-
-### kmergenie
-**Version:** 1.7016
-
-**Conda Channel:** bioconda
-
-#### Summary:
-KmerGenie estimates the best k-mer length for genome de novo assembly
-
-
-
-### mira
-**Version:** 4.0.2
-
-**Conda Channel:** bioconda
-
-#### Summary:
-MIRA is a whole genome shotgun and EST sequence assembler for Sanger, 454, Solexa (Illumina), IonTorrent data and PacBio (the later at the moment only CCS and error-corrected CLR reads)
+A framework to process and analyze data from high-throughput sequencing (HTS) assays
 
 
 
@@ -305,6 +245,26 @@ Quality Assessment Tool for Genome Assemblies
 
 
 
+### rsem
+**Version:** 1.2.28
+
+**Conda Channel:** bioconda
+
+#### Summary:
+RSEM (RNA-Seq by Expectation-Maximization)
+
+
+
+### salmon
+**Version:** 0.6.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+Highly-accurate & wicked fast transcript-level quantification from RNA-seq reads using lightweight alignments
+
+
+
 ### samtools
 **Version:** 1.3.1
 
@@ -335,13 +295,23 @@ A lightweight OAI client library for Python
 
 
 
-### spades
-**Version:** 3.9.0
+### star
+**Version:** 2.5.2a
 
 **Conda Channel:** bioconda
 
 #### Summary:
-SPAdes – St. Petersburg genome assembler – is intended for both standard isolates and single-cell MDA bacteria assemblies.
+An RNA-seq read aligner.
+
+
+
+### tophat
+**Version:** 2.1.0
+
+**Conda Channel:** bioconda
+
+#### Summary:
+A spliced read mapper for RNA-Seq
 
 
 
@@ -372,16 +342,6 @@ Command-line tools for manipulating VCF files
 
 #### Summary:
 A set of tools written in Perl and C++ for working with VCF files.
-
-
-
-### velvet
-**Version:** 1.2.10
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Sequence Assembler for short reads
 
 
 

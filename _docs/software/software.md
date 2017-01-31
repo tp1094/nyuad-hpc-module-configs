@@ -38,11 +38,11 @@ AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and
 
 ### Summary
 
-
+Extensible M4 macros that produce shell scripts to configure software source code packages.
 
 **Version:** latest
 
-**Conda Channel:** bioconda
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -394,7 +394,7 @@ Circos is a software package for visualizing data and information. It visualizes
 
 CMake is an extensible, open-source system that manages the build process
 
-**Version:** latest
+**Version:** 3.7.1
 
 **Conda Channel:** conda-forge
 
@@ -609,6 +609,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 ### HPC Modules
 
 * gencore_base_1.0
+* gencore_test_1.0
 
 
 ## Gencore_build_docs
@@ -966,11 +967,11 @@ IDBA-UD is a iterative De Bruijn Graph De Novo Assembler for Short Reads Sequenc
 
 ### Summary
 
-
+IPython: Productive Interactive Computing
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -981,11 +982,11 @@ IDBA-UD is a iterative De Bruijn Graph De Novo Assembler for Short Reads Sequenc
 
 ### Summary
 
-Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA. A k-mer is a substring of length k, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence
+
 
 **Version:** 2.2.3
 
-**Conda Channel:** bioconda
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1059,11 +1060,11 @@ Kraken is a system for assigning taxonomic labels to short DNA sequences, usuall
 
 ### Summary
 
-
+Implementation of the traditional Unix macro processor.
 
 **Version:** latest
 
-**Conda Channel:** bioconda
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1085,6 +1086,21 @@ MACS -- Model-based Analysis of ChIP-Seq
 * gencore_epigenetics_1.0
 
 
+## Mafft
+
+### Summary
+
+Multiple alignment program for amino acid or nucleotide sequences based on fast Fourier transform
+
+**Version:** 7.221
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_evonet_1.0
+
+
 ## Mawk
 
 ### Summary
@@ -1099,6 +1115,21 @@ mawk is an interpreter for the AWK Programming Language.
 
 * gencore_de_novo_metagenomic_1.0
 * gencore_metagenomics_1.0
+
+
+## Mcl
+
+### Summary
+
+MCL - a cluster algorithm for graphs
+
+**Version:** 14.137
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_evonet_1.0
 
 
 ## Metaphlan2
@@ -1192,15 +1223,30 @@ MIRA is a whole genome shotgun and EST sequence assembler for Sanger, 454, Solex
 * gencore_metagenomics_1.0
 
 
+## Multiqc
+
+### Summary
+
+Create aggregate bioinformatics analysis report across many samples
+
+**Version:** 0.8
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_qc_1.0
+
+
 ## Numpy
 
 ### Summary
 
-
+array processing for numbers, strings, records, and objects.
 
 **Version:** 1.11.1
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1211,11 +1257,11 @@ MIRA is a whole genome shotgun and EST sequence assembler for Sanger, 454, Solex
 
 ### Summary
 
-
+array processing for numbers, strings, records, and objects.
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1293,6 +1339,7 @@ Get metadata for files in directories processed by BioX::Workflow
 * gencore_de_novo_metagenomic_1.0
 * gencore_de_novo_transcriptome_1.0
 * gencore_epigenetics_1.0
+* gencore_evonet_1.0
 * gencore_qc_1.0
 * gencore_rad_1.0
 * gencore_rad_ddocent_1.0
@@ -1322,6 +1369,7 @@ a plugin to BioX::Workflow
 * gencore_de_novo_metagenomic_1.0
 * gencore_de_novo_transcriptome_1.0
 * gencore_epigenetics_1.0
+* gencore_evonet_1.0
 * gencore_metagenomics_1.0
 * gencore_qc_1.0
 * gencore_qiime_1.0
@@ -1353,6 +1401,7 @@ A very opinionated template based workflow writer.
 * gencore_de_novo_metagenomic_1.0
 * gencore_de_novo_transcriptome_1.0
 * gencore_epigenetics_1.0
+* gencore_evonet_1.0
 * gencore_metagenomics_1.0
 * gencore_qc_1.0
 * gencore_qiime_1.0
@@ -1399,6 +1448,7 @@ Job Submission to Slurm
 * gencore_de_novo_metagenomic_1.0
 * gencore_de_novo_transcriptome_1.0
 * gencore_epigenetics_1.0
+* gencore_evonet_1.0
 * gencore_metagenomics_1.0
 * gencore_qc_1.0
 * gencore_qiime_1.0
@@ -1423,6 +1473,21 @@ A perl module for simple terminal control
 ### HPC Modules
 
 * gencore_perl_5.22.0
+
+
+## Perl
+
+### Summary
+
+The Perl programming language interpreter.
+
+**Version:** latest
+
+**Conda Channel:** conda-forge
+
+### HPC Modules
+
+* gencore_test
 
 
 ## Picard
@@ -1528,11 +1593,11 @@ Script to manipulate FASTA and FASTQ files, plus API for developers
 
 ### Summary
 
-
+General purpose programming language
 
 **Version:** 2.7
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1543,11 +1608,11 @@ Script to manipulate FASTA and FASTQ files, plus API for developers
 
 ### Summary
 
-
+General purpose programming language
 
 **Version:** 3.5
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1558,11 +1623,11 @@ Script to manipulate FASTA and FASTQ files, plus API for developers
 
 ### Summary
 
-
+General purpose programming language
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1606,14 +1671,16 @@ Quality Assessment Tool for Genome Assemblies
 
 
 
-**Version:** latest
+**Version:** 3.3.1
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
 * gencore_base_1.0
 * gencore_r_3.3.1
+* gencore_rnaseq_1.0
+* gencore_rnaseq_malaria_1.0
 * gencore_variant_detection_1.0
 
 
@@ -1623,7 +1690,7 @@ Quality Assessment Tool for Genome Assemblies
 
 Some essential packages for working with R
 
-**Version:** latest
+**Version:** 3.3.1
 
 **Conda Channel:** r
 
@@ -1631,6 +1698,8 @@ Some essential packages for working with R
 
 * gencore_base_1.0
 * gencore_r_3.3.1
+* gencore_rnaseq_1.0
+* gencore_rnaseq_malaria_1.0
 * gencore_variant_detection_1.0
 
 
@@ -1638,21 +1707,6 @@ Some essential packages for working with R
 
 ### Summary
 
-An implementation of the grammar of graphics in R. It combines the advantages of both base and lattice graphics: conditioning and shared axes are handled automatically, and you can still build up a plot step by step from multiple data sources. It also implements a sophisticated multidimensional conditioning system and a consistent interface to map data to aesthetic attributes. See http://ggplot2.org for more information, documentation and examples.
-
-**Version:** latest
-
-**Conda Channel:** bioconda
-
-### HPC Modules
-
-* gencore_base_1.0
-
-
-## R
-
-### Summary
-
 
 
 **Version:** latest
@@ -1661,8 +1715,7 @@ An implementation of the grammar of graphics in R. It combines the advantages of
 
 ### HPC Modules
 
-* gencore_r_3.3.1
-* gencore_variant_detection_1.0
+* gencore_base_1.0
 
 
 ## Rainbow
@@ -1769,11 +1822,11 @@ Tools for dealing with SAM, BAM and CRAM files
 
 ### Summary
 
-
+Scientific Library for Python
 
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 ### HPC Modules
 
@@ -1847,6 +1900,21 @@ Genetic variant annotation and effect prediction toolbox
 ### HPC Modules
 
 * gencore_variant_detection_1.0
+
+
+## Soapdenovo2-gapcloser
+
+### Summary
+
+a tool named GapCloser for SOAPdenovo.
+
+**Version:** 1.12
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_de_novo_genomic_soapdenovo2_1.0
 
 
 ## Soapdenovo2-prepare
@@ -2038,22 +2106,8 @@ Trinotate is a comprehensive annotation suite designed for automatic functional 
 
 ### HPC Modules
 
-* gencore_trinity_1.0
-
-
-## Trinotate
-
-### Summary
-
-Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms
-
-**Version:** 3.2.2
-
-**Conda Channel:** bioconda
-
-### HPC Modules
-
 * gencore_annotation_1.0
+* gencore_trinity_1.0
 
 
 ## Vcflib

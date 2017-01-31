@@ -62,11 +62,8 @@ def make_man(docs):
 		os.makedirs(man_dir)
 
 	cmd = "marked-man {} > {}/{}.1".format(docs.marked, man_dir, docs.name)
-
 	man_passes = run_command(cmd, True)
-
 	status_check_man(man_passes)
-
 	make_doc_package(docs)
 
 def make_doc_package(docs):
@@ -117,7 +114,7 @@ def update_env(docs):
 		env.channels.append('nyuad-cgsb')
 
 	env.save()
-	env.save_extra_args()
+	#env.save_extra_args()
 
 	logger.info('Successfully saved env')
 
@@ -136,7 +133,7 @@ def remote_docs_exist(docs):
 		logger.info("Remote doc package does not exist. Build")
 		return False
 
-return True
+	return True
 
 def status_check_man(man_passes):
 
