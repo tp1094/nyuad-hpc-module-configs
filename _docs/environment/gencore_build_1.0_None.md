@@ -8,10 +8,10 @@ Coming soon!
 ### autoconf
 **Version:** latest
 
-**Conda Channel:** bioconda
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+Extensible M4 macros that produce shell scripts to configure software source code packages.
 
 
 
@@ -26,7 +26,7 @@ Tool for automatically generating Makefile.in files compliant with the GNU Codin
 
 
 ### cmake
-**Version:** latest
+**Version:** 3.7.1
 
 **Conda Channel:** conda-forge
 
@@ -48,10 +48,10 @@ CMake is an extensible, open-source system that manages the build process
 ### m4
 **Version:** latest
 
-**Conda Channel:** bioconda
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+Implementation of the traditional Unix macro processor.
 
 
 

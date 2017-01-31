@@ -225,20 +225,10 @@ PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic se
 
 
 
-### r
-**Version:** latest
-
-**Conda Channel:** r
-
-#### Summary:
-
-
-
-
 ### r-base
-**Version:** latest
+**Version:** 3.3.1
 
-**Conda Channel:** r
+**Conda Channel:** conda-forge
 
 #### Summary:
 
@@ -246,7 +236,7 @@ PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic se
 
 
 ### r-essentials
-**Version:** latest
+**Version:** 3.3.1
 
 **Conda Channel:** r
 

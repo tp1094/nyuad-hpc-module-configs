@@ -78,10 +78,10 @@ MACS -- Model-based Analysis of ChIP-Seq
 ### numpy
 **Version:** 1.11.1
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+array processing for numbers, strings, records, and objects.
 
 
 
@@ -128,10 +128,10 @@ Job Submission to Slurm
 ### python
 **Version:** 2.7
 
-**Conda Channel:** default
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+General purpose programming language
 
 
 
