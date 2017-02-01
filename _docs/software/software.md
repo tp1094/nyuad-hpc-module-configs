@@ -549,6 +549,21 @@ The full Genome Analysis Toolkit (GATK) framework, license restricted.
 * gencore_rnaseq_1.0
 
 
+## Gcc
+
+### Summary
+
+
+
+**Version:** latest
+
+**Conda Channel:** default
+
+### HPC Modules
+
+* gencore_build_1.0
+
+
 ## Genblasta
 
 ### Summary
@@ -1054,6 +1069,21 @@ Kraken is a system for assigning taxonomic labels to short DNA sequences, usuall
 ### HPC Modules
 
 * gencore_kraken_1.0
+
+
+## Libgcc
+
+### Summary
+
+
+
+**Version:** latest
+
+**Conda Channel:** default
+
+### HPC Modules
+
+* gencore_build_1.0
 
 
 ## M4
@@ -2155,5 +2185,20 @@ Sequence Assembler for short reads
 ### HPC Modules
 
 * gencore_de_novo_genomic_1.0
+
+
+## Zlib
+
+### Summary
+
+Massively spiffy yet delicately unobtrusive compression library
+
+**Version:** latest
+
+**Conda Channel:** conda-forge
+
+### HPC Modules
+
+* gencore_build_1.0
 
 

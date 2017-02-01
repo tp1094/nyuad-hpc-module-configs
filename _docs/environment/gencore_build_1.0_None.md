@@ -35,10 +35,30 @@ CMake is an extensible, open-source system that manages the build process
 
 
 
+### gcc
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
 ### gencore_build_docs
 **Version:** 1.0
 
 **Conda Channel:** nyuad-cgsb
+
+#### Summary:
+
+
+
+
+### libgcc
+**Version:** latest
+
+**Conda Channel:** default
 
 #### Summary:
 
@@ -102,6 +122,16 @@ A very opinionated template based workflow writer.
 
 #### Summary:
 Job Submission to Slurm
+
+
+
+### zlib
+**Version:** latest
+
+**Conda Channel:** conda-forge
+
+#### Summary:
+Massively spiffy yet delicately unobtrusive compression library
 
 
 
