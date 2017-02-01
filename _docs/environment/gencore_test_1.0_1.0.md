@@ -5,10 +5,10 @@ Coming soon!
 
 ## Software Packages
 
-### gencore_base_docs
-**Version:** 1.0
+### gencore_base
+**Version:** docs=1.0
 
-**Conda Channel:** nyuad-cgsb
+**Conda Channel:** default
 
 #### Summary:
 

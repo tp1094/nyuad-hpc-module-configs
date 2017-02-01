@@ -5,53 +5,53 @@ Coming soon!
 
 ## Software Packages
 
-### gencore_qiime_docs
-**Version:** 1.0
+### gencore_qiime
+**Version:** docs=1.0
 
-**Conda Channel:** nyuad-cgsb
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### perl-biox-workflow-plugin-fileexists=0.13
+**Version:** latest
+
+**Conda Channel:** default
 
 #### Summary:
 
 
 
 
-### perl-biox-workflow-plugin-fileexists
-**Version:** 0.13
+### perl-biox-workflow=1.10
+**Version:** latest
 
-**Conda Channel:** bioconda
-
-#### Summary:
-a plugin to BioX::Workflow
-
-
-
-### perl-biox-workflow
-**Version:** 1.10
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-A very opinionated template based workflow writer.
 
 
 
-### perl-hpc-runner-slurm
-**Version:** 2.58
 
-**Conda Channel:** bioconda
+### perl-hpc-runner-slurm=2.58
+**Version:** latest
 
-#### Summary:
-Job Submission to Slurm
-
-
-
-### qiime
-**Version:** 1.9.1
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Quantitative Insights Into Microbial Ecology
+
+
+
+
+### qiime=1.9.1
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
 
 
 

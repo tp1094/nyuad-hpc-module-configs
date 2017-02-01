@@ -5,63 +5,63 @@ Coming soon!
 
 ## Software Packages
 
-### mafft
-**Version:** 7.221
+### mafft=7.221
+**Version:** latest
 
-**Conda Channel:** bioconda
-
-#### Summary:
-Multiple alignment program for amino acid or nucleotide sequences based on fast Fourier transform
-
-
-
-### mcl
-**Version:** 14.137
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-MCL - a cluster algorithm for graphs
 
 
 
-### perl-biox-workflow-plugin-filedetails
-**Version:** 0.11
 
-**Conda Channel:** bioconda
+### mcl=14.137
+**Version:** latest
 
-#### Summary:
-Get metadata for files in directories processed by BioX::Workflow
-
-
-
-### perl-biox-workflow-plugin-fileexists
-**Version:** 0.13
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-a plugin to BioX::Workflow
 
 
 
-### perl-biox-workflow
-**Version:** 1.10
 
-**Conda Channel:** bioconda
+### perl-biox-workflow-plugin-filedetails=0.11
+**Version:** latest
 
-#### Summary:
-A very opinionated template based workflow writer.
-
-
-
-### perl-hpc-runner-slurm
-**Version:** 2.58
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Job Submission to Slurm
+
+
+
+
+### perl-biox-workflow-plugin-fileexists=0.13
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### perl-biox-workflow=1.10
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### perl-hpc-runner-slurm=2.58
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
 
 
 

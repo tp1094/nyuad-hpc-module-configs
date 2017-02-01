@@ -15,33 +15,33 @@ Functions that are needed by many other packages or which replace R functions.
 
 
 
-### gencore_r_docs
-**Version:** 3.3.1
+### gencore_r
+**Version:** docs=3.3.1
 
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
-
-
-
-### r-base
-**Version:** 3.3.1
-
-**Conda Channel:** conda-forge
+**Conda Channel:** default
 
 #### Summary:
 
 
 
 
-### r-essentials
-**Version:** 3.3.1
+### r-base=3.3.1
+**Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** default
 
 #### Summary:
-Some essential packages for working with R
+
+
+
+
+### r-essentials=3.3.1
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
 
 
 

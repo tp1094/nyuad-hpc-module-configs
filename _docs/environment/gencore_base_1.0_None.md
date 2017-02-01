@@ -15,10 +15,10 @@ S4 generic functions needed by many Bioconductor packages.
 
 
 
-### gencore_base_docs
-**Version:** 1.0
+### gencore_base
+**Version:** docs=1.0
 
-**Conda Channel:** nyuad-cgsb
+**Conda Channel:** default
 
 #### Summary:
 
@@ -35,50 +35,50 @@ get, unpack, build and install modules from CPAN
 
 
 
-### perl-biox-workflow-plugin-filedetails
-**Version:** 0.11
+### perl-biox-workflow-plugin-filedetails=0.11
+**Version:** latest
 
-**Conda Channel:** bioconda
-
-#### Summary:
-Get metadata for files in directories processed by BioX::Workflow
-
-
-
-### perl-biox-workflow-plugin-fileexists
-**Version:** 0.13
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-a plugin to BioX::Workflow
 
 
 
-### perl-biox-workflow
-**Version:** 1.10
 
-**Conda Channel:** bioconda
+### perl-biox-workflow-plugin-fileexists=0.13
+**Version:** latest
 
-#### Summary:
-A very opinionated template based workflow writer.
-
-
-
-### perl-hpc-runner-slurm
-**Version:** 2.58
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Job Submission to Slurm
 
 
 
-### r-base
-**Version:** 3.3.1
 
-**Conda Channel:** conda-forge
+### perl-biox-workflow=1.10
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### perl-hpc-runner-slurm=2.58
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### r-base=3.3.1
+**Version:** latest
+
+**Conda Channel:** default
 
 #### Summary:
 
