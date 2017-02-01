@@ -1681,7 +1681,6 @@ Some essential packages for working with R
 
 ### HPC Modules
 
-* gencore_base_1.0
 * gencore_r_3.3.1
 * gencore_rnaseq_1.0
 * gencore_rnaseq_malaria_1.0

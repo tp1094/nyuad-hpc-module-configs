@@ -85,16 +85,6 @@ Job Submission to Slurm
 
 
 
-### r-essentials
-**Version:** 3.3.1
-
-**Conda Channel:** r
-
-#### Summary:
-Some essential packages for working with R
-
-
-
 ### r-ggplot2
 **Version:** latest
 
