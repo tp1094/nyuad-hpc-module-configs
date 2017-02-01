@@ -11,6 +11,9 @@ dependencies:
 - perl-biox-workflow=1.10
 - perl-biox-workflow-plugin-fileexists=0.13
 - perl-biox-workflow-plugin-filedetails=0.11
+- gcc
+- zlib
+- libgcc
 - cmake=3.7.1
 - autoconf
 - automake
