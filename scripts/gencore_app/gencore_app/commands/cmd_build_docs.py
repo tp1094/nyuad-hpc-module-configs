@@ -48,7 +48,7 @@ def flatten_deps(deps):
 
 def parse_deps(dep):
 
-    dep_split = dep.tsplit('_', 1)
+    dep_split = dep.rsplit('_', 1)
 
     if len(dep_split) == 2:
         #There is a version
