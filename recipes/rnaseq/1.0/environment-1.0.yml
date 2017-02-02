@@ -30,7 +30,6 @@ dependencies:
 - cufflinks=2.2.1
 - r-essentials=3.3.1
 - r-cairo
-- r-fastcluster=1.1.20-r3.3.1_0
 - bioconductor-deseq=1.22.1
 - bioconductor-deseq2=1.12.4-r3.3.1_3
 - bioconductor-edger=3.14.0
