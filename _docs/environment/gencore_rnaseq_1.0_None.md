@@ -45,7 +45,7 @@ Coming soon!
 
 
 
-### bioconductor-cummerbund=2.12.1
+### bioconductor-biovizbase=1.18.0
 **Version:** latest
 
 **Conda Channel:** default
@@ -55,7 +55,7 @@ Coming soon!
 
 
 
-### bioconductor-deseq2=1.10.1
+### bioconductor-cummerbund=2.16.0
 **Version:** latest
 
 **Conda Channel:** default
@@ -65,7 +65,7 @@ Coming soon!
 
 
 
-### bioconductor-deseq=1.22.1
+### bioconductor-deseq2=1.12.4
 **Version:** latest
 
 **Conda Channel:** default
@@ -76,6 +76,36 @@ Coming soon!
 
 
 ### bioconductor-edger=3.14.0
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### bioconductor-genomicranges=1.26.1
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### bioconductor-gviz=1.16.5
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### bioconductor-s4vectors=0.12.0
 **Version:** latest
 
 **Conda Channel:** default
@@ -245,13 +275,23 @@ Coming soon!
 
 
 
-### r-essentials=3.3.1
+### r-cairo
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** r
 
 #### Summary:
+This package provides a Cairo graphics device that can be use to create high-quality vector (PDF, PostScript and SVG) and bitmap output (PNG,JPEG,TIFF), and high-quality rendering in displays (X11 and Win32). Since it uses the same back-end for all output, copying across formats is WYSIWYG. Files are created without the dependence on X11 or other external programs. This device supports alpha channel (semi-transparent drawing) and resulting images can contain transparent and semi-transparent regions. It is ideal for use in server environments (file output) and as a replacement for other devices that don't have Cairo's capabilities such as alpha support or anti-aliasing. Backends are modular such that any subset of backends is supported.
 
+
+
+### r-essentials
+**Version:** latest
+
+**Conda Channel:** r
+
+#### Summary:
+Some essential packages for working with R
 
 
 
