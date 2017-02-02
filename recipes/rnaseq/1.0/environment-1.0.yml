@@ -29,6 +29,7 @@ dependencies:
 - tophat=2.1.0
 - cufflinks=2.2.1
 - r-base=3.3.1
+- r-essentials
 - r-cairo
 - bioconductor-deseq=1.22.1
 - bioconductor-deseq2=1.12.4
