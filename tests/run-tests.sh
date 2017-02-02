@@ -4,6 +4,12 @@ set -e # Exit with nonzero exit code if anything fails
 
 export PATH=/anaconda/bin:$PATH
 
+conda config --add channels conda-forge
+conda config --add channels defaults
+conda config --add channels r
+conda config --add channels bioconda
+
+
 conda install -y pip
 conda install conda conda-build
 
