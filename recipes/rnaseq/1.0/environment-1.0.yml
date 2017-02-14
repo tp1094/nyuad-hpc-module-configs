@@ -1,5 +1,4 @@
 name: gencore_rnaseq_1.0
-
 channels:
 - nyuad-cgsb
 - bioconda
