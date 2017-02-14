@@ -5,6 +5,16 @@ Coming soon!
 
 ## Software Packages
 
+### deeptools=2.3.2
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
 ### fastqc=0.11.5
 **Version:** latest
 
