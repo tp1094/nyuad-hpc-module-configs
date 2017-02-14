@@ -13,14 +13,10 @@ conda config --add channels bioconda
 conda install -y pip
 conda install conda conda-build
 
-cd /nyuad-conda-configs
 
-cd scripts/gencore_app
-python setup.py build && python setup.py install > /dev/null 2>&1
+pip install git+https://github.com/nyuad-cgsb/gencore_app.git/master
 
 cd /nyuad-conda-configs
-
-#gencore_app upload_envs --force_rebuild --environments recipes/variant_detection/1.0/environment-1.0.yml
 
 if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
 then
