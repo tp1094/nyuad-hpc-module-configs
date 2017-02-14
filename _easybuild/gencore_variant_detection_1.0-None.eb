@@ -8,12 +8,12 @@
 
 easyblock = 'Conda'
 
-name = "gencore_test_1.0"
+name = "gencore_variant_detection_1.0"
 version = "1.0"
 variant = "Linux-x86_64"
 
 homepage = "http://cbi.abudhabi.nyu.edu/w/"
-description = """ gencore_test_1.0 """
+description = """ gencore_variant_detection_1.0 """
 
 toolchain = {'name': 'dummy', 'version': 'dummy'}
 
@@ -21,7 +21,7 @@ builddependencies = [('gencore_anaconda2', '4.0.0')]
 
 #sources = ["environment.yml"]
 #environment_file = sources[0]
-remote_environment="nyuad-cgsb/gencore_test_1.0_1.0"
+remote_environment="nyuad-cgsb/gencore_variant_detection_1.0_None"
 
 sanity_check_paths = {
     'files': ["bin/conda"],
