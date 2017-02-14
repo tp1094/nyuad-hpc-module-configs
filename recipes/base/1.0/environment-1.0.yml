@@ -1,10 +1,9 @@
 name: gencore_base_1.0
-
 channels:
-- conda-forge
-- defaults
-- r
 - bioconda
+- r
+- defaults
+- conda-forge
 - nyuad-cgsb
 dependencies:
 - perl-app-cpanminus
