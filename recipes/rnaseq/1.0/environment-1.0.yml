@@ -1,11 +1,12 @@
 name: gencore_rnaseq_1.0
-
+version: '1.0'
+summary: 'RNASeq module'
 channels:
-- nyuad-cgsb
 - bioconda
 - r
 - defaults
 - conda-forge
+- nyuad-cgsb
 dependencies:
 - perl-hpc-runner-slurm=2.58
 - perl-biox-workflow=1.10

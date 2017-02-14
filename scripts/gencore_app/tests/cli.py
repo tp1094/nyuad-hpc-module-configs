@@ -6,18 +6,24 @@ import subprocess
 environment_1 = '''
 name: env-1
 dependencies:
-  - perl-threaded
+  - perl
 channels:
   - bioconda
+  - r 
+  - defaults
+  - condaforge 
 '''
 
 environment_2 = '''
 name: env-1
 rebuild: 1
 dependencies:
-  - perl-threaded
+  - perl
 channels:
   - bioconda
+  - r 
+  - defaults
+  - condaforge 
 '''
 
 

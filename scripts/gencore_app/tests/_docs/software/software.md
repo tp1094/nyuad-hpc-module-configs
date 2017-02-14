@@ -1,17 +1,17 @@
 # Software
 
-## Perl-threaded
+## Perl
 
 ### Summary
 
-The Perl language.
+
 
 **Version:** latest
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 ### HPC Modules
 
-* env_1
+* env-1
 
 

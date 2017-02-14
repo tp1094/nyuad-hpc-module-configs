@@ -69,11 +69,11 @@ def get_name(fname):
 
     package = from_file(fname)
     name  = package.name
-    version = package.version
+#    version = package.version
 
-    # l = name.split("_")
-    # version = l.pop()
-    # name = "_".join(l)
+    l = name.split("_")
+    version = l.pop()
+    name = "_".join(l)
 
     return name, version
 
