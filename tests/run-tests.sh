@@ -14,7 +14,7 @@ conda install -y pip
 conda install conda conda-build
 
 
-pip install git+https://github.com/nyuad-cgsb/gencore_app.git/master
+pip install git+https://github.com/nyuad-cgsb/gencore_app.git
 
 cd /nyuad-conda-configs
 
