@@ -3,7 +3,6 @@
 * [Software](software/software.md)
 * [Table](software/table.md)
 * [HPC Modules](environment/environments.md)
-	* [Env-1](environment/env-1.md)
 	* [Gencore_annotation_1.0](environment/gencore_annotation_1.0.md)
 	* [Gencore_base_1.0](environment/gencore_base_1.0.md)
 	* [Gencore_build_1.0](environment/gencore_build_1.0.md)

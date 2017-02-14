@@ -523,6 +523,21 @@ S4 generic functions needed by many Bioconductor packages.
 * gencore_rad_ddocent_1.0
 
 
+## Deeptools=2.3.2
+
+### Summary
+
+
+
+**Version:** latest
+
+**Conda Channel:** default
+
+### HPC Modules
+
+* gencore_qc_1.0
+
+
 ## Discovar=52488
 
 ### Summary
@@ -553,21 +568,6 @@ S4 generic functions needed by many Bioconductor packages.
 
 * gencore_de_novo_genomic_1.0
 * gencore_variant_detection_1.0
-
-
-## Env-1
-
-### Summary
-
-
-
-**Version:** docs=None
-
-**Conda Channel:** nyuad-cgsb
-
-### HPC Modules
-
-* env-1
 
 
 ## Fastqc=0.11.5
@@ -1605,21 +1605,6 @@ A perl module for simple terminal control
 ### HPC Modules
 
 * gencore_perl_5.22.0
-
-
-## Perl
-
-### Summary
-
-
-
-**Version:** latest
-
-**Conda Channel:** default
-
-### HPC Modules
-
-* env-1
 
 
 ## Picard=2.0.1
