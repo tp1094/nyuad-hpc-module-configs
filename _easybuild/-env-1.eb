@@ -8,12 +8,12 @@
 
 easyblock = 'Conda'
 
-name = "gencore_de_novo_transcriptome"
+name = ""
 version = "1.0"
 variant = "Linux-x86_64"
 
 homepage = "http://cbi.abudhabi.nyu.edu/w/"
-description = """ gencore_de_novo_transcriptome """
+description = """  """
 
 toolchain = {'name': 'dummy', 'version': 'dummy'}
 
@@ -21,7 +21,7 @@ builddependencies = [('gencore_anaconda2', '4.0.0')]
 
 #sources = ["environment.yml"]
 #environment_file = sources[0]
-remote_environment="nyuad-cgsb/gencore_de_novo_transcriptome_1.0"
+remote_environment="nyuad-cgsb/_env-1"
 
 sanity_check_paths = {
     'files': ["bin/conda"],
