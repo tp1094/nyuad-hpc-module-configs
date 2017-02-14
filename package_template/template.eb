@@ -6,7 +6,7 @@
 #  and install into your EasyBuild env with python setup.py build && python setup.py install
 ##
 
-easyblock = 'CondaEnv'
+easyblock = 'Conda'
 
 name = "{{ name }}"
 version = "1.0"

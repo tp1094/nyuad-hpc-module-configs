@@ -1,6 +1,6 @@
 # Software
 
-| | env_1 |
+| | env-1 |
 | --- | ---  |
-| perl-threaded=latest | **Y** |
+| perl=latest | **Y** |
 

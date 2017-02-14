@@ -182,7 +182,7 @@ S4 generic functions needed by many Bioconductor packages.
 * gencore_base_1.0
 
 
-## Bioconductor-cummerbund=2.12.1
+## Bioconductor-biovizbase=1.18.0
 
 ### Summary
 
@@ -195,7 +195,36 @@ S4 generic functions needed by many Bioconductor packages.
 ### HPC Modules
 
 * gencore_rnaseq_1.0
+
+
+## Bioconductor-cummerbund=2.12.1
+
+### Summary
+
+
+
+**Version:** latest
+
+**Conda Channel:** default
+
+### HPC Modules
+
 * gencore_rnaseq_malaria_1.0
+
+
+## Bioconductor-cummerbund=2.16.0
+
+### Summary
+
+
+
+**Version:** latest
+
+**Conda Channel:** default
+
+### HPC Modules
+
+* gencore_rnaseq_1.0
 
 
 ## Bioconductor-dada2=1.0.3
@@ -226,8 +255,22 @@ S4 generic functions needed by many Bioconductor packages.
 ### HPC Modules
 
 * gencore_de_novo_transcriptome_1.0
-* gencore_rnaseq_1.0
 * gencore_rnaseq_malaria_1.0
+
+
+## Bioconductor-deseq2=1.12.4
+
+### Summary
+
+
+
+**Version:** latest
+
+**Conda Channel:** default
+
+### HPC Modules
+
+* gencore_rnaseq_1.0
 
 
 ## Bioconductor-deseq=1.22.1
@@ -243,7 +286,6 @@ S4 generic functions needed by many Bioconductor packages.
 ### HPC Modules
 
 * gencore_de_novo_transcriptome_1.0
-* gencore_rnaseq_1.0
 * gencore_rnaseq_malaria_1.0
 
 
@@ -262,6 +304,51 @@ S4 generic functions needed by many Bioconductor packages.
 * gencore_de_novo_transcriptome_1.0
 * gencore_rnaseq_1.0
 * gencore_rnaseq_malaria_1.0
+
+
+## Bioconductor-genomicranges=1.26.1
+
+### Summary
+
+
+
+**Version:** latest
+
+**Conda Channel:** default
+
+### HPC Modules
+
+* gencore_rnaseq_1.0
+
+
+## Bioconductor-gviz=1.16.5
+
+### Summary
+
+
+
+**Version:** latest
+
+**Conda Channel:** default
+
+### HPC Modules
+
+* gencore_rnaseq_1.0
+
+
+## Bioconductor-s4vectors=0.12.0
+
+### Summary
+
+
+
+**Version:** latest
+
+**Conda Channel:** default
+
+### HPC Modules
+
+* gencore_rnaseq_1.0
 
 
 ## Blast=2.2.31
@@ -1699,6 +1786,21 @@ General purpose programming language
 * gencore_variant_detection_1.0
 
 
+## R-cairo
+
+### Summary
+
+This package provides a Cairo graphics device that can be use to create high-quality vector (PDF, PostScript and SVG) and bitmap output (PNG,JPEG,TIFF), and high-quality rendering in displays (X11 and Win32). Since it uses the same back-end for all output, copying across formats is WYSIWYG. Files are created without the dependence on X11 or other external programs. This device supports alpha channel (semi-transparent drawing) and resulting images can contain transparent and semi-transparent regions. It is ideal for use in server environments (file output) and as a replacement for other devices that don't have Cairo's capabilities such as alpha support or anti-aliasing. Backends are modular such that any subset of backends is supported.
+
+**Version:** latest
+
+**Conda Channel:** r
+
+### HPC Modules
+
+* gencore_rnaseq_1.0
+
+
 ## R-essentials=3.3.1
 
 ### Summary
@@ -1712,9 +1814,23 @@ General purpose programming language
 ### HPC Modules
 
 * gencore_r_3.3.1
-* gencore_rnaseq_1.0
 * gencore_rnaseq_malaria_1.0
 * gencore_variant_detection_1.0
+
+
+## R-essentials
+
+### Summary
+
+Some essential packages for working with R
+
+**Version:** latest
+
+**Conda Channel:** r
+
+### HPC Modules
+
+* gencore_rnaseq_1.0
 
 
 ## R-ggplot2

@@ -6,7 +6,7 @@
 #  and install into your EasyBuild env with python setup.py build && python setup.py install
 ##
 
-easyblock = 'CondaEnv'
+easyblock = 'Conda'
 
 name = "gencore_test_1.0"
 version = "1.0"

@@ -12,11 +12,17 @@
 | bioconductor-ballgown=2.2.0=latest | | | | | | | | | | | | | | | | | | | **Y** | | | | |
 | bioconductor-biobase=latest | | | | | | | | | | | | | | | | **Y** | | | | | | | **Y** |
 | bioconductor-biocgenerics=latest | | **Y** | | | | | | | | | | | | | | | | | | | | | |
-| bioconductor-cummerbund=2.12.1=latest | | | | | | | | | | | | | | | | | | | **Y** | **Y** | | | |
+| bioconductor-biovizbase=1.18.0=latest | | | | | | | | | | | | | | | | | | | **Y** | | | | |
+| bioconductor-cummerbund=2.12.1=latest | | | | | | | | | | | | | | | | | | | | **Y** | | | |
+| bioconductor-cummerbund=2.16.0=latest | | | | | | | | | | | | | | | | | | | **Y** | | | | |
 | bioconductor-dada2=1.0.3=latest | | | | | | | | | | | **Y** | | | | | | | | | | | | |
-| bioconductor-deseq2=1.10.1=latest | | | | | | | **Y** | | | | | | | | | | | | **Y** | **Y** | | | |
-| bioconductor-deseq=1.22.1=latest | | | | | | | **Y** | | | | | | | | | | | | **Y** | **Y** | | | |
+| bioconductor-deseq2=1.10.1=latest | | | | | | | **Y** | | | | | | | | | | | | | **Y** | | | |
+| bioconductor-deseq2=1.12.4=latest | | | | | | | | | | | | | | | | | | | **Y** | | | | |
+| bioconductor-deseq=1.22.1=latest | | | | | | | **Y** | | | | | | | | | | | | | **Y** | | | |
 | bioconductor-edger=3.14.0=latest | | | | | | | **Y** | | | | | | | | | | | | **Y** | **Y** | | | |
+| bioconductor-genomicranges=1.26.1=latest | | | | | | | | | | | | | | | | | | | **Y** | | | | |
+| bioconductor-gviz=1.16.5=latest | | | | | | | | | | | | | | | | | | | **Y** | | | | |
+| bioconductor-s4vectors=0.12.0=latest | | | | | | | | | | | | | | | | | | | **Y** | | | | |
 | blast=2.2.31=latest | **Y** | | | **Y** | | **Y** | **Y** | | | | **Y** | | | | | | **Y** | | | | | | **Y** |
 | blat=35=latest | **Y** | | | **Y** | | **Y** | **Y** | | | | **Y** | | | | | | **Y** | | **Y** | **Y** | | | **Y** |
 | bowtie2=2.2.8=latest | **Y** | | | **Y** | | **Y** | **Y** | **Y** | | | **Y** | | | | | | **Y** | | **Y** | **Y** | | | **Y** |
@@ -103,7 +109,9 @@
 | qiime=1.9.1=latest | | | | | | | | | | | | | | | **Y** | | | | | | | | |
 | quast=4.1=latest | | | | **Y** | | | **Y** | | | | | | | | | | | | | | | | |
 | r-base=3.3.1=latest | | **Y** | | | | | | | | | | | | | | **Y** | | | **Y** | **Y** | | | **Y** |
-| r-essentials=3.3.1=latest | | | | | | | | | | | | | | | | **Y** | | | **Y** | **Y** | | | **Y** |
+| r-cairo=latest | | | | | | | | | | | | | | | | | | | **Y** | | | | |
+| r-essentials=3.3.1=latest | | | | | | | | | | | | | | | | **Y** | | | | **Y** | | | **Y** |
+| r-essentials=latest | | | | | | | | | | | | | | | | | | | **Y** | | | | |
 | r-ggplot2=latest | | **Y** | | | | | | | | | | | | | | | | | | | | | |
 | rainbow=2.0.4=latest | | | | | | | | | | | | | | | | | **Y** | | | | | | |
 | repeatmasker=4.0.6=latest | **Y** | | | | | | | | | | | | | | | | | | | | | | |
