@@ -1,4 +1,6 @@
 name: gencore_rnaseq_1.0
+version: '1.0'
+summary: 'RNASeq module'
 channels:
 - bioconda
 - r
