@@ -1,4 +1,5 @@
 name: gencore_qc_1.0
+
 channels:
 - defaults
 - conda-forge
