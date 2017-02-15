@@ -5,7 +5,7 @@ sudo: required
 services:
 - docker
 install: tests/travis-setup.sh
-script:  bash tests/travis-run.sh
+script:  tests/travis-run.sh
 env:
   global:
   - ANACONDA_USER: nyuad-cgsb
