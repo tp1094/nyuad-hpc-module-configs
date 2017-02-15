@@ -1,6 +1,6 @@
 # Software
 
-| | gencore_annotation_1.0 | gencore_base_1.0 | gencore_build_1.0 | gencore_de_novo_genomic_1.0 | gencore_de_novo_genomic_soapdenovo2_1.0 | gencore_de_novo_metagenomic_1.0 | gencore_de_novo_transcriptome_1.0 | gencore_epigenetics_1.0 | gencore_evonet_1.0 | gencore_kraken_1.0 | gencore_metagenomics_1.0 | gencore_perl_5.22.0 | gencore_python_1.0 | gencore_qc_1.0 | gencore_qiime_1.0 | gencore_r_3.3.1 | gencore_rad_1.0 | gencore_rad_ddocent_1.0 | gencore_rnaseq_1.0 | gencore_rnaseq_malaria_1.0 | gencore_test_1.0 | gencore_trinity_1.0 | gencore_variant_detection_1.0 |
+| | gencore_annotation | gencore_base | gencore_build | gencore_de_novo_genomic | gencore_de_novo_genomic_soapdenovo2 | gencore_de_novo_metagenomic | gencore_de_novo_transcriptome | gencore_epigenetics | gencore_evonet | gencore_kraken | gencore_metagenomics | gencore_perl | gencore_python | gencore_qc | gencore_qiime | gencore_r | gencore_rad | gencore_rad_ddocent | gencore_rnaseq | gencore_rnaseq_malaria | gencore_test | gencore_trinity | gencore_variant_detection |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---  |
 | abyss=1.9.0=latest | | | | **Y** | | | | | | | | | | | | | | | | | | | |
 | augustus=3.2.2=latest | **Y** | | | **Y** | | **Y** | **Y** | | | | **Y** | | | | | | | | | | | | |

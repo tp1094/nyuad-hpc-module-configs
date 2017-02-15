@@ -1,77 +1,87 @@
-# gencore_de_novo_genomic_soapdenovo2_1.0
+# gencore_de_novo_genomic_soapdenovo2
 ## Summary
 
 Coming soon!
 
 ## Software Packages
 
-### gencore_de_novo_genomic_soapdenovo2_docs
-**Version:** 1.0
+### gencore_de_novo_genomic_soapdenovo2
+**Version:** docs=1.0
 
-**Conda Channel:** nyuad-cgsb
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### perl-biox-workflow-plugin-filedetails=0.11
+**Version:** latest
+
+**Conda Channel:** default
 
 #### Summary:
 
 
 
 
-### perl-biox-workflow-plugin-filedetails
-**Version:** 0.11
+### perl-biox-workflow-plugin-fileexists=0.13
+**Version:** latest
 
-**Conda Channel:** bioconda
-
-#### Summary:
-Get metadata for files in directories processed by BioX::Workflow
-
-
-
-### perl-biox-workflow-plugin-fileexists
-**Version:** 0.13
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-a plugin to BioX::Workflow
 
 
 
-### perl-biox-workflow
-**Version:** 1.10
 
-**Conda Channel:** bioconda
+### perl-biox-workflow=1.10
+**Version:** latest
 
-#### Summary:
-A very opinionated template based workflow writer.
-
-
-
-### perl-hpc-runner-slurm
-**Version:** 2.58
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Job Submission to Slurm
 
 
 
-### soapdenovo2-prepare
-**Version:** 2.0
 
-**Conda Channel:** bioconda
+### perl-hpc-runner-slurm=2.58
+**Version:** latest
 
-#### Summary:
-SoapDenovo2 Data prepare module using assembled contig to do scaffold assembly
-
-
-
-### soapdenovo2
-**Version:** 2.40
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-SOAPdenovo is a novel short-read assembly method that can build a de novo draft assembly for the human-sized genomes.
+
+
+
+
+### soapdenovo2-gapcloser=1.12
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### soapdenovo2-prepare=2.0
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### soapdenovo2=2.40
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
 
 
 

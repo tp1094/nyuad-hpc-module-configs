@@ -12,7 +12,7 @@
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
+* gencore_de_novo_genomic
 
 
 ## Augustus=3.2.2
@@ -27,11 +27,11 @@
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_metagenomics_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_metagenomics
 
 
 ## Autoconf
@@ -46,7 +46,7 @@ Extensible M4 macros that produce shell scripts to configure software source cod
 
 ### HPC Modules
 
-* gencore_build_1.0
+* gencore_build
 
 
 ## Automake
@@ -61,7 +61,7 @@ Tool for automatically generating Makefile.in files compliant with the GNU Codin
 
 ### HPC Modules
 
-* gencore_build_1.0
+* gencore_build
 
 
 ## Bamtools=2.4.0
@@ -76,16 +76,16 @@ Tool for automatically generating Makefile.in files compliant with the GNU Codin
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_epigenetics_1.0
-* gencore_metagenomics_1.0
-* gencore_rad_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_epigenetics
+* gencore_metagenomics
+* gencore_rad
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## Bcftools=1.3.1
@@ -100,16 +100,16 @@ Tool for automatically generating Makefile.in files compliant with the GNU Codin
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_epigenetics_1.0
-* gencore_metagenomics_1.0
-* gencore_rad_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_epigenetics
+* gencore_metagenomics
+* gencore_rad
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## Bedtools=2.25.0
@@ -124,16 +124,16 @@ Tool for automatically generating Makefile.in files compliant with the GNU Codin
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_epigenetics_1.0
-* gencore_metagenomics_1.0
-* gencore_rad_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_epigenetics
+* gencore_metagenomics
+* gencore_rad
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## Bioconductor-ballgown=2.2.0
@@ -148,7 +148,7 @@ Tool for automatically generating Makefile.in files compliant with the GNU Codin
 
 ### HPC Modules
 
-* gencore_rnaseq_1.0
+* gencore_rnaseq
 
 
 ## Bioconductor-biobase
@@ -163,8 +163,8 @@ Functions that are needed by many other packages or which replace R functions.
 
 ### HPC Modules
 
-* gencore_r_3.3.1
-* gencore_variant_detection_1.0
+* gencore_r
+* gencore_variant_detection
 
 
 ## Bioconductor-biocgenerics
@@ -179,7 +179,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_base_1.0
+* gencore_base
 
 
 ## Bioconductor-biovizbase=1.18.0
@@ -194,7 +194,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_rnaseq_1.0
+* gencore_rnaseq
 
 
 ## Bioconductor-cummerbund=2.12.1
@@ -209,7 +209,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_rnaseq_malaria_1.0
+* gencore_rnaseq_malaria
 
 
 ## Bioconductor-cummerbund=2.16.0
@@ -224,7 +224,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_rnaseq_1.0
+* gencore_rnaseq
 
 
 ## Bioconductor-dada2=1.0.3
@@ -239,7 +239,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_metagenomics_1.0
+* gencore_metagenomics
 
 
 ## Bioconductor-deseq2=1.10.1
@@ -254,8 +254,8 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_de_novo_transcriptome_1.0
-* gencore_rnaseq_malaria_1.0
+* gencore_de_novo_transcriptome
+* gencore_rnaseq_malaria
 
 
 ## Bioconductor-deseq2=1.12.4
@@ -270,7 +270,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_rnaseq_1.0
+* gencore_rnaseq
 
 
 ## Bioconductor-deseq=1.22.1
@@ -285,8 +285,8 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_de_novo_transcriptome_1.0
-* gencore_rnaseq_malaria_1.0
+* gencore_de_novo_transcriptome
+* gencore_rnaseq_malaria
 
 
 ## Bioconductor-edger=3.14.0
@@ -301,9 +301,9 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_de_novo_transcriptome_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
+* gencore_de_novo_transcriptome
+* gencore_rnaseq
+* gencore_rnaseq_malaria
 
 
 ## Bioconductor-genomicranges=1.26.1
@@ -318,7 +318,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_rnaseq_1.0
+* gencore_rnaseq
 
 
 ## Bioconductor-gviz=1.16.5
@@ -333,7 +333,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_rnaseq_1.0
+* gencore_rnaseq
 
 
 ## Bioconductor-s4vectors=0.12.0
@@ -348,7 +348,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_rnaseq_1.0
+* gencore_rnaseq
 
 
 ## Blast=2.2.31
@@ -363,13 +363,13 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_metagenomics_1.0
-* gencore_rad_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_metagenomics
+* gencore_rad
+* gencore_variant_detection
 
 
 ## Blat=35
@@ -384,15 +384,15 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_metagenomics_1.0
-* gencore_rad_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_metagenomics
+* gencore_rad
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## Bowtie2=2.2.8
@@ -407,16 +407,16 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_epigenetics_1.0
-* gencore_metagenomics_1.0
-* gencore_rad_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_epigenetics
+* gencore_metagenomics
+* gencore_rad
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## Bwa=0.7.15
@@ -431,13 +431,13 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_epigenetics_1.0
-* gencore_metagenomics_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_epigenetics
+* gencore_metagenomics
+* gencore_variant_detection
 
 
 ## Cd-hit=4.6.4
@@ -452,8 +452,8 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_metagenomics_1.0
-* gencore_rad_1.0
+* gencore_metagenomics
+* gencore_rad
 
 
 ## Circos=0.69.2
@@ -468,11 +468,11 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_variant_detection
 
 
 ## Cmake=3.7.1
@@ -487,7 +487,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_build_1.0
+* gencore_build
 
 
 ## Cufflinks=2.2.1
@@ -502,10 +502,10 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_de_novo_transcriptome_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_de_novo_transcriptome
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## Ddocent=2.1
@@ -520,7 +520,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_rad_ddocent_1.0
+* gencore_rad_ddocent
 
 
 ## Deeptools=2.3.2
@@ -535,7 +535,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_qc_1.0
+* gencore_qc
 
 
 ## Discovar=52488
@@ -550,8 +550,8 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
-* gencore_variant_detection_1.0
+* gencore_de_novo_genomic
+* gencore_variant_detection
 
 
 ## Discovardenovo=52488
@@ -566,8 +566,8 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
-* gencore_variant_detection_1.0
+* gencore_de_novo_genomic
+* gencore_variant_detection
 
 
 ## Fastqc=0.11.5
@@ -582,8 +582,8 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_qc_1.0
-* gencore_rnaseq_1.0
+* gencore_qc
+* gencore_rnaseq
 
 
 ## Fastx
@@ -598,7 +598,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_qc_1.0
+* gencore_qc
 
 
 ## Freebayes=1.0.2.29
@@ -613,10 +613,10 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_rad_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
+* gencore_rad
+* gencore_variant_detection
 
 
 ## Gatk=3.5
@@ -631,8 +631,8 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## Gatk=3.6
@@ -647,8 +647,8 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
-* gencore_rnaseq_1.0
+* gencore_de_novo_genomic
+* gencore_rnaseq
 
 
 ## Gcc
@@ -663,7 +663,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_build_1.0
+* gencore_build
 
 
 ## Genblasta=1.0.4
@@ -678,8 +678,8 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
 
 
 ## Genblastg=1.38
@@ -694,8 +694,8 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
 
 
 ## Gencore_annotation
@@ -710,7 +710,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_annotation_1.0
+* gencore_annotation
 
 
 ## Gencore_base
@@ -725,8 +725,8 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_base_1.0
-* gencore_test_1.0
+* gencore_base
+* gencore_test
 
 
 ## Gencore_build
@@ -741,7 +741,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_build_1.0
+* gencore_build
 
 
 ## Gencore_de_novo_genomic
@@ -756,7 +756,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
+* gencore_de_novo_genomic
 
 
 ## Gencore_de_novo_genomic_soapdenovo2
@@ -771,7 +771,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_soapdenovo2_1.0
+* gencore_de_novo_genomic_soapdenovo2
 
 
 ## Gencore_de_novo_metagenomic
@@ -786,7 +786,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_de_novo_metagenomic_1.0
+* gencore_de_novo_metagenomic
 
 
 ## Gencore_de_novo_transcriptome
@@ -801,7 +801,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_de_novo_transcriptome_1.0
+* gencore_de_novo_transcriptome
 
 
 ## Gencore_epigenetics
@@ -816,7 +816,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_epigenetics_1.0
+* gencore_epigenetics
 
 
 ## Gencore_kraken
@@ -831,7 +831,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_kraken_1.0
+* gencore_kraken
 
 
 ## Gencore_metagenomics
@@ -846,7 +846,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_metagenomics_1.0
+* gencore_metagenomics
 
 
 ## Gencore_perl
@@ -861,7 +861,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_perl_5.22.0
+* gencore_perl
 
 
 ## Gencore_python
@@ -876,7 +876,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_python_1.0
+* gencore_python
 
 
 ## Gencore_qc
@@ -891,7 +891,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_qc_1.0
+* gencore_qc
 
 
 ## Gencore_qiime
@@ -906,7 +906,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_qiime_1.0
+* gencore_qiime
 
 
 ## Gencore_r
@@ -921,7 +921,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_r_3.3.1
+* gencore_r
 
 
 ## Gencore_rad
@@ -936,7 +936,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_rad_1.0
+* gencore_rad
 
 
 ## Gencore_rad_ddocent
@@ -951,7 +951,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_rad_ddocent_1.0
+* gencore_rad_ddocent
 
 
 ## Gencore_rnaseq
@@ -966,7 +966,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_rnaseq_1.0
+* gencore_rnaseq
 
 
 ## Gencore_rnaseq_malaria
@@ -981,7 +981,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_rnaseq_malaria_1.0
+* gencore_rnaseq_malaria
 
 
 ## Gencore_trinity
@@ -996,7 +996,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_trinity_1.0
+* gencore_trinity
 
 
 ## Gencore_variant_detection
@@ -1011,7 +1011,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_variant_detection_1.0
+* gencore_variant_detection
 
 
 ## Hisat2=2.0.4
@@ -1026,7 +1026,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_rnaseq_1.0
+* gencore_rnaseq
 
 
 ## Hmmer=3.1b2
@@ -1041,11 +1041,11 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_metagenomics_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_metagenomics
 
 
 ## Htseq=0.6.1.post1
@@ -1060,9 +1060,9 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_de_novo_transcriptome_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
+* gencore_de_novo_transcriptome
+* gencore_rnaseq
+* gencore_rnaseq_malaria
 
 
 ## Idba=1.1.1
@@ -1077,7 +1077,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
+* gencore_de_novo_genomic
 
 
 ## Ipython
@@ -1092,7 +1092,7 @@ IPython: Productive Interactive Computing
 
 ### HPC Modules
 
-* gencore_python_1.0
+* gencore_python
 
 
 ## Jellyfish=2.2.3
@@ -1107,8 +1107,8 @@ IPython: Productive Interactive Computing
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
 
 
 ## Kallisto=0.43.0
@@ -1123,8 +1123,8 @@ IPython: Productive Interactive Computing
 
 ### HPC Modules
 
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
+* gencore_rnaseq
+* gencore_rnaseq_malaria
 
 
 ## Kat=2.0.8
@@ -1139,7 +1139,7 @@ IPython: Productive Interactive Computing
 
 ### HPC Modules
 
-* gencore_annotation_1.0
+* gencore_annotation
 
 
 ## Kmergenie=1.7016
@@ -1154,8 +1154,8 @@ IPython: Productive Interactive Computing
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
 
 
 ## Kraken=0.10.6
@@ -1170,7 +1170,7 @@ IPython: Productive Interactive Computing
 
 ### HPC Modules
 
-* gencore_kraken_1.0
+* gencore_kraken
 
 
 ## Libgcc
@@ -1185,22 +1185,22 @@ IPython: Productive Interactive Computing
 
 ### HPC Modules
 
-* gencore_build_1.0
+* gencore_build
 
 
 ## M4
 
 ### Summary
 
-Implementation of the traditional Unix macro processor.
+
 
 **Version:** latest
 
-**Conda Channel:** conda-forge
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
-* gencore_build_1.0
+* gencore_build
 
 
 ## Macs2=2.1.1.20160309
@@ -1215,7 +1215,7 @@ Implementation of the traditional Unix macro processor.
 
 ### HPC Modules
 
-* gencore_epigenetics_1.0
+* gencore_epigenetics
 
 
 ## Mafft=7.221
@@ -1230,7 +1230,7 @@ Implementation of the traditional Unix macro processor.
 
 ### HPC Modules
 
-* gencore_evonet_1.0
+* gencore_evonet
 
 
 ## Mawk=1.3.4
@@ -1245,8 +1245,8 @@ Implementation of the traditional Unix macro processor.
 
 ### HPC Modules
 
-* gencore_de_novo_metagenomic_1.0
-* gencore_metagenomics_1.0
+* gencore_de_novo_metagenomic
+* gencore_metagenomics
 
 
 ## Mcl=14.137
@@ -1261,7 +1261,7 @@ Implementation of the traditional Unix macro processor.
 
 ### HPC Modules
 
-* gencore_evonet_1.0
+* gencore_evonet
 
 
 ## Metaphlan2=2.5.0
@@ -1276,7 +1276,7 @@ Implementation of the traditional Unix macro processor.
 
 ### HPC Modules
 
-* gencore_de_novo_metagenomic_1.0
+* gencore_de_novo_metagenomic
 
 
 ## Metavelvet-sl-feature-extraction=1.0
@@ -1291,7 +1291,7 @@ Implementation of the traditional Unix macro processor.
 
 ### HPC Modules
 
-* gencore_de_novo_metagenomic_1.0
+* gencore_de_novo_metagenomic
 
 
 ## Metavelvet-sl=1.0
@@ -1306,7 +1306,7 @@ Implementation of the traditional Unix macro processor.
 
 ### HPC Modules
 
-* gencore_de_novo_metagenomic_1.0
+* gencore_de_novo_metagenomic
 
 
 ## Metavelvet=1.1.01
@@ -1321,7 +1321,7 @@ Implementation of the traditional Unix macro processor.
 
 ### HPC Modules
 
-* gencore_de_novo_metagenomic_1.0
+* gencore_de_novo_metagenomic
 
 
 ## Mira=4.0.2
@@ -1336,7 +1336,7 @@ Implementation of the traditional Unix macro processor.
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
+* gencore_de_novo_genomic
 
 
 ## Mothur=1.36.1
@@ -1351,8 +1351,8 @@ Implementation of the traditional Unix macro processor.
 
 ### HPC Modules
 
-* gencore_de_novo_metagenomic_1.0
-* gencore_metagenomics_1.0
+* gencore_de_novo_metagenomic
+* gencore_metagenomics
 
 
 ## Multiqc=0.8
@@ -1367,7 +1367,7 @@ Implementation of the traditional Unix macro processor.
 
 ### HPC Modules
 
-* gencore_qc_1.0
+* gencore_qc
 
 
 ## Numpy=1.11.1
@@ -1382,7 +1382,7 @@ Implementation of the traditional Unix macro processor.
 
 ### HPC Modules
 
-* gencore_epigenetics_1.0
+* gencore_epigenetics
 
 
 ## Numpy
@@ -1397,7 +1397,7 @@ array processing for numbers, strings, records, and objects.
 
 ### HPC Modules
 
-* gencore_python_1.0
+* gencore_python
 
 
 ## Pauda=1.0.1
@@ -1412,7 +1412,7 @@ array processing for numbers, strings, records, and objects.
 
 ### HPC Modules
 
-* gencore_annotation_1.0
+* gencore_annotation
 
 
 ## Pear=0.9.6
@@ -1427,11 +1427,11 @@ array processing for numbers, strings, records, and objects.
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_metagenomics_1.0
-* gencore_variant_detection_1.0
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_metagenomics
+* gencore_variant_detection
 
 
 ## Perl-app-cpanminus
@@ -1446,9 +1446,9 @@ get, unpack, build and install modules from CPAN
 
 ### HPC Modules
 
-* gencore_base_1.0
-* gencore_build_1.0
-* gencore_perl_5.22.0
+* gencore_base
+* gencore_build
+* gencore_perl
 
 
 ## Perl-biox-workflow-plugin-filedetails=0.11
@@ -1463,22 +1463,22 @@ get, unpack, build and install modules from CPAN
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_base_1.0
-* gencore_build_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_genomic_soapdenovo2_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_epigenetics_1.0
-* gencore_evonet_1.0
-* gencore_qc_1.0
-* gencore_rad_1.0
-* gencore_rad_ddocent_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_trinity_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_base
+* gencore_build
+* gencore_de_novo_genomic
+* gencore_de_novo_genomic_soapdenovo2
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_epigenetics
+* gencore_evonet
+* gencore_qc
+* gencore_rad
+* gencore_rad_ddocent
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_trinity
+* gencore_variant_detection
 
 
 ## Perl-biox-workflow-plugin-fileexists=0.13
@@ -1493,24 +1493,24 @@ get, unpack, build and install modules from CPAN
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_base_1.0
-* gencore_build_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_genomic_soapdenovo2_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_epigenetics_1.0
-* gencore_evonet_1.0
-* gencore_metagenomics_1.0
-* gencore_qc_1.0
-* gencore_qiime_1.0
-* gencore_rad_1.0
-* gencore_rad_ddocent_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_trinity_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_base
+* gencore_build
+* gencore_de_novo_genomic
+* gencore_de_novo_genomic_soapdenovo2
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_epigenetics
+* gencore_evonet
+* gencore_metagenomics
+* gencore_qc
+* gencore_qiime
+* gencore_rad
+* gencore_rad_ddocent
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_trinity
+* gencore_variant_detection
 
 
 ## Perl-biox-workflow=1.10
@@ -1525,24 +1525,24 @@ get, unpack, build and install modules from CPAN
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_base_1.0
-* gencore_build_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_genomic_soapdenovo2_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_epigenetics_1.0
-* gencore_evonet_1.0
-* gencore_metagenomics_1.0
-* gencore_qc_1.0
-* gencore_qiime_1.0
-* gencore_rad_1.0
-* gencore_rad_ddocent_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_trinity_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_base
+* gencore_build
+* gencore_de_novo_genomic
+* gencore_de_novo_genomic_soapdenovo2
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_epigenetics
+* gencore_evonet
+* gencore_metagenomics
+* gencore_qc
+* gencore_qiime
+* gencore_rad
+* gencore_rad_ddocent
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_trinity
+* gencore_variant_detection
 
 
 ## Perl-dbi
@@ -1557,7 +1557,7 @@ Database independent interface for Perl
 
 ### HPC Modules
 
-* gencore_perl_5.22.0
+* gencore_perl
 
 
 ## Perl-hpc-runner-slurm=2.58
@@ -1572,24 +1572,24 @@ Database independent interface for Perl
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_base_1.0
-* gencore_build_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_genomic_soapdenovo2_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_epigenetics_1.0
-* gencore_evonet_1.0
-* gencore_metagenomics_1.0
-* gencore_qc_1.0
-* gencore_qiime_1.0
-* gencore_rad_1.0
-* gencore_rad_ddocent_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_trinity_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_base
+* gencore_build
+* gencore_de_novo_genomic
+* gencore_de_novo_genomic_soapdenovo2
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_epigenetics
+* gencore_evonet
+* gencore_metagenomics
+* gencore_qc
+* gencore_qiime
+* gencore_rad
+* gencore_rad_ddocent
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_trinity
+* gencore_variant_detection
 
 
 ## Perl-termreadkey
@@ -1604,7 +1604,7 @@ A perl module for simple terminal control
 
 ### HPC Modules
 
-* gencore_perl_5.22.0
+* gencore_perl
 
 
 ## Picard=2.0.1
@@ -1619,7 +1619,7 @@ A perl module for simple terminal control
 
 ### HPC Modules
 
-* gencore_rnaseq_malaria_1.0
+* gencore_rnaseq_malaria
 
 
 ## Picard=2.5.0
@@ -1634,11 +1634,11 @@ A perl module for simple terminal control
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_rnaseq_1.0
-* gencore_variant_detection_1.0
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_rnaseq
+* gencore_variant_detection
 
 
 ## Prinseq=0.20.4
@@ -1653,12 +1653,12 @@ A perl module for simple terminal control
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## Pyfaidx=0.4.7.1
@@ -1673,7 +1673,7 @@ A perl module for simple terminal control
 
 ### HPC Modules
 
-* gencore_qc_1.0
+* gencore_qc
 
 
 ## Pyfasta=0.5.2
@@ -1688,7 +1688,7 @@ A perl module for simple terminal control
 
 ### HPC Modules
 
-* gencore_qc_1.0
+* gencore_qc
 
 
 ## Pyfastaq=3.11.0
@@ -1703,7 +1703,7 @@ A perl module for simple terminal control
 
 ### HPC Modules
 
-* gencore_qc_1.0
+* gencore_qc
 
 
 ## Python=2.7
@@ -1718,7 +1718,7 @@ A perl module for simple terminal control
 
 ### HPC Modules
 
-* gencore_epigenetics_1.0
+* gencore_epigenetics
 
 
 ## Python=3.5
@@ -1733,7 +1733,7 @@ A perl module for simple terminal control
 
 ### HPC Modules
 
-* gencore_qc_1.0
+* gencore_qc
 
 
 ## Python
@@ -1748,7 +1748,7 @@ General purpose programming language
 
 ### HPC Modules
 
-* gencore_python_1.0
+* gencore_python
 
 
 ## Qiime=1.9.1
@@ -1763,7 +1763,7 @@ General purpose programming language
 
 ### HPC Modules
 
-* gencore_qiime_1.0
+* gencore_qiime
 
 
 ## Quast=4.1
@@ -1778,8 +1778,8 @@ General purpose programming language
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_transcriptome_1.0
+* gencore_de_novo_genomic
+* gencore_de_novo_transcriptome
 
 
 ## R-base=3.3.1
@@ -1794,11 +1794,11 @@ General purpose programming language
 
 ### HPC Modules
 
-* gencore_base_1.0
-* gencore_r_3.3.1
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_base
+* gencore_r
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## R-cairo
@@ -1813,7 +1813,7 @@ This package provides a Cairo graphics device that can be use to create high-qua
 
 ### HPC Modules
 
-* gencore_rnaseq_1.0
+* gencore_rnaseq
 
 
 ## R-essentials=3.3.1
@@ -1828,9 +1828,9 @@ This package provides a Cairo graphics device that can be use to create high-qua
 
 ### HPC Modules
 
-* gencore_r_3.3.1
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_r
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## R-essentials
@@ -1845,22 +1845,22 @@ Some essential packages for working with R
 
 ### HPC Modules
 
-* gencore_rnaseq_1.0
+* gencore_rnaseq
 
 
 ## R-ggplot2
 
 ### Summary
 
-
+An implementation of the grammar of graphics in R. It combines the advantages of both base and lattice graphics: conditioning and shared axes are handled automatically, and you can still build up a plot step by step from multiple data sources. It also implements a sophisticated multidimensional conditioning system and a consistent interface to map data to aesthetic attributes. See http://ggplot2.org for more information, documentation and examples.
 
 **Version:** latest
 
-**Conda Channel:** r
+**Conda Channel:** bioconda
 
 ### HPC Modules
 
-* gencore_base_1.0
+* gencore_base
 
 
 ## Rainbow=2.0.4
@@ -1875,7 +1875,7 @@ Some essential packages for working with R
 
 ### HPC Modules
 
-* gencore_rad_1.0
+* gencore_rad
 
 
 ## Repeatmasker=4.0.6
@@ -1890,7 +1890,7 @@ Some essential packages for working with R
 
 ### HPC Modules
 
-* gencore_annotation_1.0
+* gencore_annotation
 
 
 ## Rmblast=2.2.28
@@ -1905,7 +1905,7 @@ Some essential packages for working with R
 
 ### HPC Modules
 
-* gencore_annotation_1.0
+* gencore_annotation
 
 
 ## Rsem=1.2.28
@@ -1920,8 +1920,8 @@ Some essential packages for working with R
 
 ### HPC Modules
 
-* gencore_de_novo_transcriptome_1.0
-* gencore_trinity_1.0
+* gencore_de_novo_transcriptome
+* gencore_trinity
 
 
 ## Salmon=0.6.0
@@ -1936,7 +1936,7 @@ Some essential packages for working with R
 
 ### HPC Modules
 
-* gencore_de_novo_transcriptome_1.0
+* gencore_de_novo_transcriptome
 
 
 ## Samtools=1.3.1
@@ -1951,16 +1951,16 @@ Some essential packages for working with R
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_epigenetics_1.0
-* gencore_metagenomics_1.0
-* gencore_rad_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_epigenetics
+* gencore_metagenomics
+* gencore_rad
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## Scipy
@@ -1975,7 +1975,7 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_python_1.0
+* gencore_python
 
 
 ## Seqtk=1.2
@@ -1990,14 +1990,14 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_metagenomics_1.0
-* gencore_rad_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_metagenomics
+* gencore_rad
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## Sickle=0.5
@@ -2012,8 +2012,8 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_transcriptome_1.0
+* gencore_de_novo_genomic
+* gencore_de_novo_transcriptome
 
 
 ## Snpeff=4.3
@@ -2028,8 +2028,8 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_variant_detection
 
 
 ## Snpsift=4.3
@@ -2044,7 +2044,7 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_variant_detection_1.0
+* gencore_variant_detection
 
 
 ## Soapdenovo2-gapcloser=1.12
@@ -2059,7 +2059,7 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_soapdenovo2_1.0
+* gencore_de_novo_genomic_soapdenovo2
 
 
 ## Soapdenovo2-prepare=2.0
@@ -2074,7 +2074,7 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_soapdenovo2_1.0
+* gencore_de_novo_genomic_soapdenovo2
 
 
 ## Soapdenovo2=2.40
@@ -2089,7 +2089,7 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_soapdenovo2_1.0
+* gencore_de_novo_genomic_soapdenovo2
 
 
 ## Spades=3.9.0
@@ -2104,7 +2104,7 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
+* gencore_de_novo_genomic
 
 
 ## Stacks=1.40
@@ -2119,7 +2119,7 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_rad_1.0
+* gencore_rad
 
 
 ## Star=2.5.2a
@@ -2134,10 +2134,10 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_de_novo_transcriptome_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_de_novo_transcriptome
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## Stringtie=1.3.0
@@ -2152,7 +2152,7 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_rnaseq_1.0
+* gencore_rnaseq
 
 
 ## Tophat=2.1.0
@@ -2167,11 +2167,11 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_de_novo_transcriptome
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## Transdecoder=2.1.0
@@ -2186,8 +2186,8 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_trinity_1.0
+* gencore_annotation
+* gencore_trinity
 
 
 ## Trimmomatic=0.35
@@ -2202,7 +2202,7 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_rnaseq_malaria_1.0
+* gencore_rnaseq_malaria
 
 
 ## Trimmomatic=0.36
@@ -2217,11 +2217,11 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_qc_1.0
-* gencore_rnaseq_1.0
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_qc
+* gencore_rnaseq
 
 
 ## Trinity=2.2.0
@@ -2236,7 +2236,7 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_trinity_1.0
+* gencore_trinity
 
 
 ## Trinotate=3.0.1
@@ -2251,8 +2251,8 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_trinity_1.0
+* gencore_annotation
+* gencore_trinity
 
 
 ## Vcflib=1.0.0
@@ -2267,16 +2267,16 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_epigenetics_1.0
-* gencore_metagenomics_1.0
-* gencore_rad_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_epigenetics
+* gencore_metagenomics
+* gencore_rad
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## Vcftools=0.1.14
@@ -2291,16 +2291,16 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_annotation_1.0
-* gencore_de_novo_genomic_1.0
-* gencore_de_novo_metagenomic_1.0
-* gencore_de_novo_transcriptome_1.0
-* gencore_epigenetics_1.0
-* gencore_metagenomics_1.0
-* gencore_rad_1.0
-* gencore_rnaseq_1.0
-* gencore_rnaseq_malaria_1.0
-* gencore_variant_detection_1.0
+* gencore_annotation
+* gencore_de_novo_genomic
+* gencore_de_novo_metagenomic
+* gencore_de_novo_transcriptome
+* gencore_epigenetics
+* gencore_metagenomics
+* gencore_rad
+* gencore_rnaseq
+* gencore_rnaseq_malaria
+* gencore_variant_detection
 
 
 ## Velvet=1.2.10
@@ -2315,7 +2315,7 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_de_novo_genomic_1.0
+* gencore_de_novo_genomic
 
 
 ## Zlib
@@ -2330,6 +2330,6 @@ Massively spiffy yet delicately unobtrusive compression library
 
 ### HPC Modules
 
-* gencore_build_1.0
+* gencore_build
 
 

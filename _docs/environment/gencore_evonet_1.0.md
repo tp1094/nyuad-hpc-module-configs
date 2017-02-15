@@ -1,12 +1,32 @@
-# gencore_qiime
+# gencore_evonet
 ## Summary
 
 Coming soon!
 
 ## Software Packages
 
-### gencore_qiime
-**Version:** docs=1.0
+### mafft=7.221
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### mcl=14.137
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### perl-biox-workflow-plugin-filedetails=0.11
+**Version:** latest
 
 **Conda Channel:** default
 
@@ -36,16 +56,6 @@ Coming soon!
 
 
 ### perl-hpc-runner-slurm=2.58
-**Version:** latest
-
-**Conda Channel:** default
-
-#### Summary:
-
-
-
-
-### qiime=1.9.1
 **Version:** latest
 
 **Conda Channel:** default

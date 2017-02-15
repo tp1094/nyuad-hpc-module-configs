@@ -5,13 +5,13 @@ Coming soon!
 
 ## Software Packages
 
-### perl
-**Version:** latest
+### gencore_base
+**Version:** docs=1.0
 
-**Conda Channel:** conda-forge
+**Conda Channel:** default
 
 #### Summary:
-The Perl programming language interpreter.
+
 
 
 

@@ -1,4 +1,4 @@
-# gencore_build_1.0
+# gencore_build
 ## Summary
 
 Coming soon!
@@ -8,10 +8,10 @@ Coming soon!
 ### autoconf
 **Version:** latest
 
-**Conda Channel:** bioconda
+**Conda Channel:** conda-forge
 
 #### Summary:
-
+Extensible M4 macros that produce shell scripts to configure software source code packages.
 
 
 
@@ -25,20 +25,40 @@ Tool for automatically generating Makefile.in files compliant with the GNU Codin
 
 
 
-### cmake
+### cmake=3.7.1
 **Version:** latest
 
-**Conda Channel:** conda-forge
+**Conda Channel:** default
 
 #### Summary:
-CMake is an extensible, open-source system that manages the build process
 
 
 
-### gencore_build_docs
-**Version:** 1.0
 
-**Conda Channel:** nyuad-cgsb
+### gcc
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### gencore_build
+**Version:** docs=1.0
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### libgcc
+**Version:** latest
+
+**Conda Channel:** default
 
 #### Summary:
 
@@ -65,43 +85,53 @@ get, unpack, build and install modules from CPAN
 
 
 
-### perl-biox-workflow-plugin-filedetails
-**Version:** 0.11
+### perl-biox-workflow-plugin-filedetails=0.11
+**Version:** latest
 
-**Conda Channel:** bioconda
-
-#### Summary:
-Get metadata for files in directories processed by BioX::Workflow
-
-
-
-### perl-biox-workflow-plugin-fileexists
-**Version:** 0.13
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-a plugin to BioX::Workflow
 
 
 
-### perl-biox-workflow
-**Version:** 1.10
 
-**Conda Channel:** bioconda
+### perl-biox-workflow-plugin-fileexists=0.13
+**Version:** latest
 
-#### Summary:
-A very opinionated template based workflow writer.
-
-
-
-### perl-hpc-runner-slurm
-**Version:** 2.58
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Job Submission to Slurm
+
+
+
+
+### perl-biox-workflow=1.10
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### perl-hpc-runner-slurm=2.58
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### zlib
+**Version:** latest
+
+**Conda Channel:** conda-forge
+
+#### Summary:
+Massively spiffy yet delicately unobtrusive compression library
 
 
 

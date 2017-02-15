@@ -1,14 +1,14 @@
-# gencore_perl_5.22.0
+# gencore_perl
 ## Summary
 
 Coming soon!
 
 ## Software Packages
 
-### gencore_perl_docs
-**Version:** 5.22.0
+### gencore_perl
+**Version:** docs=5.22.0
 
-**Conda Channel:** nyuad-cgsb
+**Conda Channel:** default
 
 #### Summary:
 
