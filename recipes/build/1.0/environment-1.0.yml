@@ -1,9 +1,9 @@
 name: gencore_build_1.0
 channels:
+- bioconda
+- r
 - defaults
 - conda-forge
-- r
-- bioconda
 - nyuad-cgsb
 dependencies:
 - perl-app-cpanminus
