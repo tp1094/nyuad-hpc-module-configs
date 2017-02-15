@@ -4,8 +4,8 @@ language: c
 sudo: required
 services:
 - docker
-before_install: 
-script: bash tests/travis-setup.sh; bash tests/travis-run.sh
+install: tests/travis-setup.sh
+script:  travis_wait 30 bash tests/travis-run.sh
 env:
   global:
   - ANACONDA_USER: nyuad-cgsb
