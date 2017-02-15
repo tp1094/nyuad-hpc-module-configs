@@ -1,9 +1,9 @@
 name: gencore_de_novo_genomic_1.0
 channels:
+- bioconda
+- r
 - defaults
 - conda-forge
-- r
-- bioconda
 - nyuad-cgsb
 dependencies:
 - perl-hpc-runner-slurm=2.58
