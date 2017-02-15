@@ -1,112 +1,12 @@
-# gencore_qc_1.0
+# gencore_qc
 ## Summary
 
 Coming soon!
 
 ## Software Packages
 
-### fastqc
-**Version:** 0.11.5
-
-**Conda Channel:** bioconda
-
-#### Summary:
-A quality control tool for high throughput sequence data.
-
-
-
-### fastx_toolkit
-**Version:** 0.0.14
-
-**Conda Channel:** bioconda
-
-#### Summary:
-
-
-
-
-### gencore_qc_docs
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
-
-
-
-### perl-biox-workflow-plugin-filedetails
-**Version:** 0.11
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Get metadata for files in directories processed by BioX::Workflow
-
-
-
-### perl-biox-workflow-plugin-fileexists
-**Version:** 0.13
-
-**Conda Channel:** bioconda
-
-#### Summary:
-a plugin to BioX::Workflow
-
-
-
-### perl-biox-workflow
-**Version:** 1.10
-
-**Conda Channel:** bioconda
-
-#### Summary:
-A very opinionated template based workflow writer.
-
-
-
-### perl-hpc-runner-slurm
-**Version:** 2.58
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Job Submission to Slurm
-
-
-
-### pyfaidx
-**Version:** 0.4.7.1
-
-**Conda Channel:** bioconda
-
-#### Summary:
-pyfaidx: efficient pythonic random access to fasta subsequences
-
-
-
-### pyfasta
-**Version:** 0.5.2
-
-**Conda Channel:** bioconda
-
-#### Summary:
-fast, memory-efficient, pythonic (and command-line) access to fasta sequence files
-
-
-
-### pyfastaq
-**Version:** 3.11.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Script to manipulate FASTA and FASTQ files, plus API for developers
-
-
-
-### python
-**Version:** 3.5
+### deeptools=2.3.2
+**Version:** latest
 
 **Conda Channel:** default
 
@@ -115,13 +15,133 @@ Script to manipulate FASTA and FASTQ files, plus API for developers
 
 
 
-### trimmomatic
-**Version:** 0.36
+### fastqc=0.11.5
+**Version:** latest
 
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Genetic variant annotation and effect prediction toolbox
+
+
+
+
+### fastx
+**Version:** toolkit=0.0.14
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### gencore_qc
+**Version:** docs=1.0
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### multiqc=0.8
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### perl-biox-workflow-plugin-filedetails=0.11
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### perl-biox-workflow-plugin-fileexists=0.13
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### perl-biox-workflow=1.10
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### perl-hpc-runner-slurm=2.58
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### pyfaidx=0.4.7.1
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### pyfasta=0.5.2
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### pyfastaq=3.11.0
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### python=3.5
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### trimmomatic=0.36
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
 
 
 

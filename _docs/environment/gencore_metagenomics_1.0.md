@@ -1,227 +1,227 @@
-# gencore_metagenomics_1.0
+# gencore_metagenomics
 ## Summary
 
 Coming soon!
 
 ## Software Packages
 
-### augustus
-**Version:** 3.2.2
+### augustus=3.2.2
+**Version:** latest
 
-**Conda Channel:** bioconda
-
-#### Summary:
-AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and Oliver Keller. It can be used as an ab initio program, which means it bases its prediction purely on the sequence. AUGUSTUS may also incorporate hints on the gene structure coming from extrinsic sources such as EST, MS/MS, protein alignments and synthenic genomic alignments.
-
-
-
-### bamtools
-**Version:** 2.4.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-C++ API & command-line toolkit for working with BAM data
-
-
-
-### bcftools
-**Version:** 1.3.1
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Tools for dealing with BCF and VCF files
-
-
-
-### bedtools
-**Version:** 2.25.0
-
-**Conda Channel:** bioconda
-
-#### Summary:
-A powerful toolset for genome arithmetic
-
-
-
-### bioconductor-dada2
-**Version:** 1.0.3
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Exact sample inference from Illumina amplicon data. Resolves real variants differing by as little as one nucleotide.
-
-
-
-### blast
-**Version:** 2.2.31
-
-**Conda Channel:** bioconda
-
-#### Summary:
-BLAST+ is a new suite of BLAST tools that utilizes the NCBI C++ Toolkit.
-
-
-
-### blat
-**Version:** 35
-
-**Conda Channel:** bioconda
-
-#### Summary:
-BLAT is a bioinformatics software tool which performs rapid mRNA/DNA and cross-species protein alignments.
-
-
-
-### bowtie2
-**Version:** 2.2.8
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Fast and sensitive read alignment
-
-
-
-### bwa
-**Version:** 0.7.15
-
-**Conda Channel:** bioconda
-
-#### Summary:
-The BWA read mapper.
-
-
-
-### cd-hit
-**Version:** 4.6.4
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Clusters and compares protein or nucleotide sequences
-
-
-
-### gencore_metagenomics_docs
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
+**Conda Channel:** default
 
 #### Summary:
 
 
 
 
-### hmmer
-**Version:** 3.1b2
+### bamtools=2.4.0
+**Version:** latest
 
-**Conda Channel:** bioconda
-
-#### Summary:
-Biosequence analysis using profile hidden Markov models
-
-
-
-### mawk
-**Version:** 1.3.4
-
-**Conda Channel:** bioconda
-
-#### Summary:
-mawk is an interpreter for the AWK Programming Language.
-
-
-
-### mothur
-**Version:** 1.36.1
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
 
 
 
 
-### pear
-**Version:** 0.9.6
+### bcftools=1.3.1
+**Version:** latest
 
-**Conda Channel:** bioconda
-
-#### Summary:
-paired-end read merger
-
-
-
-### perl-biox-workflow-plugin-fileexists
-**Version:** 0.13
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-a plugin to BioX::Workflow
 
 
 
-### perl-biox-workflow
-**Version:** 1.10
 
-**Conda Channel:** bioconda
+### bedtools=2.25.0
+**Version:** latest
 
-#### Summary:
-A very opinionated template based workflow writer.
-
-
-
-### perl-hpc-runner-slurm
-**Version:** 2.58
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Job Submission to Slurm
 
 
 
-### samtools
-**Version:** 1.3.1
 
-**Conda Channel:** bioconda
+### bioconductor-dada2=1.0.3
+**Version:** latest
 
-#### Summary:
-Tools for dealing with SAM, BAM and CRAM files
-
-
-
-### seqtk
-**Version:** 1.2
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format
 
 
 
-### vcflib
-**Version:** 1.0.0_rc1
 
-**Conda Channel:** bioconda
+### blast=2.2.31
+**Version:** latest
 
-#### Summary:
-Command-line tools for manipulating VCF files
-
-
-
-### vcftools
-**Version:** 0.1.14
-
-**Conda Channel:** bioconda
+**Conda Channel:** default
 
 #### Summary:
-A set of tools written in Perl and C++ for working with VCF files.
+
+
+
+
+### blat=35
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### bowtie2=2.2.8
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### bwa=0.7.15
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### cd-hit=4.6.4
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### gencore_metagenomics
+**Version:** docs=1.0
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### hmmer=3.1b2
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### mawk=1.3.4
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### mothur=1.36.1
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### pear=0.9.6
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### perl-biox-workflow-plugin-fileexists=0.13
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### perl-biox-workflow=1.10
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### perl-hpc-runner-slurm=2.58
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### samtools=1.3.1
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### seqtk=1.2
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### vcflib=1.0.0
+**Version:** rc1
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
+### vcftools=0.1.14
+**Version:** latest
+
+**Conda Channel:** default
+
+#### Summary:
+
 
 
 
