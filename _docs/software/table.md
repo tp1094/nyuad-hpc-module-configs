@@ -51,6 +51,7 @@
 | gencore_de_novo_metagenomic=docs=1.0 | | | | | | **Y** | | | | | | | | | | | | | | | | | |
 | gencore_de_novo_transcriptome=docs=1.0 | | | | | | | **Y** | | | | | | | | | | | | | | | | |
 | gencore_epigenetics=docs=1.0 | | | | | | | | **Y** | | | | | | | | | | | | | | | |
+| gencore_evonet=docs=1.0 | | | | | | | | | **Y** | | | | | | | | | | | | | | |
 | gencore_kraken=docs=1.0 | | | | | | | | | | **Y** | | | | | | | | | | | | | |
 | gencore_metagenomics=docs=1.0 | | | | | | | | | | | **Y** | | | | | | | | | | | | |
 | gencore_perl=docs=5.22.0 | | | | | | | | | | | | **Y** | | | | | | | | | | | |

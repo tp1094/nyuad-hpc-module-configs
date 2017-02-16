@@ -819,6 +819,21 @@ S4 generic functions needed by many Bioconductor packages.
 * gencore_epigenetics
 
 
+## Gencore_evonet
+
+### Summary
+
+
+
+**Version:** docs=1.0
+
+**Conda Channel:** default
+
+### HPC Modules
+
+* gencore_evonet
+
+
 ## Gencore_kraken
 
 ### Summary
