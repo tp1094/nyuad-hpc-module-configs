@@ -1,9 +1,9 @@
 name: gencore_perl_5.22.0
 channels:
+- bioconda
+- r
 - defaults
 - conda-forge
-- r
-- bioconda
 - nyuad-cgsb
 dependencies:
 - perl-app-cpanminus
