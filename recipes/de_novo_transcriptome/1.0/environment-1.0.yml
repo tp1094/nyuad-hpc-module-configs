@@ -1,9 +1,9 @@
 name: gencore_de_novo_transcriptome_1.0
 channels:
-- conda-forge
-- defaults
-- r
 - bioconda
+- r
+- defaults
+- conda-forge
 - nyuad-cgsb
 dependencies:
 - perl-hpc-runner-slurm=2.58
