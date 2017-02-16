@@ -5,6 +5,16 @@ Coming soon!
 
 ## Software Packages
 
+### gencore_evonet
+**Version:** docs=1.0
+
+**Conda Channel:** default
+
+#### Summary:
+
+
+
+
 ### mafft=7.221
 **Version:** latest
 
