@@ -1843,7 +1843,6 @@ This package provides a Cairo graphics device that can be use to create high-qua
 
 ### HPC Modules
 
-* gencore_r
 * gencore_rnaseq_malaria
 * gencore_variant_detection
 
@@ -1860,6 +1859,7 @@ Some essential packages for working with R
 
 ### HPC Modules
 
+* gencore_r
 * gencore_rnaseq
 
 
@@ -1876,6 +1876,21 @@ An implementation of the grammar of graphics in R. It combines the advantages of
 ### HPC Modules
 
 * gencore_base
+
+
+## R=3.3.1
+
+### Summary
+
+
+
+**Version:** latest
+
+**Conda Channel:** default
+
+### HPC Modules
+
+* gencore_r
 
 
 ## Rainbow=2.0.4
