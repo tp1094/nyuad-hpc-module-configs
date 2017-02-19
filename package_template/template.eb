@@ -17,7 +17,7 @@ description = """ {{ name }} """
 
 toolchain = {'name': 'dummy', 'version': ''}
 
-builddependencies = [('gencore_anaconda2', '4.0.0')]
+builddependencies = [('gencore_anaconda2', '4.3.0')]
 
 #sources = ["environment.yml"]
 #environment_file = sources[0]
