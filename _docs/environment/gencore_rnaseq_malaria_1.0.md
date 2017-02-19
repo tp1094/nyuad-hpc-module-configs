@@ -215,13 +215,13 @@ Coming soon!
 
 
 
-### r-essentials=3.3.1
+### r-essentials
 **Version:** latest
 
-**Conda Channel:** default
+**Conda Channel:** r
 
 #### Summary:
-
+Some essential packages for working with R
 
 
 
