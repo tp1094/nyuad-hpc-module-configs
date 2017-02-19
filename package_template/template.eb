@@ -15,7 +15,7 @@ variant = "Linux-x86_64"
 homepage = "http://cbi.abudhabi.nyu.edu/w/"
 description = """ {{ name }} """
 
-toolchain = {'name': 'dummy', 'version': 'dummy'}
+toolchain = {'name': 'dummy', 'version': ''}
 
 builddependencies = [('gencore_anaconda2', '4.0.0')]
 
