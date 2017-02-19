@@ -1843,7 +1843,6 @@ This package provides a Cairo graphics device that can be use to create high-qua
 
 ### HPC Modules
 
-* gencore_rnaseq_malaria
 * gencore_variant_detection
 
 
@@ -1861,6 +1860,7 @@ Some essential packages for working with R
 
 * gencore_r
 * gencore_rnaseq
+* gencore_rnaseq_malaria
 
 
 ## R-ggplot2
