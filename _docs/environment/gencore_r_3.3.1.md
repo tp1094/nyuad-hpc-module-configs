@@ -35,7 +35,17 @@ Functions that are needed by many other packages or which replace R functions.
 
 
 
-### r-essentials=3.3.1
+### r-essentials
+**Version:** latest
+
+**Conda Channel:** r
+
+#### Summary:
+Some essential packages for working with R
+
+
+
+### r=3.3.1
 **Version:** latest
 
 **Conda Channel:** default
