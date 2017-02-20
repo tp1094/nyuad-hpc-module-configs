@@ -15,9 +15,9 @@ variant = "Linux-x86_64"
 homepage = "http://cbi.abudhabi.nyu.edu/w/"
 description = """ gencore_perl """
 
-toolchain = {'name': 'dummy', 'version': 'dummy'}
+toolchain = {'name': 'dummy', 'version': ''}
 
-builddependencies = [('gencore_anaconda2', '4.0.0')]
+builddependencies = [('gencore_anaconda2', '4.3.0')]
 
 #sources = ["environment.yml"]
 #environment_file = sources[0]
