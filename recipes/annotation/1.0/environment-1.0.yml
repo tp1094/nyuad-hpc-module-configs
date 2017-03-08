@@ -1,5 +1,4 @@
 name: gencore_annotation_1.0
-
 channels:
 - bioconda
 - r
