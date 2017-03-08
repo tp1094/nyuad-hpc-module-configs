@@ -16,14 +16,15 @@ conda install conda conda-build
 
 pip install git+https://github.com/nyuad-cgsb/gencore_app.git@master
 
+
+cd /nyuad-conda-configs
+
 git fetch origin master
 export RECIPES=$(git diff FETCH_HEAD --name-only | grep yml | grep recipes)
 
 echo "Processing recipes..."
 echo $RECIPES
 echo ""
-
-cd /nyuad-conda-configs
 
 if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
 then
