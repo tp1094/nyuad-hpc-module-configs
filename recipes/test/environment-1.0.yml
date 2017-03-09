@@ -8,3 +8,5 @@ channels:
 dependencies:
 - perl-app-cpanminus
 - test_docs=1.0
+- test_1.0_docs=None
+version: None-0

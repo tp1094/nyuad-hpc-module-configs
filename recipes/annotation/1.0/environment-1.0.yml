@@ -1,6 +1,4 @@
 name: gencore_annotation
-version: 1.0
-build: 0
 channels:
 - bioconda
 - r
@@ -39,3 +37,4 @@ dependencies:
 - circos=0.69.2
 - gencore_annotation_docs=1.0
 - pauda=1.0.1
+version: 1.0-0
