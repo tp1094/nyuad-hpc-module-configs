@@ -1,0 +1,47 @@
+##
+# This is an easyconfig file for EasyBuild, see https://github.com/hpcugent/easybuild
+#
+# Authors::   Jillian Rowe <jillian.e.rowe@gmail.com>
+#
+# This work is based on experiences from the UNITE project
+# http://apps.fz-juelich.de/unite/
+##
+
+easyblock = 'EB_Anaconda'
+
+name = "gencore_anaconda2"
+version = "4.3.0"
+variant = "Linux-x86_64"
+
+homepage = "https://www.continuum.io/"
+description = """Built to complement the rich, open source Python community,
+the Anaconda platform provides an enterprise-ready data analytics platform 
+that empowers companies to adopt a modern open data science analytics architecture.
+"""
+
+#https://repo.continuum.io/archive/Anaconda2-4.3.0-Linux-x86_64.sh
+
+toolchain = {'name': 'dummy', 'version': 'dummy'}
+
+source_urls = ["http://repo.continuum.io/archive/"]
+sources = ["Anaconda2-%s-%s.sh" % (version, variant)]
+checksums = [ '5f2c3bd60ddbd0e213f7a1fc25bb88b4' ]
+
+
+# a newer version of conda is required to run 'conda env create -p'
+prep_env = "PATH=%(installdir)s/bin:$PATH "
+postinstallcmds = [prep_env + "conda install -f -p %(installdir)s conda=4.3.11"]
+
+
+license_file = 'LICENSE.txt'
+
+sanity_check_paths = {
+    'files': ["bin/pydoc"],
+    'dirs': []
+}
+
+modextravars = {
+    'ANACONDA_LICENSE': license_file,
+}
+
+moduleclass = 'lang'

@@ -1,9 +1,9 @@
 name: gencore_evonet_1.0
 channels:
-- conda-forge
-- defaults
-- r
 - bioconda
+- r
+- defaults
+- conda-forge
 - nyuad-cgsb
 dependencies:
 - perl-hpc-runner-slurm=2.58
@@ -12,3 +12,4 @@ dependencies:
 - perl-biox-workflow-plugin-filedetails=0.11
 - mcl=14.137
 - mafft=7.221
+- gencore_evonet_docs=1.0
