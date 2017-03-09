@@ -1,0 +1,9 @@
+name: test_1.0
+channels:
+- bioconda
+- r
+- defaults
+- conda-forge
+- nyuad-cgsb
+dependencies:
+- perl-app-cpanminus
