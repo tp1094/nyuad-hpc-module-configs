@@ -17,6 +17,8 @@ git status
 git config  user.email "nobody@nobody.org"
 git config  user.name "Travis CI"
 
+git add _docs
+
 ORIGIN="https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git"
 git remote rm origin
 git remote add origin "$ORIGIN"
