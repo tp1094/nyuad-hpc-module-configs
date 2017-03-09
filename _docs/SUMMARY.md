@@ -26,3 +26,4 @@
 	* [Gencore_test](environment/gencore_test.md)
 	* [Gencore_trinity](environment/gencore_trinity.md)
 	* [Gencore_variant_detection](environment/gencore_variant_detection.md)
+	* [Test](environment/test.md)

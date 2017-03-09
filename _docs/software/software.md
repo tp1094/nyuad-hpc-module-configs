@@ -1464,6 +1464,7 @@ get, unpack, build and install modules from CPAN
 * gencore_base
 * gencore_build
 * gencore_perl
+* test
 
 
 ## Perl-biox-workflow-plugin-filedetails=0.11
