@@ -27,7 +27,7 @@ AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_metagenomic_1.0-None-0
 * gencore_de_novo_transcriptome_1.0-None-0
@@ -76,7 +76,7 @@ C++ API & command-line toolkit for working with BAM data
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_metagenomic_1.0-None-0
 * gencore_de_novo_transcriptome_1.0-None-0
@@ -100,7 +100,7 @@ Tools for dealing with BCF and VCF files
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_metagenomic_1.0-None-0
 * gencore_de_novo_transcriptome_1.0-None-0
@@ -124,7 +124,7 @@ A powerful toolset for genome arithmetic
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_metagenomic_1.0-None-0
 * gencore_de_novo_transcriptome_1.0-None-0
@@ -179,7 +179,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_base_1.0-None-0
+* gencore_base_1.0-1.0-0
 
 
 ## Bioconductor-biovizbase
@@ -363,7 +363,7 @@ BLAST+ is a new suite of BLAST tools that utilizes the NCBI C++ Toolkit.
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_metagenomic_1.0-None-0
 * gencore_de_novo_transcriptome_1.0-None-0
@@ -384,7 +384,7 @@ BLAT is a bioinformatics software tool which performs rapid mRNA/DNA and cross-s
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_metagenomic_1.0-None-0
 * gencore_de_novo_transcriptome_1.0-None-0
@@ -407,7 +407,7 @@ Fast and sensitive read alignment
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_metagenomic_1.0-None-0
 * gencore_de_novo_transcriptome_1.0-None-0
@@ -431,7 +431,7 @@ The BWA read mapper.
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_metagenomic_1.0-None-0
 * gencore_de_novo_transcriptome_1.0-None-0
@@ -468,7 +468,7 @@ Circos is a software package for visualizing data and information. It visualizes
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_metagenomic_1.0-None-0
 * gencore_de_novo_transcriptome_1.0-None-0
@@ -613,7 +613,7 @@ Bayesian haplotype-based polymorphism discovery and genotyping
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_rad_1.0-None-0
 * gencore_variant_detection_1.0-None-0
@@ -678,7 +678,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 
 
@@ -694,7 +694,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 
 
@@ -710,7 +710,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 
 
 ## Gencore_base_docs
@@ -725,7 +725,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 
 ### HPC Modules
 
-* gencore_base_1.0-None-0
+* gencore_base_1.0-1.0-0
 * gencore_test_1.0-1.0-0
 
 
@@ -1056,7 +1056,7 @@ Biosequence analysis using profile hidden Markov models
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_metagenomic_1.0-None-0
 * gencore_de_novo_transcriptome_1.0-None-0
@@ -1122,7 +1122,7 @@ Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA. A k-me
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 
 
@@ -1154,7 +1154,7 @@ KAT is a suite of tools that analyse jellyfish hashes or sequence files (fasta o
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 
 
 ## Kmergenie
@@ -1169,7 +1169,7 @@ KmerGenie estimates the best k-mer length for genome de novo assembly
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 
 
@@ -1427,7 +1427,7 @@ array processing for numbers, strings, records, and objects.
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 
 
 ## Pear
@@ -1461,7 +1461,8 @@ get, unpack, build and install modules from CPAN
 
 ### HPC Modules
 
-* gencore_base_1.0-None-0
+* gencore_annotation-1.0-0
+* gencore_base_1.0-1.0-0
 * gencore_build_1.0-None-0
 * gencore_perl_5.22.0-None-0
 * test_1.0-None-0-0
@@ -1479,8 +1480,8 @@ Get metadata for files in directories processed by BioX::Workflow
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
-* gencore_base_1.0-None-0
+* gencore_annotation-1.0-0
+* gencore_base_1.0-1.0-0
 * gencore_build_1.0-None-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_genomic_soapdenovo2_1.0-None-0
@@ -1509,8 +1510,8 @@ a plugin to BioX::Workflow
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
-* gencore_base_1.0-None-0
+* gencore_annotation-1.0-0
+* gencore_base_1.0-1.0-0
 * gencore_build_1.0-None-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_genomic_soapdenovo2_1.0-None-0
@@ -1541,8 +1542,8 @@ A very opinionated template based workflow writer.
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
-* gencore_base_1.0-None-0
+* gencore_annotation-1.0-0
+* gencore_base_1.0-1.0-0
 * gencore_build_1.0-None-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_genomic_soapdenovo2_1.0-None-0
@@ -1588,7 +1589,8 @@ Database independent interface for Perl
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
+* gencore_base_1.0-1.0-0
 
 
 ## Perl-hpc-runner-slurm
@@ -1603,7 +1605,6 @@ Job Submission to Slurm
 
 ### HPC Modules
 
-* gencore_base_1.0-None-0
 * gencore_build_1.0-None-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_genomic_soapdenovo2_1.0-None-0
@@ -1824,7 +1825,7 @@ Quality Assessment Tool for Genome Assemblies
 
 ### HPC Modules
 
-* gencore_base_1.0-None-0
+* gencore_base_1.0-1.0-0
 * gencore_r_3.3.1-None-0
 * gencore_rnaseq_1.0-None-0
 * gencore_rnaseq_malaria_1.0-None-0
@@ -1890,7 +1891,7 @@ An implementation of the grammar of graphics in R. It combines the advantages of
 
 ### HPC Modules
 
-* gencore_base_1.0-None-0
+* gencore_base_1.0-1.0-0
 
 
 ## R
@@ -1935,7 +1936,7 @@ RepeatMasker is a program that screens DNA sequences for interspersed repeats an
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 
 
 ## Rmblast
@@ -1950,7 +1951,7 @@ RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite.
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 
 
 ## Rsem
@@ -1996,7 +1997,7 @@ Tools for dealing with SAM, BAM and CRAM files
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_metagenomic_1.0-None-0
 * gencore_de_novo_transcriptome_1.0-None-0
@@ -2073,7 +2074,7 @@ Genetic variant annotation and effect prediction toolbox
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_variant_detection_1.0-None-0
 
 
@@ -2242,7 +2243,7 @@ A spliced read mapper for RNA-Seq
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_transcriptome_1.0-None-0
 * gencore_rnaseq_1.0-None-0
 * gencore_rnaseq_malaria_1.0-None-0
@@ -2261,7 +2262,7 @@ TransDecoder identifies candidate coding regions within transcript sequences, su
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_trinity_1.0-None-0
 
 
@@ -2326,7 +2327,7 @@ Trinotate is a comprehensive annotation suite designed for automatic functional 
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_trinity_1.0-None-0
 
 
@@ -2342,7 +2343,7 @@ Command-line tools for manipulating VCF files
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_metagenomic_1.0-None-0
 * gencore_de_novo_transcriptome_1.0-None-0
@@ -2366,7 +2367,7 @@ A set of tools written in Perl and C++ for working with VCF files.
 
 ### HPC Modules
 
-* gencore_annotation-1.0-0-0
+* gencore_annotation-1.0-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_metagenomic_1.0-None-0
 * gencore_de_novo_transcriptome_1.0-None-0

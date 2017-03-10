@@ -8,12 +8,12 @@
 
 easyblock = 'Conda'
 
-name = "{{ name }}"
+name = "gencore_python_1.0"
 version = "1.0"
 variant = "Linux-x86_64"
 
 homepage = "http://cbi.abudhabi.nyu.edu/w/"
-description = """ {{ name }} """
+description = """ gencore_python_1.0 """
 
 toolchain = {'name': 'dummy', 'version': ''}
 
@@ -21,7 +21,7 @@ builddependencies = [('gencore_anaconda2', '4.3.0')]
 
 #sources = ["environment.yml"]
 #environment_file = sources[0]
-remote_environment="nyuad-cgsb/{{ name }}"
+remote_environment="nyuad-cgsb/gencore_python_1.0_None-0"
 
 sanity_check_paths = {
     'files': ["bin/conda"],
