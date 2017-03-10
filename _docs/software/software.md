@@ -157,6 +157,21 @@ A powerful toolset for genome arithmetic
 
 Functions that are needed by many other packages or which replace R functions.
 
+**Version:** 2.3.2
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_variant_detection-1.0-0
+
+
+## Bioconductor-biobase
+
+### Summary
+
+Functions that are needed by many other packages or which replace R functions.
+
 **Version:** latest
 
 **Conda Channel:** bioconda
@@ -164,7 +179,6 @@ Functions that are needed by many other packages or which replace R functions.
 ### HPC Modules
 
 * gencore_r_3.3.1-None-0
-* gencore_variant_detection-1.0-0
 
 
 ## Bioconductor-biocgenerics
@@ -1853,21 +1867,6 @@ This package provides a Cairo graphics device that can be use to create high-qua
 
 Some essential packages for working with R
 
-**Version:** 3.3.1
-
-**Conda Channel:** r
-
-### HPC Modules
-
-* gencore_variant_detection-1.0-0
-
-
-## R-essentials
-
-### Summary
-
-Some essential packages for working with R
-
 **Version:** latest
 
 **Conda Channel:** r
@@ -1877,6 +1876,7 @@ Some essential packages for working with R
 * gencore_r_3.3.1-None-0
 * gencore_rnaseq_1.0-None-0
 * gencore_rnaseq_malaria_1.0-None-0
+* gencore_variant_detection-1.0-0
 
 
 ## R-ggplot2

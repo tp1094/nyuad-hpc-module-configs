@@ -36,7 +36,7 @@ A powerful toolset for genome arithmetic
 
 
 ### bioconductor-biobase
-**Version:** latest
+**Version:** 2.3.2
 
 **Conda Channel:** bioconda
 
@@ -246,7 +246,7 @@ PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic se
 
 
 ### r-essentials
-**Version:** 3.3.1
+**Version:** latest
 
 **Conda Channel:** r
 
