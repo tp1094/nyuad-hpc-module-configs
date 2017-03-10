@@ -1,4 +1,6 @@
-name: gencore_build_1.0
+name: gencore_build
+version: 1.0
+build: 0
 channels:
 - bioconda
 - r
@@ -7,8 +9,7 @@ channels:
 - nyuad-cgsb
 dependencies:
 - perl-app-cpanminus
-- perl-hpc-runner-slurm=2.58
-- perl-biox-workflow=1.10
+- perl-hpc-runner-command=3.0.1
 - perl-biox-workflow-plugin-fileexists=0.13
 - perl-biox-workflow-plugin-filedetails=0.11
 - gcc
