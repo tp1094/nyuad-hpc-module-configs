@@ -38,6 +38,6 @@ dependencies:
 - snpsift=4.3
 - vcflib=1.0.0_rc1
 - r-base=3.3.1
-- r-essentials=3.3.1
-- bioconductor-biobase
+- r-essentials
+- bioconductor-biobase=2.3.2
 - gencore_variant_detection_docs=1.0
