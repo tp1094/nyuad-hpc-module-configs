@@ -185,6 +185,16 @@ KmerGenie estimates the best k-mer length for genome de novo assembly
 
 
 
+### perl-app-cpanminus
+**Version:** latest
+
+**Conda Channel:** bioconda
+
+#### Summary:
+get, unpack, build and install modules from CPAN
+
+
+
 ### perl-biox-workflow-plugin-filedetails
 **Version:** 0.11
 
