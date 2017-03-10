@@ -179,7 +179,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ### HPC Modules
 
-* gencore_base_1.0-1.0-0
+* gencore_base-1.0-0
 
 
 ## Bioconductor-biovizbase
@@ -725,7 +725,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 
 ### HPC Modules
 
-* gencore_base_1.0-1.0-0
+* gencore_base-1.0-0
 * gencore_test_1.0-1.0-0
 
 
@@ -1462,7 +1462,7 @@ get, unpack, build and install modules from CPAN
 ### HPC Modules
 
 * gencore_annotation-1.0-0
-* gencore_base_1.0-1.0-0
+* gencore_base-1.0-0
 * gencore_build_1.0-None-0
 * gencore_perl_5.22.0-None-0
 * test_1.0-None-0-0
@@ -1481,7 +1481,7 @@ Get metadata for files in directories processed by BioX::Workflow
 ### HPC Modules
 
 * gencore_annotation-1.0-0
-* gencore_base_1.0-1.0-0
+* gencore_base-1.0-0
 * gencore_build_1.0-None-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_genomic_soapdenovo2_1.0-None-0
@@ -1511,7 +1511,7 @@ a plugin to BioX::Workflow
 ### HPC Modules
 
 * gencore_annotation-1.0-0
-* gencore_base_1.0-1.0-0
+* gencore_base-1.0-0
 * gencore_build_1.0-None-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_genomic_soapdenovo2_1.0-None-0
@@ -1543,7 +1543,7 @@ A very opinionated template based workflow writer.
 ### HPC Modules
 
 * gencore_annotation-1.0-0
-* gencore_base_1.0-1.0-0
+* gencore_base-1.0-0
 * gencore_build_1.0-None-0
 * gencore_de_novo_genomic_1.0-None-0
 * gencore_de_novo_genomic_soapdenovo2_1.0-None-0
@@ -1590,7 +1590,7 @@ Database independent interface for Perl
 ### HPC Modules
 
 * gencore_annotation-1.0-0
-* gencore_base_1.0-1.0-0
+* gencore_base-1.0-0
 
 
 ## Perl-hpc-runner-slurm
@@ -1825,7 +1825,7 @@ Quality Assessment Tool for Genome Assemblies
 
 ### HPC Modules
 
-* gencore_base_1.0-1.0-0
+* gencore_base-1.0-0
 * gencore_r_3.3.1-None-0
 * gencore_rnaseq_1.0-None-0
 * gencore_rnaseq_malaria_1.0-None-0
@@ -1891,7 +1891,7 @@ An implementation of the grammar of graphics in R. It combines the advantages of
 
 ### HPC Modules
 
-* gencore_base_1.0-1.0-0
+* gencore_base-1.0-0
 
 
 ## R
