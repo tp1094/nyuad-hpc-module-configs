@@ -80,7 +80,7 @@ C++ API & command-line toolkit for working with BAM data
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_epigenetics_1.0-None-0
+* gencore_epigenetics-1.0-0
 * gencore_metagenomics_1.0-None-0
 * gencore_rad_1.0-None-0
 * gencore_rnaseq_1.0-None-0
@@ -104,7 +104,7 @@ Tools for dealing with BCF and VCF files
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_epigenetics_1.0-None-0
+* gencore_epigenetics-1.0-0
 * gencore_metagenomics_1.0-None-0
 * gencore_rad_1.0-None-0
 * gencore_rnaseq_1.0-None-0
@@ -128,7 +128,7 @@ A powerful toolset for genome arithmetic
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_epigenetics_1.0-None-0
+* gencore_epigenetics-1.0-0
 * gencore_metagenomics_1.0-None-0
 * gencore_rad_1.0-None-0
 * gencore_rnaseq_1.0-None-0
@@ -425,7 +425,7 @@ Fast and sensitive read alignment
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_epigenetics_1.0-None-0
+* gencore_epigenetics-1.0-0
 * gencore_metagenomics_1.0-None-0
 * gencore_rad_1.0-None-0
 * gencore_rnaseq_1.0-None-0
@@ -449,7 +449,7 @@ The BWA read mapper.
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_epigenetics_1.0-None-0
+* gencore_epigenetics-1.0-0
 * gencore_metagenomics_1.0-None-0
 * gencore_variant_detection-1.0-0
 
@@ -549,7 +549,7 @@ A set of user-friendly tools for normalization and visualzation of deep-sequenci
 
 ### HPC Modules
 
-* gencore_qc_1.0-None-0
+* gencore_qc-1.0-0
 
 
 ## Discovar
@@ -596,7 +596,7 @@ A quality control tool for high throughput sequence data.
 
 ### HPC Modules
 
-* gencore_qc_1.0-None-0
+* gencore_qc-1.0-0
 * gencore_rnaseq_1.0-None-0
 
 
@@ -612,7 +612,7 @@ A quality control tool for high throughput sequence data.
 
 ### HPC Modules
 
-* gencore_qc_1.0-None-0
+* gencore_qc-1.0-0
 
 
 ## Freebayes
@@ -830,7 +830,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 
 ### HPC Modules
 
-* gencore_epigenetics_1.0-None-0
+* gencore_epigenetics-1.0-0
 
 
 ## Gencore_evonet_docs
@@ -845,7 +845,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 
 ### HPC Modules
 
-* gencore_evonet_1.0-None-0
+* gencore_evonet-1.0-0
 
 
 ## Gencore_kraken_docs
@@ -860,7 +860,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 
 ### HPC Modules
 
-* gencore_kraken_1.0-None-0
+* gencore_kraken-1.0-0
 
 
 ## Gencore_metagenomics_docs
@@ -890,7 +890,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 
 ### HPC Modules
 
-* gencore_perl_5.22.0-None-0
+* gencore_perl-1.0-0
 
 
 ## Gencore_python_docs
@@ -905,7 +905,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 
 ### HPC Modules
 
-* gencore_python_1.0-None-0
+* gencore_python-1.0-0
 
 
 ## Gencore_qc_docs
@@ -920,7 +920,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 
 ### HPC Modules
 
-* gencore_qc_1.0-None-0
+* gencore_qc-1.0-0
 
 
 ## Gencore_qiime_docs
@@ -935,7 +935,7 @@ genBlast is a program suite, consisting of two programs: genBlastA and genBlastG
 
 ### HPC Modules
 
-* gencore_qiime_1.0-None-0
+* gencore_qiime-1.0-0
 
 
 ## Gencore_r_docs
@@ -1121,7 +1121,7 @@ IPython: Productive Interactive Computing
 
 ### HPC Modules
 
-* gencore_python_1.0-None-0
+* gencore_python-1.0-0
 
 
 ## Jellyfish
@@ -1199,7 +1199,7 @@ Kraken is a system for assigning taxonomic labels to short DNA sequences, usuall
 
 ### HPC Modules
 
-* gencore_kraken_1.0-None-0
+* gencore_kraken-1.0-0
 
 
 ## Libgcc
@@ -1244,7 +1244,7 @@ MACS -- Model-based Analysis of ChIP-Seq
 
 ### HPC Modules
 
-* gencore_epigenetics_1.0-None-0
+* gencore_epigenetics-1.0-0
 
 
 ## Mafft
@@ -1259,7 +1259,7 @@ Multiple alignment program for amino acid or nucleotide sequences based on fast 
 
 ### HPC Modules
 
-* gencore_evonet_1.0-None-0
+* gencore_evonet-1.0-0
 
 
 ## Mawk
@@ -1290,7 +1290,7 @@ MCL - a cluster algorithm for graphs
 
 ### HPC Modules
 
-* gencore_evonet_1.0-None-0
+* gencore_evonet-1.0-0
 
 
 ## Metaphlan2
@@ -1396,7 +1396,7 @@ Create aggregate bioinformatics analysis report across many samples
 
 ### HPC Modules
 
-* gencore_qc_1.0-None-0
+* gencore_qc-1.0-0
 
 
 ## Numpy
@@ -1411,7 +1411,7 @@ array processing for numbers, strings, records, and objects.
 
 ### HPC Modules
 
-* gencore_epigenetics_1.0-None-0
+* gencore_epigenetics-1.0-0
 
 
 ## Numpy
@@ -1426,7 +1426,7 @@ array processing for numbers, strings, records, and objects.
 
 ### HPC Modules
 
-* gencore_python_1.0-None-0
+* gencore_python-1.0-0
 
 
 ## Pauda
@@ -1479,7 +1479,8 @@ get, unpack, build and install modules from CPAN
 * gencore_base-1.0-1
 * gencore_build-1.0-1
 * gencore_de_novo_genomic-1.0-0
-* gencore_perl_5.22.0-None-0
+* gencore_kraken-1.0-0
+* gencore_perl-1.0-0
 * gencore_variant_detection-1.0-0
 * test_1.0-None-0-0
 
@@ -1503,9 +1504,11 @@ Get metadata for files in directories processed by BioX::Workflow
 * gencore_de_novo_genomic_soapdenovo2-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_epigenetics_1.0-None-0
-* gencore_evonet_1.0-None-0
-* gencore_qc_1.0-None-0
+* gencore_epigenetics-1.0-0
+* gencore_evonet-1.0-0
+* gencore_kraken-1.0-0
+* gencore_perl-1.0-0
+* gencore_qc-1.0-0
 * gencore_rad_1.0-None-0
 * gencore_rad_ddocent_1.0-None-0
 * gencore_rnaseq_1.0-None-0
@@ -1533,11 +1536,13 @@ a plugin to BioX::Workflow
 * gencore_de_novo_genomic_soapdenovo2-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_epigenetics_1.0-None-0
-* gencore_evonet_1.0-None-0
+* gencore_epigenetics-1.0-0
+* gencore_evonet-1.0-0
+* gencore_kraken-1.0-0
 * gencore_metagenomics_1.0-None-0
-* gencore_qc_1.0-None-0
-* gencore_qiime_1.0-None-0
+* gencore_perl-1.0-0
+* gencore_qc-1.0-0
+* gencore_qiime-1.0-0
 * gencore_rad_1.0-None-0
 * gencore_rad_ddocent_1.0-None-0
 * gencore_rnaseq_1.0-None-0
@@ -1564,11 +1569,13 @@ A very opinionated template based workflow writer.
 * gencore_de_novo_genomic_soapdenovo2-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_epigenetics_1.0-None-0
-* gencore_evonet_1.0-None-0
+* gencore_epigenetics-1.0-0
+* gencore_evonet-1.0-0
+* gencore_kraken-1.0-0
 * gencore_metagenomics_1.0-None-0
-* gencore_qc_1.0-None-0
-* gencore_qiime_1.0-None-0
+* gencore_perl-1.0-0
+* gencore_qc-1.0-0
+* gencore_qiime-1.0-0
 * gencore_rad_1.0-None-0
 * gencore_rad_ddocent_1.0-None-0
 * gencore_rnaseq_1.0-None-0
@@ -1589,7 +1596,7 @@ Database independent interface for Perl
 
 ### HPC Modules
 
-* gencore_perl_5.22.0-None-0
+* gencore_perl-1.0-0
 
 
 ## Perl-hpc-runner-command
@@ -1626,6 +1633,12 @@ Database independent interface for Perl
 * gencore_de_novo_genomic_soapdenovo2-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
+* gencore_epigenetics-1.0-0
+* gencore_evonet-1.0-0
+* gencore_kraken-1.0-0
+* gencore_perl-1.0-0
+* gencore_qc-1.0-0
+* gencore_qiime-1.0-0
 
 
 ## Perl-hpc-runner-slurm
@@ -1640,11 +1653,7 @@ Job Submission to Slurm
 
 ### HPC Modules
 
-* gencore_epigenetics_1.0-None-0
-* gencore_evonet_1.0-None-0
 * gencore_metagenomics_1.0-None-0
-* gencore_qc_1.0-None-0
-* gencore_qiime_1.0-None-0
 * gencore_rad_1.0-None-0
 * gencore_rad_ddocent_1.0-None-0
 * gencore_rnaseq_1.0-None-0
@@ -1664,7 +1673,7 @@ A perl module for simple terminal control
 
 ### HPC Modules
 
-* gencore_perl_5.22.0-None-0
+* gencore_perl-1.0-0
 
 
 ## Picard
@@ -1733,7 +1742,7 @@ pyfaidx: efficient pythonic random access to fasta subsequences
 
 ### HPC Modules
 
-* gencore_qc_1.0-None-0
+* gencore_qc-1.0-0
 
 
 ## Pyfasta
@@ -1748,7 +1757,7 @@ fast, memory-efficient, pythonic (and command-line) access to fasta sequence fil
 
 ### HPC Modules
 
-* gencore_qc_1.0-None-0
+* gencore_qc-1.0-0
 
 
 ## Pyfastaq
@@ -1763,7 +1772,7 @@ Script to manipulate FASTA and FASTQ files, plus API for developers
 
 ### HPC Modules
 
-* gencore_qc_1.0-None-0
+* gencore_qc-1.0-0
 
 
 ## Python
@@ -1778,7 +1787,7 @@ General purpose programming language
 
 ### HPC Modules
 
-* gencore_epigenetics_1.0-None-0
+* gencore_epigenetics-1.0-0
 
 
 ## Python
@@ -1793,7 +1802,7 @@ General purpose programming language
 
 ### HPC Modules
 
-* gencore_qc_1.0-None-0
+* gencore_qc-1.0-0
 
 
 ## Python
@@ -1808,7 +1817,7 @@ General purpose programming language
 
 ### HPC Modules
 
-* gencore_python_1.0-None-0
+* gencore_python-1.0-0
 
 
 ## Qiime
@@ -1823,7 +1832,22 @@ Quantitative Insights Into Microbial Ecology
 
 ### HPC Modules
 
-* gencore_qiime_1.0-None-0
+* gencore_qiime-1.0-0
+
+
+## Qualimap
+
+### Summary
+
+Quality control of alignment sequencing data and its derivatives like feature counts
+
+**Version:** 2.2.2a
+
+**Conda Channel:** bioconda
+
+### HPC Modules
+
+* gencore_qc-1.0-0
 
 
 ## Quast
@@ -2016,7 +2040,7 @@ Tools for dealing with SAM, BAM and CRAM files
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_epigenetics_1.0-None-0
+* gencore_epigenetics-1.0-0
 * gencore_metagenomics_1.0-None-0
 * gencore_rad_1.0-None-0
 * gencore_rnaseq_1.0-None-0
@@ -2036,7 +2060,7 @@ Scientific Library for Python
 
 ### HPC Modules
 
-* gencore_python_1.0-None-0
+* gencore_python-1.0-0
 
 
 ## Seqtk
@@ -2311,7 +2335,7 @@ Genetic variant annotation and effect prediction toolbox
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_qc_1.0-None-0
+* gencore_qc-1.0-0
 * gencore_rnaseq_1.0-None-0
 
 
@@ -2362,7 +2386,7 @@ Command-line tools for manipulating VCF files
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_epigenetics_1.0-None-0
+* gencore_epigenetics-1.0-0
 * gencore_metagenomics_1.0-None-0
 * gencore_rad_1.0-None-0
 * gencore_rnaseq_1.0-None-0
@@ -2386,7 +2410,7 @@ A set of tools written in Perl and C++ for working with VCF files.
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_epigenetics_1.0-None-0
+* gencore_epigenetics-1.0-0
 * gencore_metagenomics_1.0-None-0
 * gencore_rad_1.0-None-0
 * gencore_rnaseq_1.0-None-0
