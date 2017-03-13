@@ -1,4 +1,6 @@
-name: gencore_qc_1.0
+name: gencore_qc
+version: 1.0
+build: 0
 channels:
 - bioconda
 - r
@@ -6,7 +8,7 @@ channels:
 - conda-forge
 - nyuad-cgsb
 dependencies:
-- perl-hpc-runner-slurm=2.58
+- perl-hpc-runner-command=3.1.1
 - perl-biox-workflow=1.10
 - perl-biox-workflow-plugin-fileexists=0.13
 - perl-biox-workflow-plugin-filedetails=0.11
@@ -19,4 +21,5 @@ dependencies:
 - python=3.5
 - multiqc=0.8
 - deeptools=2.3.2
+- qualimap=2.2.2a
 - gencore_qc_docs=1.0
