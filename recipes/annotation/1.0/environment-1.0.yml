@@ -1,6 +1,6 @@
 name: gencore_annotation
 version: 1.0
-build: 0
+build: 1
 channels:
 - bioconda
 - r
@@ -9,7 +9,7 @@ channels:
 - nyuad-cgsb
 dependencies:
 - perl-app-cpanminus
-- perl-hpc-runner-command=3.0.1
+- perl-hpc-runner-command=3.1.1
 - perl-biox-workflow=1.10
 - perl-biox-workflow-plugin-fileexists=0.13
 - perl-biox-workflow-plugin-filedetails=0.11
