@@ -1,4 +1,6 @@
-name: gencore_kraken_1.0
+name: gencore_kraken
+version: 1.0
+build: 0
 channels:
 - bioconda
 - r
@@ -6,5 +8,10 @@ channels:
 - conda-forge
 - nyuad-cgsb
 dependencies:
+- perl-app-cpanminus
+- perl-hpc-runner-command=3.1.1
+- perl-biox-workflow=1.10
+- perl-biox-workflow-plugin-fileexists=0.13
+- perl-biox-workflow-plugin-filedetails=0.11
 - kraken=0.10.6_eaf8fb68
 - gencore_kraken_docs=1.0

@@ -1,4 +1,6 @@
-name: gencore_perl_5.22.0
+name: gencore_perl
+version: 1.0 
+build: 0
 channels:
 - bioconda
 - r
@@ -7,6 +9,10 @@ channels:
 - nyuad-cgsb
 dependencies:
 - perl-app-cpanminus
+- perl-hpc-runner-command=3.1.1
+- perl-biox-workflow=1.10
+- perl-biox-workflow-plugin-fileexists=0.13
+- perl-biox-workflow-plugin-filedetails=0.11
 - perl-termreadkey
 - perl-dbi
 - gencore_perl_docs=5.22.0
