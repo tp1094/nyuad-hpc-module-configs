@@ -1,4 +1,5 @@
 name: gencore_trinity
+
 version: 1.0
 build: 0
 channels:
