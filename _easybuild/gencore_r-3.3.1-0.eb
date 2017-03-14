@@ -9,7 +9,7 @@
 easyblock = 'Conda'
 
 name = "gencore_r"
-version = "1.0"
+version = "3.3.1-0"
 variant = "Linux-x86_64"
 
 homepage = "http://cbi.abudhabi.nyu.edu/w/"
