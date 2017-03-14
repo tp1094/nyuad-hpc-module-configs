@@ -18,13 +18,9 @@ toolchain = {'name': 'dummy', 'version': ''}
 
 builddependencies = [('gencore_anaconda2', '4.3.0') ]
 
-#sources = ["environment.yml"]
-#environment_file = sources[0]
-#remote_environment="nyuad-cgsb/gencore_base"
 requirements = "perl-app-cpanminus perl-hpc-runner-command=3.1.1 perl-clone perl-data-walk"
 channels = ['conda-forge', 'defaults', 'r,', 'bioconda']
 
-#postinstallcmds = ["cpanm -nq https://github.com/jerowe/BioX-Workflow-Command/archive/2.0.2-beta.tar.gz"]
 postinstallcmds = [
     "%(installdir)s/bin/cpanm -nq https://github.com/jerowe/BioX-Workflow-Command/archive/2.0.2-beta.tar.gz", 
     "sed -i -e 's|/usr/bin/perl|/usr/bin/env\ perl|' %(installdir)s/bin/*.pl",  # fix shebang line
