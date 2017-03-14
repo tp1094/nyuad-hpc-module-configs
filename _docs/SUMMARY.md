@@ -13,7 +13,7 @@
 	* [Gencore_epigenetics-1.0-0](environment/gencore_epigenetics-1.0-0.md)
 	* [Gencore_evonet-1.0-0](environment/gencore_evonet-1.0-0.md)
 	* [Gencore_kraken-1.0-0](environment/gencore_kraken-1.0-0.md)
-	* [Gencore_metagenomics_1.0-none-0](environment/gencore_metagenomics_1.0-None-0.md)
+	* [Gencore_metagenomics-1.0-0](environment/gencore_metagenomics-1.0-0.md)
 	* [Gencore_perl-1.0-0](environment/gencore_perl-1.0-0.md)
 	* [Gencore_python-1.0-0](environment/gencore_python-1.0-0.md)
 	* [Gencore_qc-1.0-0](environment/gencore_qc-1.0-0.md)
