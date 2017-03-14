@@ -18,6 +18,7 @@ mkdir -p _docs
 echo "BUILDING DOCS"
 
 git status
+git add -A
 
 git config  user.email "nobody@nobody.org"
 git config  user.name "Travis CI"

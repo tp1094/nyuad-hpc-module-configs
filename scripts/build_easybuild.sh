@@ -18,14 +18,17 @@ mkdir -p _easybuild
 echo "BUILDING EASYBUILD"
 
 git status
+git add -A
 
 git config  user.email "nobody@nobody.org"
 git config  user.name "Travis CI"
 
 ORIGIN="https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git"
+
 git remote rm origin
 git remote add origin "$ORIGIN"
 
+git add -A
 git checkout "$TRAVIS_BRANCH"
 
 git add _easybuild
