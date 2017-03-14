@@ -1,0 +1,30 @@
+##
+# This is an easyconfig file for EasyBuild, see https://github.com/hpcugent/easybuild
+#
+##
+
+easyblock = 'Conda'
+
+name = "gencore_biosails"
+version = "1.0"
+variant = "Linux-x86_64"
+
+homepage = "http://cbi.abudhabi.nyu.edu/w/"
+description = """ gencore_base """
+
+toolchain = {'name': 'dummy', 'version': ''}
+
+builddependencies = [('gencore_anaconda2', '4.3.0')]
+
+#sources = ["environment.yml"]
+#environment_file = sources[0]
+#remote_environment="nyuad-cgsb/gencore_base"
+requirements = "perl-hpc-runner-command=3.1.1 perl-biox-workflow=1.10 perl-biox-workflow-plugin-fileexists=0.13 perl-biox-workflow-plugin-filedetails=0.11"
+channels = ['conda-forge', 'defaults', 'r,', 'bioconda']
+
+sanity_check_paths = {
+    'files': ["bin/conda"],
+    'dirs': []
+}
+
+moduleclass = 'tools'
