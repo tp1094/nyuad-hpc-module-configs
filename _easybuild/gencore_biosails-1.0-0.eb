@@ -1,12 +1,14 @@
 ##
 # This is an easyconfig file for EasyBuild, see https://github.com/hpcugent/easybuild
-#
+# This includes gencore infrastructure software BioX-Workflow-Command and HPC-Runner-Command
+# Conda is currently working on upgrading their gcc
+# Until then we use the easybuild gcc
 ##
 
 easyblock = 'Conda'
 
 name = "gencore_biosails"
-version = "1.0"
+version = "1.0-0"
 variant = "Linux-x86_64"
 
 homepage = "http://cbi.abudhabi.nyu.edu/w/"
@@ -14,17 +16,26 @@ description = """ gencore_base """
 
 toolchain = {'name': 'dummy', 'version': ''}
 
-builddependencies = [('gencore_anaconda2', '4.3.0')]
+builddependencies = [('gencore_anaconda2', '4.3.0') ]
 
 #sources = ["environment.yml"]
 #environment_file = sources[0]
 #remote_environment="nyuad-cgsb/gencore_base"
-requirements = "perl-hpc-runner-command=3.1.1 perl-biox-workflow=1.10 perl-biox-workflow-plugin-fileexists=0.13 perl-biox-workflow-plugin-filedetails=0.11"
+requirements = "perl-app-cpanminus perl-hpc-runner-command=3.1.1 perl-clone perl-data-walk"
 channels = ['conda-forge', 'defaults', 'r,', 'bioconda']
 
+#postinstallcmds = ["cpanm -nq https://github.com/jerowe/BioX-Workflow-Command/archive/2.0.2-beta.tar.gz"]
+postinstallcmds = [
+    "%(installdir)s/bin/cpanm -nq https://github.com/jerowe/BioX-Workflow-Command/archive/2.0.2-beta.tar.gz", 
+    "sed -i -e 's|/usr/bin/perl|/usr/bin/env\ perl|' %(installdir)s/bin/*.pl",  # fix shebang line
+    "chmod +x %(installdir)s/bin/*.pl"  # add execution permission
+] 
+
 sanity_check_paths = {
-    'files': ["bin/conda"],
+    'files': ["bin/conda", "bin/cpanm", "bin/hpcrunner.pl"],
     'dirs': []
 }
+
+sanity_check_commands = ['hpcrunner.pl --help']
 
 moduleclass = 'tools'
