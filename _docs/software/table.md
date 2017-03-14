@@ -1,6 +1,6 @@
 # Software
 
-| | gencore_annotation-1.0-1 | gencore_base-1.0-1 | gencore_build-1.0-1 | gencore_de_novo_genomic-1.0-0 | gencore_de_novo_genomic_soapdenovo2-1.0-0 | gencore_de_novo_metagenomic-1.0-0 | gencore_de_novo_transcriptome-1.0-0 | gencore_epigenetics-1.0-0 | gencore_evonet-1.0-0 | gencore_kraken-1.0-0 | gencore_metagenomics_1.0-None-0 | gencore_perl-1.0-0 | gencore_python-1.0-0 | gencore_qc-1.0-0 | gencore_qiime-1.0-0 | gencore_r-3.3.1-0 | gencore_rad-1.0-0 | gencore_rad_ddocent-1.0-0 | gencore_rnaseq-1.0-0 | gencore_rnaseq_malaria-1.0-0 | gencore_test_1.0-1.0-0 | gencore_trinity-1.0-0 | gencore_variant_detection-1.0-1 |
+| | gencore_annotation-1.0-1 | gencore_base-1.0-1 | gencore_build-1.0-1 | gencore_de_novo_genomic-1.0-0 | gencore_de_novo_genomic_soapdenovo2-1.0-0 | gencore_de_novo_metagenomic-1.0-0 | gencore_de_novo_transcriptome-1.0-0 | gencore_epigenetics-1.0-0 | gencore_evonet-1.0-0 | gencore_kraken-1.0-0 | gencore_metagenomics-1.0-0 | gencore_perl-1.0-0 | gencore_python-1.0-0 | gencore_qc-1.0-0 | gencore_qiime-1.0-0 | gencore_r-3.3.1-0 | gencore_rad-1.0-0 | gencore_rad_ddocent-1.0-0 | gencore_rnaseq-1.0-0 | gencore_rnaseq_malaria-1.0-0 | gencore_test_1.0-1.0-0 | gencore_trinity-1.0-0 | gencore_variant_detection-1.0-1 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---  |
 | abyss=1.9.0 | | | | **Y** | | | | | | | | | | | | | | | | | | | |
 | augustus=3.2.2 | **Y** | | | **Y** | | **Y** | **Y** | | | | **Y** | | | | | | | | | | | | |
@@ -98,8 +98,7 @@
 | perl-biox-workflow-plugin-fileexists=0.13 | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** | | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** |
 | perl-biox-workflow=1.10 | **Y** | **Y** | | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** | | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** |
 | perl-dbi=latest | | | | | | | | | | | | **Y** | | | | | | | | | | | |
-| perl-hpc-runner-command=3.1.1 | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | | **Y** | | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** |
-| perl-hpc-runner-slurm=2.58 | | | | | | | | | | | **Y** | | | | | | | | | | | | |
+| perl-hpc-runner-command=3.1.1 | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | **Y** | | **Y** | **Y** |
 | perl-termreadkey=latest | | | | | | | | | | | | **Y** | | | | | | | | | | | |
 | picard=2.0.1 | | | | | | | | | | | | | | | | | | | | **Y** | | | |
 | picard=2.5.0 | | | | **Y** | | **Y** | **Y** | | | | | | | | | | | | **Y** | | | | **Y** |
