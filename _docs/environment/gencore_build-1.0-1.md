@@ -45,16 +45,6 @@ CMake is an extensible, open-source system that manages the build process
 
 
 
-### gencore_build_docs
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
-
-
-
 ### libgcc
 **Version:** latest
 

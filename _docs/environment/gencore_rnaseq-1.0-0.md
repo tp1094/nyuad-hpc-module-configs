@@ -165,16 +165,6 @@ The full Genome Analysis Toolkit (GATK) framework, license restricted.
 
 
 
-### gencore_rnaseq_docs
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
-
-
-
 ### hisat2
 **Version:** 2.0.4
 

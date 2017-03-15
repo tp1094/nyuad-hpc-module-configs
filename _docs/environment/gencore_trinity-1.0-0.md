@@ -5,16 +5,6 @@ Coming soon!
 
 ## Software Packages
 
-### gencore_trinity_docs
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
-
-
-
 ### perl-biox-workflow-plugin-filedetails
 **Version:** 0.11
 

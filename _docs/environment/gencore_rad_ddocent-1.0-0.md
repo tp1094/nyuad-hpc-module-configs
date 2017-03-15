@@ -15,16 +15,6 @@ Coming soon!
 
 
 
-### gencore_rad_ddocent_docs
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
-
-
-
 ### perl-biox-workflow-plugin-filedetails
 **Version:** 0.11
 

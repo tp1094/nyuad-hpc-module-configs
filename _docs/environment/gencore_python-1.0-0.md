@@ -5,16 +5,6 @@ Coming soon!
 
 ## Software Packages
 
-### gencore_python_docs
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
-
-
-
 ### ipython
 **Version:** latest
 

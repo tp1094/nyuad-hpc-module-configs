@@ -5,16 +5,6 @@ Coming soon!
 
 ## Software Packages
 
-### gencore_evonet_docs
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
-
-
-
 ### mafft
 **Version:** 7.221
 

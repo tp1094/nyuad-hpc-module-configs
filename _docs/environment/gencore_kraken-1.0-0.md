@@ -5,16 +5,6 @@ Coming soon!
 
 ## Software Packages
 
-### gencore_kraken_docs
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
-
-
-
 ### kraken
 **Version:** 0.10.6_eaf8fb68
 

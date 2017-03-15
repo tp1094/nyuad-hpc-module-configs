@@ -5,16 +5,6 @@ Coming soon!
 
 ## Software Packages
 
-### gencore_perl_docs
-**Version:** 5.22.0
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
-
-
-
 ### perl-app-cpanminus
 **Version:** latest
 

@@ -15,16 +15,6 @@ S4 generic functions needed by many Bioconductor packages.
 
 
 
-### gencore_base_docs
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
-
-
-
 ### perl-app-cpanminus
 **Version:** latest
 
