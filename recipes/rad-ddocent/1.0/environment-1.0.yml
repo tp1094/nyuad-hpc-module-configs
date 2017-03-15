@@ -13,4 +13,3 @@ dependencies:
 - perl-biox-workflow-plugin-fileexists=0.13
 - perl-biox-workflow-plugin-filedetails=0.11
 - ddocent=2.1
-- gencore_rad_ddocent_docs=1.0

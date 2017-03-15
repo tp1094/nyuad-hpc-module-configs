@@ -19,4 +19,3 @@ dependencies:
 - autoconf
 - automake
 - m4
-- gencore_build_docs=1.0

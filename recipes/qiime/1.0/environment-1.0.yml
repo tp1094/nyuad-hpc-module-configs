@@ -12,4 +12,3 @@ dependencies:
 - perl-biox-workflow=1.10
 - perl-biox-workflow-plugin-fileexists=0.13
 - qiime=1.9.1
-- gencore_qiime_docs=1.0

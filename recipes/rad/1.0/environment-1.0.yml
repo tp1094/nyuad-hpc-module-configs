@@ -26,4 +26,3 @@ dependencies:
 - cd-hit=4.6.4
 - stacks=1.40
 - bowtie2=2.2.8
-- gencore_rad_docs=1.0

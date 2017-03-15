@@ -14,4 +14,3 @@ dependencies:
 - perl-biox-workflow-plugin-filedetails=0.11
 - mcl=14.137
 - mafft=7.221
-- gencore_evonet_docs=1.0

@@ -29,4 +29,3 @@ dependencies:
 - bowtie2=2.2.8
 - bioconductor-dada2=1.0.3
 - mothur=1.36.1
-- gencore_metagenomics_docs=1.0

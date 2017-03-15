@@ -15,4 +15,3 @@ dependencies:
 - soapdenovo2-gapcloser=1.12
 - soapdenovo2-prepare=2.0
 - soapdenovo2=2.40
-- gencore_de_novo_genomic_soapdenovo2_docs=1.0

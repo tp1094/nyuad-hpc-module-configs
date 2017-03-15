@@ -16,4 +16,3 @@ dependencies:
 - r-base=3.3.1
 - r-ggplot2
 - bioconductor-biocgenerics
-- gencore_base_docs=1.0

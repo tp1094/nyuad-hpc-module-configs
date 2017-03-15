@@ -13,4 +13,3 @@ dependencies:
 - r-base=3.3.1
 - r-essentials
 - bioconductor-biobase
-- gencore_r_docs=3.3.1

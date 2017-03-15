@@ -46,4 +46,3 @@ dependencies:
 - circos=0.69.2
 - mira=4.0.2
 - spades=3.9.0
-- gencore_de_novo_genomic_docs=1.0

@@ -15,4 +15,3 @@ dependencies:
 - perl-biox-workflow-plugin-filedetails=0.11
 - perl-termreadkey
 - perl-dbi
-- gencore_perl_docs=5.22.0

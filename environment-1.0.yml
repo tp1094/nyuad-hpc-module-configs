@@ -6,4 +6,3 @@ channels:
 - bioconda
 - nyuad-cgsb
 dependencies:
-- gencore_base_docs=1.0

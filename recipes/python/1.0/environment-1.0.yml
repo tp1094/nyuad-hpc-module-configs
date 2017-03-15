@@ -12,4 +12,3 @@ dependencies:
 - ipython
 - numpy
 - scipy
-- gencore_python_docs=1.0

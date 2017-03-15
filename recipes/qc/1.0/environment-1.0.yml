@@ -22,4 +22,3 @@ dependencies:
 - multiqc=0.8
 - deeptools=2.3.2
 - qualimap=2.2.2a
-- gencore_qc_docs=1.0

@@ -39,5 +39,4 @@ dependencies:
 - vcflib=1.0.0_rc1
 - r-base=3.3.1
 - r-essentials
-- bioconductor-biobase=2.3.2
-- gencore_variant_detection_docs=1.0
+- bioconductor-biobase=2.32.0

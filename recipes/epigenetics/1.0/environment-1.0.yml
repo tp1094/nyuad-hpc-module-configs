@@ -23,4 +23,3 @@ dependencies:
 - numpy=1.11.1
 - python=2.7
 - macs2=2.1.1.20160309
-- gencore_epigenetics_docs=1.0

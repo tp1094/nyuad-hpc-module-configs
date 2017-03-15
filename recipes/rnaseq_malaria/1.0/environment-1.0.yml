@@ -34,4 +34,3 @@ dependencies:
 - htseq=0.6.1.post1
 - prinseq=0.20.4
 - trimmomatic=0.35
-- gencore_rnaseq_malaria_docs=1.0
