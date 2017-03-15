@@ -135,16 +135,6 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 
 
 
-### gencore_de_novo_transcriptome_docs
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
-
-
-
 ### hmmer
 **Version:** 3.1b2
 

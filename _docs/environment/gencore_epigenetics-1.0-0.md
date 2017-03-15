@@ -55,16 +55,6 @@ The BWA read mapper.
 
 
 
-### gencore_epigenetics_docs
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
-
-
-
 ### macs2
 **Version:** 2.1.1.20160309
 

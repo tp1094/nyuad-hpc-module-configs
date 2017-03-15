@@ -36,7 +36,7 @@ A powerful toolset for genome arithmetic
 
 
 ### bioconductor-biobase
-**Version:** 2.3.2
+**Version:** 2.32.0
 
 **Conda Channel:** bioconda
 
@@ -142,16 +142,6 @@ Bayesian haplotype-based polymorphism discovery and genotyping
 
 #### Summary:
 The full Genome Analysis Toolkit (GATK) framework, license restricted.
-
-
-
-### gencore_variant_detection_docs
-**Version:** 1.0
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
 
 
 

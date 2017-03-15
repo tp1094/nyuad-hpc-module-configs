@@ -15,16 +15,6 @@ Functions that are needed by many other packages or which replace R functions.
 
 
 
-### gencore_r_docs
-**Version:** 3.3.1
-
-**Conda Channel:** nyuad-cgsb
-
-#### Summary:
-
-
-
-
 ### perl-hpc-runner-command
 **Version:** 3.1.1
 
