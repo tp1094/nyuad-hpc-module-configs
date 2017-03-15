@@ -1,8 +1,0 @@
-name: gencore_test_1.0
-version: 1.0
-channels:
-- conda-forge
-- r
-- bioconda
-- nyuad-cgsb
-dependencies:
