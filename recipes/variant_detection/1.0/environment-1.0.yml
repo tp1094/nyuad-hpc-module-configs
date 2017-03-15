@@ -28,7 +28,6 @@ dependencies:
 - bowtie2=2.2.8
 - tophat=2.1.0
 - cufflinks=2.2.1
-- circos=0.69.2
 - star=2.5.2a
 - blat=35
 - gatk=3.5
