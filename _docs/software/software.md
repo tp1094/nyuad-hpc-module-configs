@@ -503,6 +503,21 @@ CMake is an extensible, open-source system that manages the build process
 * gencore_build-1.0-1
 
 
+## Cufflinks-patch
+
+### Summary
+
+Transcriptome assembly and differential expression analysis for RNA-Seq
+
+**Version:** 2.2.1
+
+**Conda Channel:** nyuad-cgsb
+
+### HPC Modules
+
+* gencore_rnaseq-1.0-0
+
+
 ## Cufflinks
 
 ### Summary
@@ -516,7 +531,6 @@ Transcriptome assembly and differential expression analysis for RNA-Seq.
 ### HPC Modules
 
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_rnaseq-1.0-0
 * gencore_rnaseq_malaria-1.0-0
 * gencore_variant_detection-1.0-1
 

@@ -135,13 +135,13 @@ Fast and sensitive read alignment
 
 
 
-### cufflinks
+### cufflinks-patch
 **Version:** 2.2.1
 
-**Conda Channel:** bioconda
+**Conda Channel:** nyuad-cgsb
 
 #### Summary:
-Transcriptome assembly and differential expression analysis for RNA-Seq.
+Transcriptome assembly and differential expression analysis for RNA-Seq
 
 
 
