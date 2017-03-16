@@ -486,7 +486,6 @@ Circos is a software package for visualizing data and information. It visualizes
 * gencore_de_novo_genomic-1.0-0
 * gencore_de_novo_metagenomic-1.0-0
 * gencore_de_novo_transcriptome-1.0-0
-* gencore_variant_detection-1.0-1
 
 
 ## Cmake

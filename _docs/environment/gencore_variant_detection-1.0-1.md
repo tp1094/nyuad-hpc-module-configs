@@ -85,16 +85,6 @@ The BWA read mapper.
 
 
 
-### circos
-**Version:** 0.69.2
-
-**Conda Channel:** bioconda
-
-#### Summary:
-Circos is a software package for visualizing data and information. It visualizes data in a circular layout
-
-
-
 ### cufflinks
 **Version:** 2.2.1
 
