@@ -1,6 +1,6 @@
 name: gencore_rnaseq
 version: 1.0
-build: 0
+build: 1
 channels:
 - bioconda
 - r
