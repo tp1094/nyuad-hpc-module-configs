@@ -29,7 +29,7 @@ cd /nyuad-conda-configs
 if [[ $TRAVIS_BRANCH = "master" && "$TRAVIS_PULL_REQUEST" = false ]]
 then
     #Upload packages
-    anaconda login --user $ANACONDA_USER --password $ANACONDA_PASSWORD
+    anaconda login --user $ANACONDA_USER --password GCb5yoxx
     conda config --set anaconda_upload yes
 
     cd /nyuad-conda-configs
