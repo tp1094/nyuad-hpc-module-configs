@@ -11,5 +11,3 @@ env:
   - ANACONDA_USER: tpolunina
   - GITHUB_USER: tp1094
   - GITHUB_REPO: nyuad-hpc-module-configs
-  - ANACONDA_PASSWORD: GCb5yoxx
-  - GITHUB_TOKEN: 1a7fe77b7295f1c2fcbe43fd60144d44440fe435
